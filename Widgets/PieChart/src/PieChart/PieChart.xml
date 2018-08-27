@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="PieChart.widget.PieChart" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>PieChart</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="chartWidth" type="integer" required="true" defaultValue="900">
+            <caption>Chart Width</caption>
+            <category>Config</category>
+            <description>图表宽度</description>
+           
+        </property>
+        <property key="chartHeight" type="integer" required="true" defaultValue="700">
+            <caption>Chart Height</caption>
+            <category>Config</category>
+            <description>图表高度</description>
+        </property>
+        
+        <property key="chartConfig" type="string" required="true" mutiline="true">
+            <caption>Chart Config</caption>
+            <category>Config</category>
+            <description>饼状图的配置信息</description>
+        </property>
+        <property key="dataMF" type="microflow" required="true" defaultValue="">
+            <caption>Data Microflow</caption>
+            <category>Data Source</category>
+            <description>饼状图的数据信息（来自尾流）</description>
+            <returnType type="String" />
+        </property>
+        <property key="callBackMF" type="string" required="true" mutiline="false">
+            <caption>Click Callback</caption>
+            <category>Data Source</category>
+            <description>点击饼状图的事件回调</description>
+
+        </property>
+    </properties>
+</widget>
+
