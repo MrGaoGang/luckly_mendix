@@ -18,23 +18,31 @@
             <description>图表高度</description>
         </property>
         
-        <property key="chartConfig" type="string" required="true" mutiline="true">
+        <property key="chartConfig" type="string" required="true" multiline="true">
             <caption>Chart Config</caption>
             <category>Config</category>
             <description>饼状图的配置信息</description>
         </property>
-        <property key="dataMF" type="microflow" required="true" defaultValue="">
+
+
+        <property key="dataMF" type="microflow" required="false" defaultValue="">
             <caption>Data Microflow</caption>
             <category>Data Source</category>
-            <description>饼状图的数据信息（来自尾流）</description>
+            <description>饼状图的数据信息（来自微流）</description>
             <returnType type="String" />
         </property>
-        <property key="callBackMF" type="string" required="true" mutiline="false">
+        
+         <property key="dataString" type="string" required="false" multiline="true">
+            <caption>Data String</caption>
+            <category>Data Source</category>
+            <description>饼状图的数据信息（JSON字符串）</description>
+        </property>
+        <property key="callBackMF" type="string" required="true" multiline="false">
             <caption>Click Callback</caption>
             <category>Data Source</category>
             <description>点击饼状图的事件回调</description>
-
         </property>
+        
     </properties>
 </widget>
 
