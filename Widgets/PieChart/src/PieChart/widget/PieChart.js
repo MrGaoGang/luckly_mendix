@@ -34,7 +34,7 @@ define([
   "dojo/html",
   "dojo/_base/event",
   "dojo/json",
-  "PieChart/lib/echarts.min",
+  "PieChart/lib/echarts",
   "PieChart/lib/jquery-1.11.2",
   "dojo/text!PieChart/widget/template/PieChart.html"
 ], function(
@@ -53,8 +53,8 @@ define([
   dojoText,
   dojoHtml,
   dojoEvent,
-  echarts,
   dojoJson,
+  echarts,
   _jQuery,
   widgetTemplate
 ) {
@@ -140,9 +140,11 @@ define([
       //初始化config中图表的配置信息，并将JSon字符串转换成对象
       this.option = eval("(" + this.chartConfig + ")");
 
+     
+
       if (this.dataString && this.dataString != "") {
         this.option.series[0].data = eval("(" + this.dataString + ")");
-        this.legendConfig = this.initConfig(eval("(" + this.dataString + ")"));
+       var legendConfig = this.initConfig(eval("(" + this.dataString + ")"));
         this.option.legend.data = legendConfig.legendData;
         this.option.legend.selected = legendConfig.selectedData;
         this.myChart.setOption(this.option);
@@ -180,7 +182,7 @@ define([
           mx.data.create({
             entity: "Widgets.StringParam",
             callback: function(obj) {
-              obj.set("params", dojoJson.stringfy(param.data));
+              obj.set("params", dojoJson.stringify(param.data));
               mx.data.action({
                 params: {
                   applyto: "selection",
@@ -281,22 +283,7 @@ define([
     // Rerender the interface.
     _updateRendering: function(callback) {
       logger.debug(this.id + "._updateRendering");
-      this.colorSelectNode.disabled = this._readOnly;
-      this.colorInputNode.disabled = this._readOnly;
-
-      if (this._contextObj !== null) {
-        dojoStyle.set(this.domNode, "display", "block");
-
-        var colorValue = this._contextObj.get(this.backgroundColor);
-
-        this.colorInputNode.value = colorValue;
-        this.colorSelectNode.value = colorValue;
-
-        dojoHtml.set(this.infoTextNode, this.messageString);
-        dojoStyle.set(this.infoTextNode, "background-color", colorValue);
-      } else {
-        dojoStyle.set(this.domNode, "display", "none");
-      }
+   
 
       // Important to clear all validations!
       this._clearValidations();
@@ -310,15 +297,7 @@ define([
       logger.debug(this.id + "._handleValidation");
       this._clearValidations();
 
-      var validation = validations[0],
-        message = validation.getReasonByAttribute(this.backgroundColor);
-
-      if (this._readOnly) {
-        validation.removeAttribute(this.backgroundColor);
-      } else if (message) {
-        this._addValidation(message);
-        validation.removeAttribute(this.backgroundColor);
-      }
+    
     },
 
     // Clear validations.
