@@ -140,13 +140,15 @@ define([
       //初始化config中图表的配置信息，并将JSon字符串转换成对象
       this.option = eval("(" + this.chartConfig + ")");
 
-     
-
+      //优先读取配置中的字符串
       if (this.dataString && this.dataString != "") {
+        //其中option.series为配置信息中的对象，也就是需要显示图表的数据
         this.option.series[0].data = eval("(" + this.dataString + ")");
+        //legend的值和默认显示多少项都是可以通过图表数据计算得到
        var legendConfig = this.initConfig(eval("(" + this.dataString + ")"));
         this.option.legend.data = legendConfig.legendData;
         this.option.legend.selected = legendConfig.selectedData;
+        //一定要记得设置option
         this.myChart.setOption(this.option);
         this.commanCallback();
       } else if (this.dataMF && this.dataMF != "") {
@@ -177,11 +179,14 @@ define([
     commanCallback: function() {
       //点击图表的回调微流事件
       var mf = this.callBackMF;
+      //点击饼状图的每一项
       this.myChart.on("click", function(param) {
         if (mf) {
           mx.data.create({
+            //此处的实体为点击后需要将参数数据存储在哪个实体中
             entity: "Widgets.StringParam",
             callback: function(obj) {
+              //设置实体中params字段的值为，对应点击项的数据
               obj.set("params", dojoJson.stringify(param.data));
               mx.data.action({
                 params: {
