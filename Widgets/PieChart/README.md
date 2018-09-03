@@ -2,7 +2,7 @@
 
 
 
-![工程目录](./images/show.png)
+![工程目录](./images/prichart.png)
 
 ### 一、工程目录说明
 <img src="./images/main.png" width="400" hegiht="200" align="center"/>
@@ -28,7 +28,9 @@
 ```
 由于使用dojo编写，故注意**一个html文件只有一个顶层div**
 
-3. 编写自己的PieChart.xml配置文件。里面主要配置的是组件通过mendix传递什么参数。
+3. **编写自己的PieChart.xml配置文件**。
+![](./images/config.png)
+   里面主要配置的是组件通过mendix传递什么参数。
 以下面的配置为例：分别需要mendix给组件传递图片的高度，以及饼状图的配置信息，或者说是数据的微流。
 **注意：key:可在Js文件中直接使用this.chartHeight得到此属性；其他的类型integer/string/microflow等不知道的，可以在xsd目录中的widget.xsd文件中查询得知**
 ``` xml

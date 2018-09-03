@@ -1,0 +1,1 @@
+﻿define(["PieChart/widget/PieChart", "MobileFeatures/widget/MobileFeatures", "SprintrFeedbackWidget/SprintrFeedback"], {});

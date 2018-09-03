@@ -1,0 +1,44 @@
+#connection-error-bar {
+    background: rgba(0,0,0,0.8);
+    z-index: 10000;
+    position: absolute;
+    top: -200px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
+    color: #FFF;
+    display: none;
+    -webkit-box-shadow: 0 0 5px black;
+    -moz-box-shadow:    0 0 5px black;
+    box-shadow:         0 0 5px black;
+}
+
+#connection-error-bar.open {
+    top: 0px;
+    display: block;
+    transition-property: top;
+    transition-duration: 0.5s;
+    -webkit-transition-property: top;
+    -webkit-transition-duration: 0.5s;
+}
+
+#connection-error-bar-message {
+    margin: 20px;
+}
+
+#connection-error-bar.closed {
+    top: -70px; /* -50px and 20px margin from message */
+    display: block;
+    transition-property: top;
+    transition-duration: 0.5s;
+    -webkit-transition-property: top;
+    -webkit-transition-duration: 0.5s;
+}
+
+.mx-groupbox.lazy,
+.mx-groupbox.lazy > div.mx-groupbox-body {
+    padding: 0!important;
+    margin: 0!important;
+    border: 0!important;
+}

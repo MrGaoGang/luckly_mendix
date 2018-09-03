@@ -1,0 +1,10 @@
+{
+  "generator-mendix": {
+    "promptValues": {
+      "copyright": "<Your Company> 2016",
+      "license": "Apache 2",
+      "author": "mr.gao",
+      "boilerplate": "appstore"
+    }
+  }
+}

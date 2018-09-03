@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="MobileFeatures.widget.MobileFeatures" needsEntityContext="false" offlineCapable="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>Mobile Features</name>
+    <description>Native mobile features.</description>
+
+    <icon>iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAADR5JREFUeNrs3dFRG0ccwOFzAgOPpAKLCgwVRFSAU4Ghg7gCxo95wqlAcgWGCpArCH7LG7iC8AhDEmf/sMwkE2NLQtLt3X7fzI14Q7OSbn+3d9I9a+i19Y3NYXqI7UXaBmnbMSrAI87Tdpm2j2mb3N5cTwxJfz0zBL2b8LfSw8u07edHgKc4SdtpPKYguDIcAoAyj/Rfpe3AaABLMk7bOysDAoByJv6j5n6ZH2AVIgDeCAEBQDsTfyz1HzviB1peEXjt1IAAYHWTf5zbH6Vty2gALYvJ/zBFwImhEAAsd/IfOeoHSlwNSBFwaBgEAIuf+ONo/6zxNT6gXPE1wj2nBLrhO0PQicl/YPIHOiD2UWd5n4UVABYw+f/WON8PdEesAOze3lxfGgorAMw3+cek/97kD3TM3b4r78MQAMzBsj/QVTt5H4YAYMaj/5HJH+h6BOR9GQVyDUCZk398z/+9kQB64ie/EyAA+PbkH+fMLhrn/YH+iIsCt309sCxOAZTn2OQP9MzDT5djBYBHjv6HjYtmgP7acwMhKwB82ZEhAOzjEAD1Hf0PjQTQY8O8r0MA8C+vDAFgX8equAagjKP/uEDmDyMBVOIH3wiwAsC9l4YAsM9DANRn3xAA9nmsklMABVjf2PxsFICa3N5cm3+sAFQ/+Q+NAmDfhwCojw8BYN+HAKjQC0MA2PchAOozMASAfR+r5iKMlrkAEKiVCwGtAAAAAgAAEAA9tr6xOTAKALTB+Zf2I8A1AGWJ3ycfp+1D/O3e5Z3/fA3TQ9xr48e0HeS/KYRrAASAAKAUb9P2xk1KevtZi8k/7kf/s9EQAAgAAcCDw7QzGhuGKj5zsRIwMhICoHauAYB05G/yr2rSidf6rZHACgBWAOoWy/3blv2r+9zF6YCLxjUBVgCsAEC1xib/Kieeh4s9QQBApT4YAq89CACoj6N/rz0IAABAAEANXATmtQcBABX60RB47aFGvoLRMl8DbJ2vAdb5ufM1wAL4GqAVAGjTw8/DUpcjkz8CAPg5/zwsdRz9x2vtfgAIAEMAd0ZpYjjOS8P0c+Lfite4cR8AuOP8S/s7JdcAlMXtgHs04aeHncbtgIvlGgABIAAABAAr5hQAAAgAAEAAAAACAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAAIAAAAAEAAAgAABAAAIAAAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAAzGHNENTt9ub6mVGAOq1vbH42ClYAAAABAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAEAAAAACAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAIAAAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAAIAAAAAEAAAgAAEAAAAACAAAQAACAAAAABAAAIAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAQAAAAAIAABAAAIAAAAAEAAAgAAAAAQAACAAAQAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAgAAAAAQAACAAAAABAAAIAABAAAAAAgAAEAAAgAAAAAQAAAgAAEAAAAACAAAQAACA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</icon>
+
+    <properties>
+        <!-- NATIVE SPINNER -->
+        <property key="spinnerEnabled" type="boolean" defaultValue="true">
+            <caption>Enable Spinner</caption>
+            <category>Spinner</category>
+            <description>Enable/disable this feature. Overrides the default Mendix loading windows with mobile native ones, when available</description>
+        </property>
+        <property key="spinnerDelay" type="integer" defaultValue="500" required="true">
+            <caption>Delay</caption>
+            <category>Spinner</category>
+            <description>The amount of time to wait before showing a loading screen, in milliseconds. Mendix default is 500ms.</description>
+        </property>
+        <!-- NATIVE DIALOG -->
+        <property key="dialogEnabled" type="boolean" defaultValue="true">
+            <caption>Enable Dialog</caption>
+            <category>Dialog</category>
+            <description>Enabled/disable this feature. Overrides the default Mendix alerts and confirmation windows with mobile native ones, when available.</description>
+        </property>
+        <!-- TRANSITIONS -->
+        <property key="transitionsEnabled" type="boolean" defaultValue="false">
+            <caption>Enable Transitions</caption>
+            <category>Transitions</category>
+            <description>Enabled/disable this feature. Create page transitions for your Hybrid Mobile Apps.</description>
+        </property>
+        <property key="duration" type="integer" required="true" defaultValue="400">
+            <caption>Duration</caption>
+            <category>Transitions</category>
+            <description>How long the transition should take place (in milliseconds)</description>
+        </property>
+        <!-- <property key="fixedPixelsTop" type="integer" required="true" defaultValue="0">
+            <caption>Fixed Pixels Top</caption>
+            <category>Transitions</category>
+            <description>Any header pixels that you don't want to slide.</description>
+        </property>
+        <property key="fixedPixelsBottom" type="integer" required="true" defaultValue="0">
+            <caption>Fixed Pixels Bottom</caption>
+            <category>Transitions</category>
+            <description>Any footer pixels that you don't want to slide.</description>
+        </property> -->
+        <!-- TRANSITION CLASSES -->
+        <property key="classTransitionSL" type="string" required="true" defaultValue="slide-left">
+            <caption>Slide Left</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionSU" type="string" required="true" defaultValue="slide-up">
+            <caption>Slide Up</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionSR" type="string" required="true" defaultValue="slide-right">
+            <caption>Slide Right</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionSD" type="string" required="true" defaultValue="slide-down">
+            <caption>Slide Down</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionFL" type="string" required="true" defaultValue="flip-left">
+            <caption>Flip Left</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionFU" type="string" required="true" defaultValue="flip-up">
+            <caption>Flip Up</caption>
+            <category>Transition classes</category>
+            <description>Note: Flip Up is not available in Android</description>
+        </property>
+        <property key="classTransitionFR" type="string" required="true" defaultValue="flip-right">
+            <caption>Flip Right</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionFD" type="string" required="true" defaultValue="flip-down">
+            <caption>Flip Down</caption>
+            <category>Transition classes</category>
+            <description>Note: Flip Down is not available in Android</description>
+        </property>
+        <property key="classTransitionFade" type="string" required="true" defaultValue="fade-page">
+            <caption>Fade Page</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <!-- CLASSES -->
+        <property key="classOnline" type="string" required="true" defaultValue="app-online">
+            <caption>Online class</caption>
+            <category>Classes</category>
+            <description>Class that will be appended to the page when the app is online</description>
+        </property>
+        <property key="classOffline" type="string" required="true" defaultValue="app-offline">
+            <caption>Offline class</caption>
+            <category>Classes</category>
+            <description>Class that will be appended to the page when the app is offline</description>
+        </property>
+        <property key="classAndroid" type="string" required="true" defaultValue="app-android">
+            <caption>Android class</caption>
+            <category>Classes</category>
+            <description>Class that will be appended to the page when the app is used in Android</description>
+        </property>
+        <property key="classIOS" type="string" required="true" defaultValue="app-ios">
+            <caption>iOS class</caption>
+            <category>Classes</category>
+            <description>Class that will be appended to the page when the app is used in iOS</description>
+        </property>
+        <property key="classNumeric" type="string" required="true" defaultValue="numeric">
+            <caption>Numeric class</caption>
+            <category>Classes</category>
+            <description>Class on an input field to trigger the numeric input keyboard in the hybrid app</description>
+        </property>
+        <!-- STATUSBAR -->
+        <property key="statusbarEnabled" type="boolean" required="true" defaultValue="true">
+            <caption>Enabled</caption>
+            <category>Statusbar</category>
+            <description>Enable/disabled this feature.</description>
+        </property>
+        <property key="statusbarShowStatusBar" type="boolean" required="true" defaultValue="true">
+            <caption>Show Status Bar</caption>
+            <category>Statusbar</category>
+            <description>Show or hide the status bar.</description>
+        </property>
+        <property key="statusbarBackgroundColor" type="string" defaultValue="000000" required="true">
+            <caption>Background Color</caption>
+            <category>Statusbar</category>
+            <description>The hex code background color for the statusbar.</description>
+        </property>
+        <property key="statusbarTextColor" type="enumeration" defaultValue="white">
+            <caption>Text Color</caption>
+            <category>Statusbar</category>
+            <description>Color of the text/icons in the status bar.</description>
+            <enumerationValues>
+                <enumerationValue key="white">White</enumerationValue>
+                <enumerationValue key="black">Black</enumerationValue>
+            </enumerationValues>
+        </property>
+        <property key="statusbarOverlayWebView" type="boolean" required="true" defaultValue="false">
+            <caption>Overlay Status Bar</caption>
+            <category>Statusbar</category>
+            <description>iOS only, if true, the status bar overlays the top part of the page content. Otherwise, it is seperate from the page content.</description>
+        </property>
+        <!-- CONNECTION ERROR -->
+        <!--<property key="customConnectionErrorEnabled" type="boolean" defaultValue="true">
+            <caption>Enable Custom Error</caption>
+            <category>Connection Error</category>
+            <description>Enable/disable this feature. It will show a bar on top of the application when a connection error occurs.</description>
+        </property>
+        <property key="customConnectionErrorMsg" type="translatableString" required="true">
+            <caption>Error Message</caption>
+            <category>Connection Error</category>
+            <description>Custom error message when a connection error occurs.</description>
+            <translations>
+                <translation lang="en_US">Connection Error</translation>
+            </translations>
+        </property>
+        <property key="customConnectionErrorTimeout" type="integer" required="true" defaultValue="2000">
+            <caption>Timeout</caption>
+            <category>Connection Error</category>
+            <description>Time (in milliseconds) the error will be shown</description>
+        </property>-->
+        <property key="advancedListViewLazyLoad" type="boolean" defaultValue="true">
+            <caption>List view lazy load</caption>
+            <category>Advanced</category>
+            <description>When this feature is turned on the list view will render the items after the page is loaded which can greatly increase the user experience.
+Note: this is an experimental feature. Switch it off if you experience problems.</description>
+        </property>
+        <property key="advancedGroupboxLazyLoad" type="boolean" defaultValue="true">
+            <caption>Group box lazy load</caption>
+            <category>Advanced</category>
+            <description>When this feature is turned on the group box will render the items after the page is loaded which can greatly increase the user experience.
+Note: this is an experimental feature. Switch it off if you experience problems.</description>
+        </property>
+    </properties>
+</widget>
