@@ -18,7 +18,12 @@
       "Name": "User"
     },
     "571c29c6-060e-4765-9d36-3fa053b5fd66": {
-      "Name": "Tester"
+      "Name": "Tester",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "53f5d6fa-6da9-4a71-b011-454ec052cce8",
+        "571c29c6-060e-4765-9d36-3fa053b5fd66"
+      ]
     }
   },
   "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",

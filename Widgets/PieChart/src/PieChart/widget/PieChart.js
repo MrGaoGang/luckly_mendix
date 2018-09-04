@@ -161,7 +161,6 @@ define([
     },
     //从微流中获取到的数据
     resolveCallback: function(results) {
-      console.log("得到的结果:" + results);
       if (!results || results == "") {
         return;
       }
@@ -187,7 +186,7 @@ define([
             entity: "Widgets.StringParam",
             callback: function(obj) {
               //设置实体中params字段的值为，对应点击项的数据
-              obj.set("params", dojoJson.stringify(param.data));
+              obj.set("param", dojoJson.stringify(param.data));
               mx.data.action({
                 params: {
                   applyto: "selection",
