@@ -15,6 +15,19 @@ import com.mendix.systemwideinterfaces.core.IMendixObject;
 public class Microflows
 {
 	// These are the microflows for the Demo module
+	public static void callGankService(IContext context, demo.proxies.Pages _pages)
+	{
+		try
+		{
+			Map<java.lang.String, Object> params = new HashMap<java.lang.String, Object>();
+			params.put("Pages", _pages == null ? null : _pages.getMendixObject());
+			Core.execute(context, "Demo.CallGankService", params);
+		}
+		catch (CoreException e)
+		{
+			throw new MendixRuntimeException(e);
+		}
+	}
 	public static demo.proxies.StringParam createMicroFlow(IContext context)
 	{
 		try
