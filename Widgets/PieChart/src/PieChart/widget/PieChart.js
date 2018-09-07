@@ -140,6 +140,7 @@ define([
       //初始化config中图表的配置信息，并将JSon字符串转换成对象
       this.option = eval("(" + this.chartConfig + ")");
 
+	  
       //优先读取配置中的字符串
       if (this.dataString && this.dataString != "") {
         //其中option.series为配置信息中的对象，也就是需要显示图表的数据
