@@ -1,6 +1,8 @@
 ﻿Buildfile: C:\Users\mr.gao\Documents\Mendix\Project\mendix\Project\App-main\deployment\build_core.xml
 
 clean:
+   [delete] Deleting directory C:\Users\mr.gao\Documents\Mendix\Project\mendix\Project\App-main\deployment\model
+   [delete] Deleting directory C:\Users\mr.gao\Documents\Mendix\Project\mendix\Project\App-main\deployment\run
 
 BUILD SUCCESSFUL
 Total time: 0 seconds

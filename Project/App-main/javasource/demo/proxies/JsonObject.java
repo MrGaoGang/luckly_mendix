@@ -29,7 +29,8 @@ public class JsonObject
 		Url("Url"),
 		Used("Used"),
 		Who("Who"),
-		JsonObject_Results("Demo.JsonObject_Results");
+		JsonObject_Results("Demo.JsonObject_Results"),
+		Images_JsonObject("Demo.Images_JsonObject");
 
 		private java.lang.String metaName;
 
@@ -481,6 +482,49 @@ public class JsonObject
 			getMendixObject().setValue(context, MemberNames.JsonObject_Results.toString(), null);
 		else
 			getMendixObject().setValue(context, MemberNames.JsonObject_Results.toString(), jsonobject_results.getMendixObject().getId());
+	}
+
+	/**
+	 * @return value of Images_JsonObject
+	 */
+	public final demo.proxies.GanksImages getImages_JsonObject() throws com.mendix.core.CoreException
+	{
+		return getImages_JsonObject(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of Images_JsonObject
+	 */
+	public final demo.proxies.GanksImages getImages_JsonObject(com.mendix.systemwideinterfaces.core.IContext context) throws com.mendix.core.CoreException
+	{
+		demo.proxies.GanksImages result = null;
+		com.mendix.systemwideinterfaces.core.IMendixIdentifier identifier = getMendixObject().getValue(context, MemberNames.Images_JsonObject.toString());
+		if (identifier != null)
+			result = demo.proxies.GanksImages.load(context, identifier);
+		return result;
+	}
+
+	/**
+	 * Set value of Images_JsonObject
+	 * @param images_jsonobject
+	 */
+	public final void setImages_JsonObject(demo.proxies.GanksImages images_jsonobject)
+	{
+		setImages_JsonObject(getContext(), images_jsonobject);
+	}
+
+	/**
+	 * Set value of Images_JsonObject
+	 * @param context
+	 * @param images_jsonobject
+	 */
+	public final void setImages_JsonObject(com.mendix.systemwideinterfaces.core.IContext context, demo.proxies.GanksImages images_jsonobject)
+	{
+		if (images_jsonobject == null)
+			getMendixObject().setValue(context, MemberNames.Images_JsonObject.toString(), null);
+		else
+			getMendixObject().setValue(context, MemberNames.Images_JsonObject.toString(), images_jsonobject.getMendixObject().getId());
 	}
 
 	/**

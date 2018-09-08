@@ -25,7 +25,8 @@ public class Gank
 		desc("desc"),
 		source("source"),
 		showType("showType"),
-		used("used");
+		used("used"),
+		imagesURL("imagesURL");
 
 		private java.lang.String metaName;
 
@@ -334,6 +335,42 @@ public class Gank
 	public final void setused(com.mendix.systemwideinterfaces.core.IContext context, java.lang.Boolean used)
 	{
 		getMendixObject().setValue(context, MemberNames.used.toString(), used);
+	}
+
+	/**
+	 * @return value of imagesURL
+	 */
+	public final java.lang.String getimagesURL()
+	{
+		return getimagesURL(getContext());
+	}
+
+	/**
+	 * @param context
+	 * @return value of imagesURL
+	 */
+	public final java.lang.String getimagesURL(com.mendix.systemwideinterfaces.core.IContext context)
+	{
+		return (java.lang.String) getMendixObject().getValue(context, MemberNames.imagesURL.toString());
+	}
+
+	/**
+	 * Set value of imagesURL
+	 * @param imagesurl
+	 */
+	public final void setimagesURL(java.lang.String imagesurl)
+	{
+		setimagesURL(getContext(), imagesurl);
+	}
+
+	/**
+	 * Set value of imagesURL
+	 * @param context
+	 * @param imagesurl
+	 */
+	public final void setimagesURL(com.mendix.systemwideinterfaces.core.IContext context, java.lang.String imagesurl)
+	{
+		getMendixObject().setValue(context, MemberNames.imagesURL.toString(), imagesurl);
 	}
 
 	/**

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="MobileFeatures.widget.MobileFeatures" needsEntityContext="false" offlineCapable="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>Mobile Features</name>
+    <description>Native mobile features.</description>
+
+    <icon>iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAAHqsLF6AAAAk1BMVEUAAAD///////+SkpJVxv+Ojo5Ktf9Puf+MjIyIiIhMs/pLtPpJsviIiIiKiopJs/hJsvhJsvhIsPhKsfiIiIiJiYlKsvdJsPhIsfhKsPhJsfiJiYmJiYlIsPhJsPhJsfiIiIiIiIhIsfeJiYlJsfdJsfdIsPdIsPeIiIhJsfiJiYmIiIiIiIiJiYlIsfhIsPeIiIhyrIe+AAAAL3RSTlMAAQIHCQkYHSgtLzNJSUxNZnBxcnZ3h5KUlZagpLi51eHk5eXq6+zt9/j4+fv8/oTBy9gAAAHUSURBVFjD3VdXW8MwDFT3ILQGymzpZJW2ufv/v44H3CEnsWkMlI97cqTTRbJlxxHZgzkD2AHgWkjqwQ6NrNRyOwDsIBEW66xJku19ZhYqVRy8RihNwJwpRoK+YkhLdIgu9gsYkiSnu+fRQkREenQTzUylMvRdAxwDYMyhYQJg6YSkAQ25UYZgYh1LWEkcqHHt+jesaXpAII8gIQUREanYpi0iPMBPgMVdAWHrr3hySICJN8kETX8VERM147lfQQYq/q0qJ0B7us9gPcz6rwNVCtk7OHwWHPlnssZNiZb7pp4ME5D4CeMAoYsAAQHCM4BbY0wR4TK1fV9AqG/3RbeA8Gr9j74yYTenj1D3E9JL/0ziKbAW85jV/OWOOufMJaycN3RcQvVN+Qfyn1EdvLMQ74Pg0ddZ0YtVJyAwI/V5rJeP2QXMaZmy3vyeCzbhTwhEl6AMN/NWjEDzeXsalhO4QhojUJ8AiBDoI40RqIyh8XKcQHfpxE/qRwnc6egUF0eWcGaMMcbcWoGnZsllTD7j70v3QQIAy65ECYwrEiXQj91McgqB055IG1L/kOirIrOXRQcjkoteI8/V6C3I7HU0dMEN/UHl3aGH03Ve7Ho6bP/Jr/EHOFjAnqKBx1oAAAAASUVORK5CYII=</icon>
+
+    <properties>
+        <!-- NATIVE SPINNER -->
+        <property key="spinnerEnabled" type="boolean" defaultValue="true">
+            <caption>Enable Spinner</caption>
+            <category>Spinner</category>
+            <description>Enable/disable this feature. Overrides the default Mendix loading windows with mobile native ones, when available</description>
+        </property>
+        <property key="spinnerDelay" type="integer" defaultValue="500" required="true">
+            <caption>Delay</caption>
+            <category>Spinner</category>
+            <description>The amount of time to wait before showing a loading screen, in milliseconds. Mendix default is 500ms.</description>
+        </property>
+        <!-- NATIVE DIALOG -->
+        <property key="dialogEnabled" type="boolean" defaultValue="true">
+            <caption>Enable Dialog</caption>
+            <category>Dialog</category>
+            <description>Enabled/disable this feature. Overrides the default Mendix alerts and confirmation windows with mobile native ones, when available.</description>
+        </property>
+        <!-- TRANSITIONS -->
+        <property key="transitionsEnabled" type="boolean" defaultValue="false">
+            <caption>Enable Transitions</caption>
+            <category>Transitions</category>
+            <description>Enabled/disable this feature. Create page transitions for your Hybrid Mobile Apps.</description>
+        </property>
+        <property key="duration" type="integer" required="true" defaultValue="400">
+            <caption>Duration</caption>
+            <category>Transitions</category>
+            <description>How long the transition should take place (in milliseconds)</description>
+        </property>
+        <!-- <property key="fixedPixelsTop" type="integer" required="true" defaultValue="0">
+            <caption>Fixed Pixels Top</caption>
+            <category>Transitions</category>
+            <description>Any header pixels that you don't want to slide.</description>
+        </property>
+        <property key="fixedPixelsBottom" type="integer" required="true" defaultValue="0">
+            <caption>Fixed Pixels Bottom</caption>
+            <category>Transitions</category>
+            <description>Any footer pixels that you don't want to slide.</description>
+        </property> -->
+        <!-- TRANSITION CLASSES -->
+        <property key="classTransitionSL" type="string" required="true" defaultValue="slide-left">
+            <caption>Slide Left</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionSU" type="string" required="true" defaultValue="slide-up">
+            <caption>Slide Up</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionSR" type="string" required="true" defaultValue="slide-right">
+            <caption>Slide Right</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionSD" type="string" required="true" defaultValue="slide-down">
+            <caption>Slide Down</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionFL" type="string" required="true" defaultValue="flip-left">
+            <caption>Flip Left</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionFU" type="string" required="true" defaultValue="flip-up">
+            <caption>Flip Up</caption>
+            <category>Transition classes</category>
+            <description>Note: Flip Up is not available in Android</description>
+        </property>
+        <property key="classTransitionFR" type="string" required="true" defaultValue="flip-right">
+            <caption>Flip Right</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <property key="classTransitionFD" type="string" required="true" defaultValue="flip-down">
+            <caption>Flip Down</caption>
+            <category>Transition classes</category>
+            <description>Note: Flip Down is not available in Android</description>
+        </property>
+        <property key="classTransitionFade" type="string" required="true" defaultValue="fade-page">
+            <caption>Fade Page</caption>
+            <category>Transition classes</category>
+            <description></description>
+        </property>
+        <!-- CLASSES -->
+        <property key="classOnline" type="string" required="true" defaultValue="app-online">
+            <caption>Online class</caption>
+            <category>Classes</category>
+            <description>Class that will be appended to the page when the app is online</description>
+        </property>
+        <property key="classOffline" type="string" required="true" defaultValue="app-offline">
+            <caption>Offline class</caption>
+            <category>Classes</category>
+            <description>Class that will be appended to the page when the app is offline</description>
+        </property>
+        <property key="classAndroid" type="string" required="true" defaultValue="app-android">
+            <caption>Android class</caption>
+            <category>Classes</category>
+            <description>Class that will be appended to the page when the app is used in Android</description>
+        </property>
+        <property key="classIOS" type="string" required="true" defaultValue="app-ios">
+            <caption>iOS class</caption>
+            <category>Classes</category>
+            <description>Class that will be appended to the page when the app is used in iOS</description>
+        </property>
+        <property key="classNumeric" type="string" required="true" defaultValue="numeric">
+            <caption>Numeric class</caption>
+            <category>Classes</category>
+            <description>Class on an input field to trigger the numeric input keyboard in the hybrid app</description>
+        </property>
+        <!-- STATUSBAR -->
+        <property key="statusbarEnabled" type="boolean" required="true" defaultValue="true">
+            <caption>Enabled</caption>
+            <category>Statusbar</category>
+            <description>Enable/disabled this feature.</description>
+        </property>
+        <property key="statusbarShowStatusBar" type="boolean" required="true" defaultValue="true">
+            <caption>Show Status Bar</caption>
+            <category>Statusbar</category>
+            <description>Show or hide the status bar.</description>
+        </property>
+        <property key="statusbarBackgroundColor" type="string" defaultValue="000000" required="true">
+            <caption>Background Color</caption>
+            <category>Statusbar</category>
+            <description>The hex code background color for the statusbar.</description>
+        </property>
+        <property key="statusbarTextColor" type="enumeration" defaultValue="white">
+            <caption>Text Color</caption>
+            <category>Statusbar</category>
+            <description>Color of the text/icons in the status bar.</description>
+            <enumerationValues>
+                <enumerationValue key="white">White</enumerationValue>
+                <enumerationValue key="black">Black</enumerationValue>
+            </enumerationValues>
+        </property>
+        <property key="statusbarOverlayWebView" type="boolean" required="true" defaultValue="false">
+            <caption>Overlay Status Bar</caption>
+            <category>Statusbar</category>
+            <description>iOS only, if true, the status bar overlays the top part of the page content. Otherwise, it is seperate from the page content.</description>
+        </property>
+        <!-- CONNECTION ERROR -->
+        <!--<property key="customConnectionErrorEnabled" type="boolean" defaultValue="true">
+            <caption>Enable Custom Error</caption>
+            <category>Connection Error</category>
+            <description>Enable/disable this feature. It will show a bar on top of the application when a connection error occurs.</description>
+        </property>
+        <property key="customConnectionErrorMsg" type="translatableString" required="true">
+            <caption>Error Message</caption>
+            <category>Connection Error</category>
+            <description>Custom error message when a connection error occurs.</description>
+            <translations>
+                <translation lang="en_US">Connection Error</translation>
+            </translations>
+        </property>
+        <property key="customConnectionErrorTimeout" type="integer" required="true" defaultValue="2000">
+            <caption>Timeout</caption>
+            <category>Connection Error</category>
+            <description>Time (in milliseconds) the error will be shown</description>
+        </property>-->
+        <property key="advancedListViewLazyLoad" type="boolean" defaultValue="false">
+            <caption>List view lazy load</caption>
+            <category>Advanced</category>
+            <description>When this feature is turned on the list view will render the items after the page is loaded which can greatly increase the user experience.
+Note: this is an experimental feature. Switch it off if you experience problems.</description>
+        </property>
+        <property key="advancedGroupboxLazyLoad" type="boolean" defaultValue="false">
+            <caption>Group box lazy load</caption>
+            <category>Advanced</category>
+            <description>When this feature is turned on the group box will render the items after the page is loaded which can greatly increase the user experience.
+Note: this is an experimental feature. Switch it off if you experience problems.</description>
+        </property>
+        <property key="transitionBeforePosition" type="enumeration" defaultValue="onNavigation">
+            <caption>Set transition</caption>
+            <category>Advanced</category>
+            <description>The transitions used in the tab 'Transition classes' are usually set before navigating a page. This works fine in an online app. In Offline mode, the transition should be set on a view change. Set it to this option if you experience problems with the transitions (titles showing up before you transition).</description>
+            <enumerationValues>
+              <enumerationValue key="onNavigation">On navigation</enumerationValue>
+              <enumerationValue key="onPersistViewChange">On view change (offline)</enumerationValue>
+            </enumerationValues>
+        </property>
+        <property key="onPauseTransitionTimeout" type="integer" required="true" defaultValue="10">
+            <caption>On pause timeout</caption>
+            <category>Advanced</category>
+            <description>When pausing the app (suspend, without quitting) transitions should be cancelled to prevent unwanted behavior in older Android versions. We set a timeout (in ms) to cancel the transition after the app is paused. Only change this setting when needed.</description>
+        </property>
+        <property key="disableOnLogout" type="boolean" defaultValue="true">
+            <caption>Disable on logout</caption>
+            <category>Advanced</category>
+            <description>The widget might run into problems with the spinner when the login page does not have a layout with the MobileFeatures widget. This option makes sure the widget is completely disabled on logout.</description>
+        </property>
+    </properties>
+</widget>
