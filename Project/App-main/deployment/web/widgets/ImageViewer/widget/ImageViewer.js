@@ -131,6 +131,11 @@ define([
                 else if (this.dataString && this.dataString != "") {
                     dojoProp.set(this.MRGaoImage, "src", this.dataString);
                 }
+
+
+                if(this.imageRadius&&this.imageRadius!=0){
+                    $(this.MRGaoImage).css("border-radius",this.imageRadius)
+                }
             },
 
             //执行微流，会将微流的返回结果到这里
