@@ -15,6 +15,13 @@
             <category>Config</category>
             <description>图片高度</description>
         </property>
+
+        <property key="imageRadius" type="integer" required="true" defaultValue="0">
+            <caption>Image Radius</caption>
+            <category>Config</category>
+            <description>图片显示的半径</description>
+        </property>
+
         <property key="dataAttr" type="attribute" required="false">
             <caption>Data attribute</caption>
             <category>Data Source</category>
@@ -30,13 +37,11 @@
             <description>图片的URL地址（来自微流）</description>
             <returnType type="String"/>
         </property>
-
         <property key="dataString" type="string" required="false" multiline="false">
             <caption>Data String</caption>
             <category>Data Source</category>
             <description>图片的URL地址</description>
         </property>
-
         <property key="callBackMF" type="string" required="false" multiline="false">
             <caption>Click Callback</caption>
             <category>Data Source</category>
