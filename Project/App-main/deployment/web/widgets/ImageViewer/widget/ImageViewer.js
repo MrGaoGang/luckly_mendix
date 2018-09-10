@@ -36,7 +36,8 @@ define([
     "dojo/json",
     "ImageViewer/lib/echarts",
     "ImageViewer/lib/jquery-1.11.2",
-    "dojo/text!ImageViewer/widget/template/ImageViewer.html"
+    "dojo/text!ImageViewer/widget/template/ImageViewer.html",
+
 ], function(
     declare,
     _WidgetBase,
@@ -56,7 +57,7 @@ define([
     dojoJson,
     echarts,
     _jQuery,
-    widgetTemplate
+    widgetTemplate,
 ) {
     "use strict";
 
@@ -136,6 +137,9 @@ define([
                 if(this.imageRadius&&this.imageRadius!=0){
                     $(this.MRGaoImage).css("border-radius",this.imageRadius)
                 }
+
+              //  domAttr.set(this.MRGaoImage,'data-row-grid',"dojoJson.stringify(options)")
+
             },
 
             //执行微流，会将微流的返回结果到这里

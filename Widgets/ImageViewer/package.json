@@ -5,7 +5,13 @@
   "license": "Apache 2",
   "author": "mr.gao",
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "fizzy-ui-utils": "^2.0.7",
+    "get-size": "^2.0.3",
+    "imagesloaded": "^4.1.4",
+    "masonry-layout": "^4.2.2",
+    "outlayer": "^2.1.1"
+  },
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",

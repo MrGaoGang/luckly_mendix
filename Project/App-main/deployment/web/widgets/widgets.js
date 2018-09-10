@@ -1,1 +1,1 @@
-﻿define(["ImageViewer/widget/ImageViewer", "PieChart/widget/PieChart", "SprintrFeedbackWidget/SprintrFeedback"], {});
+﻿define(["ImageViewer/widget/ImageViewer", "ImageViewer/widget/GridImageViewer", "PieChart/widget/PieChart", "SprintrFeedbackWidget/SprintrFeedback"], {});

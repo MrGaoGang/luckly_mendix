@@ -3,8 +3,10 @@
     <clientModule name="ImageViewer" version="1.0.0" xmlns="http://www.mendix.com/clientModule/1.0/">
         <widgetFiles>
             <widgetFile path="ImageViewer/ImageViewer.xml" />
+            <widgetFile path="ImageViewer/GridImageViewer.xml" />
+
         </widgetFiles>
-        
+
         <files>
             <file path="ImageViewer/widget/" />
         </files>
