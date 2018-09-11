@@ -1,1 +1,0 @@
-﻿define(["MobileFeatures/widget/MobileFeatures", "SprintrFeedbackWidget/SprintrFeedback"], {});
