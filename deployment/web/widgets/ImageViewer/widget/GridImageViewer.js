@@ -147,216 +147,15 @@ define([
               
                    new  imagesloaded(document.querySelector('.container'), function () {
                         // container.fadeIn();
-                        console.log("显示咯1")
-                        new masonry('.container', {
+                        new masonry('.item', {
                             itemSelector: '.item',
                             isAnimated: true,
                         });
                     });
-                
-
-
-                // this.rowGrid(this.gaoGrid, {
-                //     itemSelector: '.item',
-                //     minMargin: 10,
-                //     maxMargin: 25,
-                //     firstItemClass: 'first-item',
-                //     lastRowClass: 'last-row',
-                //     minWidth: 500
-                // })
+        
 
             },
 
-
-            rowGrid: function (container, options) {
-                if (container == null || container == undefined) {
-                    console.log("不可能唯恐吧")
-                    return;
-                }
-
-                if (options === 'appended') {
-
-                    options = dojoJson.parse(dojoAttr.get(container, 'data-row-grid'));
-                    var lastRow = container.getElementsByClassName(options.lastRowClass)[0];
-                    var items = nextAll(lastRow);
-                    layout(container, options, items);
-                } else {
-                    if (!options) {
-                        options = dojoJson.parse(dojoAttr.get(container, 'data-row-grid'));
-                    } else {
-                        if (options.minWidth === undefined) options.minWidth = 0;
-                        if (options.lastRowClass === undefined) options.lastRowClass = 'last-row';
-
-                        dojoAttr.set(container, 'data-row-grid', dojoJson.stringify(options))
-                        //container.setAttribute('data-row-grid', JSON.stringify(options));
-                        window.addEventListener('resize', function (event) {
-                            layout(container, options);
-                        });
-                    }
-
-                    layout(container, options);
-                }
-
-                /* Get elem and all following siblings of elem */
-                function nextAll(elem) {
-                    var matched = [elem];
-
-                    while ((elem = elem['nextSibling']) && elem.nodeType !== 9) {
-                        if (elem.nodeType === 1) {
-                            matched.push(elem);
-                        }
-                    }
-                    return matched;
-                }
-
-                function layout(container, options, items) {
-                    var rowWidth = 0,
-                        rowElems = [],
-                        items = Array.prototype.slice.call(items || container.querySelectorAll(options.itemSelector)),
-                        itemsSize = items.length,
-                        singleImagePerRow = !!window.matchMedia && !window.matchMedia('(min-width:' + options.minWidth + 'px)').matches;
-
-                    // read
-                    var containerStyle =dojoStyle.getComputedStyle(container);
-                    var containerWidth = Math.floor(dojoWindow.getBox().w) - parseFloat(containerStyle.getPropertyValue('padding-left')) - parseFloat(containerStyle.getPropertyValue('padding-right'));
-                   
-                    console.log("contains的宽度Wie"+containerWidth)
-                    var itemAttrs = [];
-                    var theImage, w, h;
-                    for (var i = 0; i < itemsSize; ++i) {
-                        theImage = items[i].getElementsByTagName('img')[0];
-                        if (!theImage) {
-                            items.splice(i, 1);
-                            --i;
-                            --itemsSize;
-                            continue;
-                        }
-                        // get width and height via attribute or js value
-
-                        if (!(w = parseInt(dojoAttr.get(theImage, 'width')))) {
-                            dojoAttr.set(theImage, 'width', w = theImage.offsetWidth)
-                            // theImage.setAttribute('width', w = theImage.offsetWidth);
-                        }
-                        if (!(h = parseInt(dojoAttr.get(theImage, 'height')))) {
-                            dojoAttr.set(theImage, 'height', h = theImage.offsetHeight)
-                            // theImage.setAttribute('height', h = theImage.offsetHeight);
-                        }
-
-                        itemAttrs[i] = {
-                            width: w,
-                            height: h
-                        };
-                    }
-                    console.log("item的个数:"+itemsSize)
-
-                    // write
-                    for (var index = 0; index < itemsSize; ++index) {
-                        if (items[index].classList) {
-                            // items[index].classList.remove(options.firstItemClass);
-                            // items[index].classList.remove(options.lastRowClass);
-                        } else {
-                            // IE <10
-                            items[index].className = items[index].className.replace(new RegExp('(^|\\b)' + options.firstItemClass + '|' + options.lastRowClass + '(\\b|$)', 'gi'), ' ');
-                        }
-
-                        // add element to row
-                        rowWidth += itemAttrs[index].width;
-                       
-                        rowElems.push(items[index]);
-                        console.log("rowElems个数为:"+rowElems.length)
-
-                        // check if it is the last element
-                        if (index === itemsSize - 1) {
-                            for (var rowElemIndex = 0; rowElemIndex < rowElems.length; rowElemIndex++) {
-                                // if first element in row
-                                if (rowElemIndex == 0) {
-                                    rowElems[rowElemIndex].className += ' ' + options.lastRowClass;
-                                }
-
-                                var css = {
-                                    width: itemAttrs[index + parseInt(rowElemIndex) - rowElems.length + 1].width + 'px',
-                                    height: itemAttrs[index + parseInt(rowElemIndex) - rowElems.length + 1].height + 'px'
-                                }
-                                // var css = 'width: ' + itemAttrs[index + parseInt(rowElemIndex) - rowElems.length + 1].width + 'px;' +
-                                //     'height: ' + itemAttrs[index + parseInt(rowElemIndex) - rowElems.length + 1].height + 'px;';
-                                dojoStyle.set(rowElems[rowElemIndex], css)
-                                if (rowElemIndex < rowElems.length - 1) {
-                                    // css += 'margin-right:' + options.minMargin + 'px';
-
-                                    dojoStyle.set(rowElems[rowElemIndex], "margin-right:", options.minMargin + 'px')
-                                }
-
-
-                                // dojoStyle.set(rowElems[rowElemIndex],dojoJson.parse(css))
-                                // rowElems[rowElemIndex].style.cssText = css;
-                            }
-                        }
-
-                        // check whether width of row is too high
-                        if (rowWidth + options.maxMargin * (rowElems.length - 1) > containerWidth || singleImagePerRow) {
-                            var diff = rowWidth + options.maxMargin * (rowElems.length - 1) - containerWidth;
-                            var nrOfElems = rowElems.length;
-
-                            // change margin
-                            var maxSave = (options.maxMargin - options.minMargin) * (nrOfElems - 1);
-                            if (maxSave < diff) {
-                                var rowMargin = options.minMargin;
-                                diff -= (options.maxMargin - options.minMargin) * (nrOfElems - 1);
-                            } else {
-                                var rowMargin = options.maxMargin - diff / (nrOfElems - 1);
-                                diff = 0;
-                            }
-
-                            var rowElem,
-                                newHeight = null,
-                                widthDiff = 0;
-                            
-                                console.log("个数为:"+rowElems.length)
-
-                            for (var rowElemIndex = 0; rowElemIndex < rowElems.length; rowElemIndex++) {
-                                rowElem = rowElems[rowElemIndex];
-
-                                var rowElemWidth = itemAttrs[index + parseInt(rowElemIndex) - rowElems.length + 1].width;
-                                var newWidth = rowElemWidth - (rowElemWidth / rowWidth) * diff;
-                                newHeight = newHeight || Math.round(itemAttrs[index + parseInt(rowElemIndex) - rowElems.length + 1].height * (newWidth / rowElemWidth));
-
-                                if (widthDiff + 1 - newWidth % 1 >= 0.5) {
-                                    widthDiff -= newWidth % 1;
-                                    newWidth = Math.floor(newWidth);
-                                } else {
-                                    widthDiff += 1 - newWidth % 1;
-                                    newWidth = Math.ceil(newWidth);
-                                }
-
-                                // var css = 'width: ' + newWidth + 'px;' +
-                                //     'height: ' + newHeight + 'px;';
-
-                                var css = {
-                                    width: newWidth + 'px',
-                                    height: newHeight + 'px'
-                                }
-                                dojoStyle.set(rowElem, css)
-
-                                if (rowElemIndex < rowElems.length - 1) {
-                                    // css += 'margin-right: ' + rowMargin + 'px';
-                                    dojoStyle.set(rowElem, "margin-right", rowMargin + 'px')
-                                }
-
-                                //rowElem.style.cssText = css;
-                                //dojoStyle.set(rowElem,dojoJson.parse(css))
-
-                                console.log("位置是:" + rowElemIndex)
-                                if (rowElemIndex == 0 && !options.firstItemClass) {
-                                    rowElem.className += ' ' + options.firstItemClass;
-                                }
-                            }
-
-                            rowElems = [],
-                                rowWidth = 0;
-                        }
-                    }
-                }
-            },
 
        
               
@@ -364,7 +163,7 @@ define([
             resolveMFData: function (data) {
                 //  dojoProp.set(this.MRGaoImage, "src", data);
                 this.imageData = eval("(" + data + ")")
-                $(this.gaoGrid).imagesGrid(this.imageData);
+               // $(this.gaoGrid).imagesGrid(this.imageData);
             },
 
 

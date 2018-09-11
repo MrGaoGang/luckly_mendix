@@ -2,5 +2,5 @@ Private-Package: system, administration.proxies, administration.proxies.microflo
 Import-Package: *;resolution:=optional
 Service-Component: *
 Include-Resource: ../../userlib/;recursive:=true;filter:=!*.jar
-Bundle-Name: App_main
+Bundle-Name: mendix
 Bundle-SymbolicName: project

@@ -1,8 +1,9 @@
-﻿Buildfile: C:\Users\mr.gao\Documents\Mendix\Project\mendix\Project\App-main\deployment\build_core.xml
+﻿Buildfile: C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\build_core.xml
 
 deploy:
-     [copy] Copying 45 files to C:\Users\mr.gao\Documents\Mendix\Project\mendix\Project\App-main\deployment
+     [copy] Copying 45 files to C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment
 
 BUILD SUCCESSFUL
 Total time: 0 seconds
+
 
