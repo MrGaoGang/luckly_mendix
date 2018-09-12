@@ -66,7 +66,7 @@ define([
     widgetTemplate,
     dojoAttr,
     dojoWindow
-    
+
 ) {
     "use strict";
 
@@ -98,12 +98,13 @@ define([
             _readOnly: false,
 
             imageData: null,
-
+            imageCSS: null,
             // dojo.declare.constructor is called to construct the widget instance. Implement to initialize non-primitive properties.
             constructor: function () {
                 logger.debug(this.id + ".constructor");
                 this._handles = [];
             },
+
 
             // dijit._WidgetBase.postCreate is called after constructing the widget. Implement to do extra setup work.
             postCreate: function () {
@@ -131,8 +132,6 @@ define([
                 }
 
 
-                // $(this.gaoGrid).css("width", this.imageWidth);
-                // $(this.gaoGrid).css("height", this.imageHeight);
                 //获取属性的值
                 var attr = this._contextObj.get(this.dataAttr);
 
@@ -144,26 +143,111 @@ define([
                     this.imageData = eval("(" + this.dataString + ")")
                 }
 
-              
-                   new  imagesloaded(document.querySelector('.container'), function () {
-                        // container.fadeIn();
-                        new masonry('.item', {
-                            itemSelector: '.item',
-                            isAnimated: true,
-                        });
-                    });
-        
+                if (this.cssParse && this.cssParse != "") {
+                    this.imageCSS = eval("(" + this.cssParse + ")")
+                }
+
+                var columnWidth = this.getImageSize()
+                console.log("图片的宽度"+columnWidth)
+                this.refreshScreen(columnWidth)
+
+                var self = this
+                $(window).resize(function () {
+                    var columnWidth = self.getImageSize()
+                    console.log("图片的宽度"+columnWidth)
+                    self.refreshScreen(columnWidth)
+                });
+
 
             },
 
 
-       
-              
+            refreshScreen: function (columnWidth) {
+                var self = this
+                //设置属性
+                dojoAttr.set(this.gaoGrid, "data-masonry", dojoJson.stringify({
+                    "itemelector": ".item",
+                    "columnWidth": columnWidth
+                }))
+
+                var htmlShow = ""
+                $.each(this.imageData, function (indexInArray, valueOfElement) {
+                    htmlShow += '<div class="item"><img src="' + valueOfElement.imageUrl + '" width="' + columnWidth + 'px" />'
+                    if (valueOfElement.desc && valueOfElement.desc != "") {
+                        htmlShow += ' <p>' + valueOfElement.desc + '</p>'
+                    }
+                    htmlShow += '</div>'
+                });
+
+                $(".container").html(htmlShow)
+
+                $(".item").css("width", columnWidth)
+
+
+                //设置了image和css的样式
+                if (this.imageCSS) {
+                    if (this.imageCSS.img) {
+                        $(".item img").css(this.imageCSS.img)
+                    }
+
+                    if (this.imageCSS.item) {
+                        $(".item").css(this.imageCSS.item)
+                    }
+
+                    if (this.imageCSS.desc) {
+                        $(".item p").css(this.imageCSS.desc)
+                    }
+                }
+
+
+
+
+                new imagesloaded(document.querySelector('.container'), function (instance) {
+                    // container.fadeIn();
+                    new masonry('.item', {
+                        itemSelector: '.item',
+                        isAnimated: true,
+                        gutterWidth: self.gutterWidth
+                    });
+                });
+
+
+
+                //如果为圆角图片则设置为圆角
+                // if (this.isRoundImg) {
+                //     $(".item img").each(function (indexInArray) {
+                //         if ($(this).width() > $(this).height()) {
+                //             $(this).css("border-radius", $(this).width())
+                //         } else {
+                //             $(this).css("border-radius", $(this).height())
+                //         }
+                //     });
+
+                // }
+
+            },
+
+            getImageSize: function () {
+
+                if (this.imageCSS.item) {
+                    var len = 0
+                    for (var key in this.imageCSS.item) {
+                        if (key.search("margin") > -1) {
+                            len += parseInt((this.imageCSS.item[key].replace(/[^0-9]/ig, ""))) * (this.numColumn-1);
+                        }
+                    }
+                    return ($(window.parent.window).width() - len) / (this.numColumn+1);
+                } else {
+
+                    return ($(window.parent.window).width()) / (this.numColumn + 1);
+                }
+            },
+
             //执行微流，会将微流的返回结果到这里
             resolveMFData: function (data) {
                 //  dojoProp.set(this.MRGaoImage, "src", data);
                 this.imageData = eval("(" + data + ")")
-               // $(this.gaoGrid).imagesGrid(this.imageData);
+                // $(this.gaoGrid).imagesGrid(this.imageData);
             },
 
 

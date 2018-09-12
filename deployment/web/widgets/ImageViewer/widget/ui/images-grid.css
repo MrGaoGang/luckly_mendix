@@ -1,42 +1,7 @@
-/* .container:before, .container:after {
-  content: "";
-  display: table;
-}
-.container:after {
-  clear: both;
-}
 
-.item {
-float: left;
-margin-bottom: 15px;
-}
-@media (max-width: 499px) {
-.item {
-  float: none;
-  margin-right: auto;
-  margin-left: auto;
-}
-}
-.item img {
-max-width: 100%;
-max-height: 100%;
-vertical-align: bottom;
-}
-.first-item {
-clear: both;
-}
-
-.last-row, .last-row ~ .item {
-margin-bottom: 0;
-} */
 
  .item {
-  width: 30%;
-
   float: left;
   text-align: center;
 }
 
-.item img {
-  width: 100%;
-} 

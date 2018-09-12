@@ -5,16 +5,6 @@
     <description>The description of this widget.</description>
     <icon />
     <properties>
-        <property key="imageWidth" type="integer" required="true" defaultValue="900">
-            <caption>Image Width</caption>
-            <category>Config</category>
-            <description>表格宽度</description>
-        </property>
-        <property key="imageHeight" type="integer" required="true" defaultValue="700">
-            <caption>Image Height</caption>
-            <category>Config</category>
-            <description>表格高度</description>
-        </property>
 
 
 
@@ -23,7 +13,7 @@
             <category>Data Source</category>
             <description>图片的URL地址（来自实体）</description>
             <attributeTypes>
-                <attributeType name="String"></attributeType>
+                <attributeType name="String"/>
             </attributeTypes>
         </property>
 
@@ -38,12 +28,29 @@
             <category>Data Source</category>
             <description>图片的URL地址</description>
         </property>
-        
+
         <property key="callBackMF" type="string" required="false" multiline="false">
             <caption>Click Callback</caption>
             <category>Data Source</category>
             <description>点击图片的事件回调</description>
         </property>
+
+
+
+
+        <property key="cssParse" type="string" defaultValue="" multiline="true" required="false">
+            <caption>Image and Desc CSS</caption>
+            <category>Image Config</category>
+            <description>图片和文字的CSS</description>
+        </property>
+
+        <property key="numColumn" type="integer" required="true" defaultValue="2">
+            <caption>Number of Column</caption>
+            <category>Image Config</category>
+            <description>图片的列数</description>
+        </property>
+
+     
     </properties>
 </widget>
 
