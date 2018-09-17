@@ -1,7 +1,12 @@
 
+.container{
+  display: flex;
+  flex-wrap: wrap;
 
+}
  .item {
   float: left;
+  flex: 1;
   text-align: center;
 }
 

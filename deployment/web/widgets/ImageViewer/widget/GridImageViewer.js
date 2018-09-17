@@ -148,13 +148,11 @@ define([
                 }
 
                 var columnWidth = this.getImageSize()
-                console.log("图片的宽度"+columnWidth)
                 this.refreshScreen(columnWidth)
 
                 var self = this
                 $(window).resize(function () {
                     var columnWidth = self.getImageSize()
-                    console.log("图片的宽度"+columnWidth)
                     self.refreshScreen(columnWidth)
                 });
 
@@ -172,11 +170,23 @@ define([
 
                 var htmlShow = ""
                 $.each(this.imageData, function (indexInArray, valueOfElement) {
-                    htmlShow += '<div class="item"><img src="' + valueOfElement.imageUrl + '" width="' + columnWidth + 'px" />'
+
+                    htmlShow += '<div class="item" data-imageindex=' + indexInArray + '><img src="' + valueOfElement.imageUrl + '" width="' + columnWidth + 'px" />'
                     if (valueOfElement.desc && valueOfElement.desc != "") {
-                        htmlShow += ' <p>' + valueOfElement.desc + '</p>'
+                        htmlShow += ' <p>' + valueOfElement.desc + '</p>';
                     }
                     htmlShow += '</div>'
+
+
+                    if ((indexInArray + 1) == self.imageData.length && (self.imageData.length % this.numColumn) != 0) {
+                        var count = self.numColumn - (self.imageData.length % self.numColumn);
+
+                        for (var i = 0; i < count; i++) {
+                            htmlShow += '<div class="item"><img src="" width="' + columnWidth + 'px" />'
+                            htmlShow += '</div>'
+                        }
+                    }
+
                 });
 
                 $(".container").html(htmlShow)
@@ -212,18 +222,33 @@ define([
                 });
 
 
+                var callBackMF = this.callBackMF
 
-                //如果为圆角图片则设置为圆角
-                // if (this.isRoundImg) {
-                //     $(".item img").each(function (indexInArray) {
-                //         if ($(this).width() > $(this).height()) {
-                //             $(this).css("border-radius", $(this).width())
-                //         } else {
-                //             $(this).css("border-radius", $(this).height())
-                //         }
-                //     });
+                $(".container").on("click", ".item", function () {
+                    var index = $(this).data("imageindex")
+                    if (callBackMF && index) {
+                        var imageSrc = $(this).find("img").attr("src");
+                        mx.data.create({
+                            entity: "Widgets.StringParam",
+                            callback: function (obj) {
+                                obj.set("param", dojoJson.stringify({
+                                    index: index,
+                                    imageURL: imageSrc
+                                }))
+                                mx.data.action({
+                                    params: {
+                                        actionname: callBackMF,
+                                        applyto: "selection",
+                                        guids: [obj.getGuid()]
+                                    },
+                                    callback: function (objects) {
 
-                // }
+                                    }
+                                })
+                            }
+                        });
+                    }
+                });
 
             },
 
@@ -233,10 +258,10 @@ define([
                     var len = 0
                     for (var key in this.imageCSS.item) {
                         if (key.search("margin") > -1) {
-                            len += parseInt((this.imageCSS.item[key].replace(/[^0-9]/ig, ""))) * (this.numColumn-1);
+                            len += parseInt((this.imageCSS.item[key].replace(/[^0-9]/ig, ""))) * (this.numColumn - 1);
                         }
                     }
-                    return ($(window.parent.window).width() - len) / (this.numColumn+1);
+                    return ($(window.parent.window).width() - len) / (this.numColumn + 1);
                 } else {
 
                     return ($(window.parent.window).width()) / (this.numColumn + 1);
