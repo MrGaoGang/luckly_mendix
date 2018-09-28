@@ -222,19 +222,24 @@ define([
                 });
 
 
-                var callBackMF = this.callBackMF
-
+                var callBackMF = this.callBackMF;
+                var that=this;
                 $(".container").on("click", ".item", function () {
-                    var index = $(this).data("imageindex")
-                    if (callBackMF && index) {
+                    var index = $(this).data("imageindex");
+                    if (callBackMF) {
                         var imageSrc = $(this).find("img").attr("src");
+                      
                         mx.data.create({
-                            entity: "Widgets.StringParam",
+                            entity: that.paramEntity,
                             callback: function (obj) {
                                 obj.set("param", dojoJson.stringify({
                                     index: index,
                                     imageURL: imageSrc
-                                }))
+                                }));
+
+                                if(that.referenceName){
+                                    obj.set(that.referenceName,that._contextObj.getGuid());
+                                }
                                 mx.data.action({
                                     params: {
                                         actionname: callBackMF,

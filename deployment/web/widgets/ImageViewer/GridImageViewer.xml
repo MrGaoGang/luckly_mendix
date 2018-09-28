@@ -11,7 +11,7 @@
         <property key="dataAttr" type="attribute" required="false">
             <caption>Data attribute</caption>
             <category>Data Source</category>
-            <description>图片的URL地址（来自实体）</description>
+            <description>the image url from entity</description>
             <attributeTypes>
                 <attributeType name="String"/>
             </attributeTypes>
@@ -20,19 +20,13 @@
         <property key="dataMF" type="microflow" required="false">
             <caption>Data microflow</caption>
             <category>Data Source</category>
-            <description>图片的URL地址（来自微流）</description>
+            <description>image url from microflow</description>
             <returnType type="String"/>
         </property>
         <property key="dataString" type="string" required="false" multiline="true">
             <caption>Data String</caption>
             <category>Data Source</category>
-            <description>图片的URL地址</description>
-        </property>
-
-        <property key="callBackMF" type="string" required="false" multiline="false">
-            <caption>Click Callback</caption>
-            <category>Data Source</category>
-            <description>点击图片的事件回调</description>
+            <description>image url from string</description>
         </property>
 
 
@@ -41,16 +35,38 @@
         <property key="cssParse" type="string" defaultValue="" multiline="true" required="false">
             <caption>Image and Desc CSS</caption>
             <category>Image Config</category>
-            <description>图片和文字的CSS</description>
+            <description>the image and text CSS</description>
         </property>
 
         <property key="numColumn" type="integer" required="true" defaultValue="2">
             <caption>Number of Column</caption>
             <category>Image Config</category>
-            <description>图片的列数</description>
+            <description>number of the culumn for image</description>
         </property>
 
-     
+
+
+
+        <property key="paramEntity" type="entity" required="true" allowNonPersistableEntities="true">
+            <caption>Param Entity</caption>
+            <category>Event</category>
+            <description>Must be select Entity (Widgets.StringParam)</description>
+
+        </property>
+
+        <property key="referenceName" type="string" required="false" multiline="false">
+            <caption>ReferenceName</caption>
+            <category>Event</category>
+            <description>the referenceName beteween context entity  and StringParam</description>
+        </property>
+
+        <property key="callBackMF" type="microflow" entityProperty="paramEntity" required="true" defaultValue="">
+            <caption>Click Callback</caption>
+            <category>Event</category>
+            <description>Click the image to Callback</description>
+            <returnType type="Void"/>
+        </property>
+
     </properties>
 </widget>
 
