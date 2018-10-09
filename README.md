@@ -11,3 +11,7 @@
 ## 二、我的一些组件
 详情请看:https://github.com/MrGaoGang/MendixWidgets
 
+
+欢迎关注我的微信公众号一起学习Mendix和Android: 
+
+![](https://github.com/MrGaoGang/MendixWidgets/blob/master/images/wechat.jpg)
