@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="JSExecutor.widget.JSExecutor" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>JSExecutor</name>
+    <description>JS执行器</description>
+
+    <icon />
+
+    <properties>
+
+        <property key="lableName" type="string" required="false" defaultValue="">
+            <caption>Label</caption>
+            <category>Label</category>
+            <description>The JSExecutor Label!</description>
+        </property>
+
+
+        <property key="jsCode" type="string" required="false" multiline="true">
+            <caption>JS Code</caption>
+            <category>Config</category>
+            <description>The Code execute by javascript</description>
+        </property>
+
+
+        <property key="micBeforClick" type="microflow" required="false" defaultValue="">
+            <caption>Before Microflow</caption>
+            <category>Config</category>
+            <description>Microflow execute before JS Code</description>
+            <returnType type="Boolean"/>
+        </property>
+
+
+        <property key="micAfterClick" type="microflow" required="false" defaultValue="">
+            <caption>After Microflow</caption>
+            <category>Config</category>
+            <description>Microflow execute after JS Code</description>
+            <returnType type="Boolean"/>
+        </property>
+    </properties>
+</widget>
