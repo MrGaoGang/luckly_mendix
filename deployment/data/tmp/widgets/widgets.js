@@ -1,0 +1,6 @@
+define([
+"ImageViewer/widget/ImageViewer",
+"ImageViewer/widget/GridImageViewer",
+"PieChart/widget/PieChart",
+"SprintrFeedbackWidget/SprintrFeedback"
+], function() {});

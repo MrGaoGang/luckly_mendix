@@ -1,0 +1,1 @@
+define("big/big", function() {});

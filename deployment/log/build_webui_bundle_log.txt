@@ -1,0 +1,26 @@
+﻿Running "generate:profile" (generate) task
+C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\widgets.config.json [ 'ImageViewer.widget.ImageViewer',
+  'ImageViewer.widget.GridImageViewer',
+  'PieChart.widget.PieChart',
+  'SprintrFeedbackWidget.SprintrFeedback' ]
+
+Running "generate:javascript" (generate) task
+C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\widgets.config.json [ 'ImageViewer.widget.ImageViewer',
+  'ImageViewer.widget.GridImageViewer',
+  'PieChart.widget.PieChart',
+  'SprintrFeedbackWidget.SprintrFeedback' ]
+
+Running "dojo:dist" (dojo) task
+
+Building Dojo...
+Dojo Successfully Built...
+
+Running "copy:main" (copy) task
+Copied 1 file
+
+Running "copy:nls" (copy) task
+
+
+Done, without errors.
+
+

@@ -1,0 +1,408 @@
+Build started: Fri Oct 12 2018 20:00:58 GMT+0800 (中国标准时间)
+Build application version: 1.12.2 (edd21d6)
+Messages:
+info(100) Assumed module uses legacy loader API.
+	module: dojox/jq
+	module: dojox/rails
+	module: dojox/data/ItemExplorer
+	module: dojox/data/restListener
+	module: dojox/data/StoreExplorer
+	module: dojox/drawing/plugins/drawing/Silverlight
+	module: dojox/flash/_base
+	module: dojox/help/console
+	module: dojox/help/_base
+	module: dojox/image/Gallery
+	module: dojox/image/SlideShow
+	module: dojox/image/ThumbnailPicker
+	module: dojox/lang/aspect
+	module: dojox/lang/async
+	module: dojox/lang/docs
+	module: dojox/lang/observable
+	module: dojox/lang/typed
+	module: dojox/lang/aspect/cflow
+	module: dojox/lang/aspect/counter
+	module: dojox/lang/aspect/memoizer
+	module: dojox/lang/aspect/memoizerGuard
+	module: dojox/lang/aspect/profiler
+	module: dojox/lang/aspect/timer
+	module: dojox/lang/aspect/tracer
+	module: dojox/lang/async/event
+	module: dojox/lang/async/timeout
+	module: dojox/lang/async/topic
+	module: dojox/lang/functional/binrec
+	module: dojox/lang/functional/linrec
+	module: dojox/lang/functional/listcomp
+	module: dojox/lang/functional/multirec
+	module: dojox/lang/functional/numrec
+	module: dojox/lang/functional/tailrec
+	module: dojox/lang/functional/util
+	module: dojox/lang/oo/aop
+	module: dojox/lang/oo/Decorator
+	module: dojox/lang/oo/Filter
+	module: dojox/lang/oo/general
+	module: dojox/lang/oo/mixin
+	module: dojox/lang/oo/rearrange
+	module: dojox/layout/BorderContainer
+	module: dojox/layout/dnd/Avatar
+	module: dojox/layout/dnd/PlottedDnd
+	module: dojox/layout/ext-dijit/layout/StackContainer-touch
+	module: dojox/mobile/app/AlertDialog
+	module: dojox/mobile/app/compat
+	module: dojox/mobile/app/ImageThumbView
+	module: dojox/mobile/app/ImageView
+	module: dojox/mobile/app/List
+	module: dojox/mobile/app/ListSelector
+	module: dojox/mobile/app/SceneAssistant
+	module: dojox/mobile/app/SceneController
+	module: dojox/mobile/app/StageController
+	module: dojox/mobile/app/TextBox
+	module: dojox/mobile/app/_base
+	module: dojox/mobile/app/_event
+	module: dojox/mobile/app/_FormWidget
+	module: dojox/mobile/app/_Widget
+	module: dojox/robot/recorder
+	module: dojox/secure/capability
+	module: dojox/secure/DOM
+	module: dojox/secure/fromJson
+	module: dojox/secure/sandbox
+	module: dojox/sql/_base
+	module: dojox/sql/_crypto
+	module: dojox/storage/AirDBStorageProvider
+	module: dojox/storage/AirEncryptedLocalStorageProvider
+	module: dojox/storage/AirFileStorageProvider
+	module: dojox/storage/BehaviorStorageProvider
+	module: dojox/storage/CookieStorageProvider
+	module: dojox/storage/FlashStorageProvider
+	module: dojox/storage/GearsStorageProvider
+	module: dojox/storage/WhatWGStorageProvider
+	module: dojox/storage/_common
+	module: dojox/widget/AnalogGauge
+	module: dojox/widget/BarGauge
+	module: dojox/widget/DataPresentation
+	module: dojox/widget/DocTester
+	module: dojox/widget/DynamicTooltip
+	module: dojox/widget/FeedPortlet
+	module: dojox/widget/FilePicker
+	module: dojox/widget/Iterator
+	module: dojox/widget/Loader
+	module: dojox/widget/RollingList
+	module: dojox/widget/SortList
+	module: dojox/widget/gauge/AnalogArcIndicator
+	module: dojox/widget/gauge/AnalogArrowIndicator
+	module: dojox/widget/gauge/AnalogNeedleIndicator
+	module: dojox/widget/gauge/BarIndicator
+	module: dojox/widget/gauge/_Gauge
+	module: dojox/wire/CompositeWire
+	module: dojox/wire/DataWire
+	module: dojox/wire/TableAdapter
+	module: dojox/wire/TextAdapter
+	module: dojox/wire/TreeAdapter
+	module: dojox/wire/Wire
+	module: dojox/wire/XmlWire
+	module: dojox/wire/_base
+	module: dojox/wire/ml/Action
+	module: dojox/wire/ml/Data
+	module: dojox/wire/ml/DataStore
+	module: dojox/wire/ml/Invocation
+	module: dojox/wire/ml/JsonHandler
+	module: dojox/wire/ml/RestHandler
+	module: dojox/wire/ml/Service
+	module: dojox/wire/ml/Transfer
+	module: dojox/wire/ml/util
+	module: dojox/wire/ml/XmlHandler
+	module: dojox/xmpp/bosh
+	module: dojox/xmpp/ChatService
+	module: dojox/xmpp/PresenceService
+	module: dojox/xmpp/RosterService
+	module: dojox/xmpp/sasl
+	module: dojox/xmpp/TransportSession
+	module: dojox/xmpp/UserService
+	module: dojox/xmpp/util
+	module: dojox/xmpp/xmppSession
+	module: dojox/xmpp/widget/ChatSession
+	module: ImageViewer/lib/echarts.js.map
+	module: ImageViewer/lib/row-grid
+	module: PieChart/lib/echarts.js.map
+	module: SprintrFeedbackWidget/SprintrFeedback.webmodeler
+info(107) Package Version:
+	package: dojox; version: 1.12.2
+	package: dijit; version: 1.12.2
+	package: dojo; version: 1.12.2
+warn(205) Module not tagged as pure AMD yet it contains AMD API applications.
+	module: mxui/dom
+	module: mxui/mxui
+	module: mxui/html/parser
+	module: mxui/lib/ColumnResizer
+	module: mxui/lib/form/InlineForm
+	module: mxui/lib/form/_FormBase
+	module: mxui/mixin/_Stateful
+	module: mxui/widget/Image
+	module: mxui/widget/_Button
+	module: mxui/widget/_FormWidget
+	module: mxui/widget/_WidgetBase
+	module: mendix/lang
+	module: mendix/validator
+	module: mendix/lib/MxContext
+	module: mendix/lib/MxMetaObject
+	module: mendix/lib/ObjectValidation
+	module: big/big
+	module: ImageViewer/lib/echarts
+	module: ImageViewer/lib/ev-emitter
+	module: ImageViewer/lib/get-size
+	module: ImageViewer/lib/imagesloaded
+	module: ImageViewer/lib/item
+	module: ImageViewer/lib/jquery-1.11.2
+	module: ImageViewer/lib/masonry
+	module: ImageViewer/lib/matches-selector
+	module: ImageViewer/lib/outlayer
+	module: ImageViewer/lib/utils
+	module: ImageViewer/widget/GridImageViewer
+	module: ImageViewer/widget/ImageViewer
+	module: PieChart/lib/echarts
+	module: PieChart/lib/jquery-1.11.2
+	module: PieChart/widget/PieChart
+	module: SprintrFeedbackWidget/SprintrFeedback
+	module: widgets/widgets
+warn(209) Missing or empty package.json.
+	filename: C:/Program Files/Mendix/7.16.0/modeler/tools/grunt/mxui/package.json
+	filename: C:/Program Files/Mendix/7.16.0/modeler/tools/grunt/mendix/package.json
+	filename: C:/Program Files/Mendix/7.16.0/modeler/tools/grunt/big/package.json
+	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/ImageViewer/package.json
+	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/PieChart/package.json
+	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/SprintrFeedbackWidget/package.json
+	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/data/tmp/widgets/package.json
+warn(216) dojo/has plugin resource could not be resolved during build-time.
+	plugin resource id: dojo-bidi?./bidi/Chart; reference module id: dojox/charting/Chart
+	plugin resource id: dojo-bidi?./bidi/Chart3D; reference module id: dojox/charting/Chart3D
+	plugin resource id: dojo-bidi?../bidi/action2d/ZoomAndPan; reference module id: dojox/charting/action2d/MouseZoomAndPan
+	plugin resource id: dojo-bidi?../bidi/action2d/Tooltip; reference module id: dojox/charting/action2d/Tooltip
+	plugin resource id: dojo-bidi?../bidi/action2d/ZoomAndPan; reference module id: dojox/charting/action2d/TouchZoomAndPan
+	plugin resource id: dojo-bidi?../bidi/axis2d/Default; reference module id: dojox/charting/axis2d/Default
+	plugin resource id: dojo-bidi?../bidi/widget/Chart; reference module id: dojox/charting/widget/Chart
+	plugin resource id: dojo-bidi?../bidi/widget/Legend; reference module id: dojox/charting/widget/Legend
+	plugin resource id: dojo-bidi?./bidi/_BidiMixin; reference module id: dojox/grid/DataGrid
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/Accordion; reference module id: dojox/mobile/Accordion
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/Badge; reference module id: dojox/mobile/Badge
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/Button; reference module id: dojox/mobile/Button
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/Carousel; reference module id: dojox/mobile/Carousel
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/CarouselItem; reference module id: dojox/mobile/CarouselItem
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/FormLayout; reference module id: dojox/mobile/FormLayout
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/Heading; reference module id: dojox/mobile/Heading
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/Icon; reference module id: dojox/mobile/Icon
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/IconItem; reference module id: dojox/mobile/IconItem
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/IconMenu; reference module id: dojox/mobile/IconMenu
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/ListItem; reference module id: dojox/mobile/ListItem
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/ProgressIndicator; reference module id: dojox/mobile/ProgressIndicator
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/Rating; reference module id: dojox/mobile/Rating
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/RoundRectCategory; reference module id: dojox/mobile/RoundRectCategory
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/Scrollable; reference module id: dojox/mobile/scrollable
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/SimpleDialog; reference module id: dojox/mobile/SimpleDialog
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/SpinWheelSlot; reference module id: dojox/mobile/SpinWheelSlot
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/SwapView; reference module id: dojox/mobile/SwapView
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/Switch; reference module id: dojox/mobile/Switch
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/TabBar; reference module id: dojox/mobile/TabBar
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/TabBarButton; reference module id: dojox/mobile/TabBarButton
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/TextBox; reference module id: dojox/mobile/TextBox
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/ToolBarButton; reference module id: dojox/mobile/ToolBarButton
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/Tooltip; reference module id: dojox/mobile/Tooltip
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/TreeView; reference module id: dojox/mobile/TreeView
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/ValuePickerSlot; reference module id: dojox/mobile/ValuePickerSlot
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/_ComboBoxMenu; reference module id: dojox/mobile/_ComboBoxMenu
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/_StoreListMixin; reference module id: dojox/mobile/_DataListMixin
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/_ItemBase; reference module id: dojox/mobile/_ItemBase
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/_PickerBase; reference module id: dojox/mobile/_PickerBase
+	plugin resource id: dojo-bidi?dojox/mobile/bidi/_StoreListMixin; reference module id: dojox/mobile/_StoreListMixin
+	plugin resource id: dojo-parser?:dojo/_base/window; reference module id: dojox/mvc/parserExtension
+	plugin resource id: dojo-mobile-parser?:dojo/parser; reference module id: dojox/mvc/parserExtension
+	plugin resource id: dojo-parser?:dojox/mobile/parser; reference module id: dojox/mvc/parserExtension
+	plugin resource id: touch?dojox/gesture/tap; reference module id: dojox/treemap/DrillDownUp
+	plugin resource id: dojo-bidi?./_BidiMixin; reference module id: dijit/_WidgetBase
+	plugin resource id: dojo-firebug?./_firebug/firebug; reference module id: dojo/main
+	plugin resource id: dom-addeventlistener?:./aspect; reference module id: dojo/on
+	plugin resource id: host-browser?dom-addeventlistener?:../on:; reference module id: dojo/request/watch
+warn(224) A plugin dependency was encountered but there was no build-time plugin resolver.
+	module: dojox/mobile/DatePicker; plugin: dojox/mobile/_PickerChooser
+	module: dojox/mobile/TimePicker; plugin: dojox/mobile/_PickerChooser
+	module: dojox/store/LocalDB; plugin: dojox/store/db/has
+	module: dijit/Fieldset; plugin: dojo/query
+	module: dijit/RadioMenuItem; plugin: dojo/query
+	module: dijit/Tree; plugin: dojo/query
+	module: dijit/form/_RadioButtonMixin; plugin: dojo/query
+	module: dojo/request; plugin: dojo/request/default
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/node; plugin: dojo/node
+	module: dojo/request/registry; plugin: dojo/request/default
+Layer Contents:
+mxui/mxui:
+	mxui/mxui
+	mxui/dom
+	mxui/html/parser
+	mxui/widget/_Button
+	mxui/widget/_WidgetBase
+	mxui/widget/_FormWidget
+	mxui/widget/Image
+	mxui/mixin/_Stateful
+	mxui/lib/ColumnResizer
+	mxui/lib/form/_FormBase
+	mxui/lib/form/InlineForm
+	mendix/lang
+	mendix/validator
+	mendix/lib/MxContext
+	mendix/lib/MxMetaObject
+	mendix/lib/ObjectValidation
+	big/big
+	dijit/BackgroundIframe
+	dijit/main
+	dijit/Calendar
+	dojo/date
+	dojo/date/locale
+	dojo/cldr/supplemental
+	dojo/i18n
+	dojo/regexp
+	dojo/string
+	dojo/cldr/nls/gregorian
+	dijit/CalendarLite
+	dojo/date/stamp
+	dijit/_WidgetBase
+	dojo/Stateful
+	dijit/Destroyable
+	dijit/registry
+	dijit/_TemplatedMixin
+	dojo/cache
+	dojo/text
+	dojo/request
+	dojo/request/default
+	dijit/_AttachMixin
+	dojo/touch
+	dijit/templates/Calendar.html
+	dijit/a11yclick
+	dijit/hccss
+	dojo/hccss
+	dijit/_Widget
+	dijit/_OnDijitClickMixin
+	dijit/_FocusMixin
+	dijit/focus
+	dojo/window
+	dijit/a11y
+	dojo/uacss
+	dijit/_CssStateMixin
+	dijit/form/DropDownButton
+	dijit/popup
+	dijit/place
+	dijit/Viewport
+	dijit/form/Button
+	dijit/form/_FormWidget
+	dijit/form/_FormWidgetMixin
+	dijit/form/_ButtonMixin
+	dijit/form/templates/Button.html
+	dijit/_Container
+	dijit/_HasDropDown
+	dijit/form/templates/DropDownButton.html
+	dijit/Tooltip
+	dijit/_base/manager
+	dijit/templates/Tooltip.html
+	dijit/_Contained
+	dojo/cookie
+	dojo/fx
+	dojo/promise/all
+	dojo/request/iframe
+	dojox/date/buddhist
+	dojox/main
+	dojox/date/buddhist/Date
+	dojox/date/buddhist/locale
+	dojo/cldr/nls/buddhist
+
+widgets/widgets:
+	widgets/widgets
+	ImageViewer/widget/ImageViewer
+	dojo/html
+	dojo/parser
+	dojo/_base/url
+	ImageViewer/lib/echarts
+	ImageViewer/lib/jquery-1.11.2
+	ImageViewer/widget/template/ImageViewer.html
+	ImageViewer/widget/GridImageViewer
+	ImageViewer/lib/imagesloaded
+	ImageViewer/lib/ev-emitter
+	ImageViewer/lib/masonry
+	ImageViewer/lib/outlayer
+	ImageViewer/lib/get-size
+	ImageViewer/lib/utils
+	ImageViewer/lib/matches-selector
+	ImageViewer/lib/item
+	ImageViewer/widget/template/GridImageViewer.html
+	PieChart/widget/PieChart
+	PieChart/lib/echarts
+	PieChart/lib/jquery-1.11.2
+	PieChart/widget/template/PieChart.html
+	SprintrFeedbackWidget/SprintrFeedback
+	dojo/io/script
+	dojo/request/script
+
+dojo/dojo:
+	dojo/dojo
+	dojo/main
+	dojo/_base/kernel
+	dojo/has
+	dojo/_base/config
+	dojo/sniff
+	dojo/_base/lang
+	dojo/_base/array
+	dojo/ready
+	dojo/domReady
+	dojo/_base/declare
+	dojo/_base/connect
+	dojo/on
+	dojo/topic
+	dojo/Evented
+	dojo/aspect
+	dojo/_base/event
+	dojo/dom-geometry
+	dojo/_base/window
+	dojo/dom
+	dojo/dom-style
+	dojo/mouse
+	dojo/_base/sniff
+	dojo/keys
+	dojo/_base/Deferred
+	dojo/Deferred
+	dojo/errors/CancelError
+	dojo/errors/create
+	dojo/promise/Promise
+	dojo/promise/instrumentation
+	dojo/promise/tracer
+	dojo/when
+	dojo/_base/json
+	dojo/json
+	dojo/_base/Color
+	dojo/_base/browser
+	dojo/_base/unload
+	dojo/_base/html
+	dojo/dom-attr
+	dojo/dom-prop
+	dojo/dom-construct
+	dojo/dom-class
+	dojo/_base/NodeList
+	dojo/query
+	dojo/selector/_loader
+	dojo/NodeList-dom
+	dojo/_base/xhr
+	dojo/io-query
+	dojo/dom-form
+	dojo/request/watch
+	dojo/request/util
+	dojo/errors/RequestError
+	dojo/errors/RequestTimeoutError
+	dojo/request/xhr
+	dojo/request/handlers
+	dojo/_base/fx
+	dojo/_base/loader
+
+
+
+Process finished normally
+	errors: 0
+	warnings: 102
+	build time: 3.598 seconds

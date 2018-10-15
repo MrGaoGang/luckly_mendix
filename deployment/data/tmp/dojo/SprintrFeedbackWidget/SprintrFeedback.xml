@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="SprintrFeedbackWidget.SprintrFeedback" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+  <name>Feedback Widget</name>
+  <description>This widget allows the users of your application to directly submit feedback into your Mendix project. You can find the submitted feedback under the 'Feedback' tab at home.mendix.com</description>
+
+  <icon>/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAAAAAAAP/sABFEdWNreQABAAQAAABkAAD/7gAOQWRvYmUA
+ZMAAAAAB/9sAhAABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAgIC
+AgICAgICAgIDAwMDAwMDAwMDAQEBAQEBAQIBAQICAgECAgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+AwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwP/wAARCAAQABADAREAAhEBAxEB/8QAbQAAAwEAAAAA
+AAAAAAAAAAAAAgMECgEAAgMAAAAAAAAAAAAAAAAABQYBAwcQAAICAwEBAAMAAAAAAAAAAAMFBAYB
+AgcRCBMUFxEAAgICAQMEAwEAAAAAAAAAAQIDBAUGERIiEwAhIwcxQhQV/9oADAMBAAIRAxEAPwDZ
+H37uT/nTyorYiUi/pRXpv5tXJzaKCnfQkHMfywcwRWY2Qgr/AEeSvxiWsjMgx/WEUWgSSAkL6lZ7
+N2qNqGCOMpkvITCrMBFbXjvhWT9JeO5A4HeoALKT6ynctsyGHv1asEJjz5mJqxs4FfIpx8tVJvxF
+ZK8SRLKq/IihTIrN6Hgva7beHtnUtq8Zh1EjaPL6QggNI5aL89KNxb4rHMnFq0/KGy9DjrcZlso6
+wEj1jKNqUkYAw+abjdLzuN1iHb92ZKDZRTJUrc+SaSIeydCDgLEPy88pQO5bxLIAAAWmfZNnYdhv
+YClA13Zq84GQ6HAo4gcfFSksEHz3QnfLFXjkIldhK0CBPTu6fNZ+lvkM9c5f63ttPkr9utzpAZE3
+iVAyLBLMPjabI9K/VL9bA4ErjttYpmYgnNIJIJ+voLadLr6zhdhO67FXjyeRoIWqV7HfC07e0fVE
+OFEMXvLL+8pVImfpckX/AGV9eZHbvFj8Xat18ndkMc2RVgJcdRA5nXHDjx17lnsrxzhDKiPJMXYx
+Kpl4T8ySucWF22dvLAXpCWZGUf2RbIFDl915zpqQtTF2hDgZK1a7/UY2xVUprtEEzIOOKUKSLErc
+Wr1t29rnqsccMUH+POpf+JlJWhZ5+X+F+RJBXlPEqQq5hBZo2jbxhvQ367+pn1O/NNZntDZKrrGM
+mj8Pl6XHwf6sZBhtXYB1V5LLRiwwRJkmTzMg/9k=</icon>
+
+  <properties>
+		<property key="entity" type="entity" required="false">
+			<caption>User</caption>
+			<category>Data source</category>
+			<description>If this property is set, the username and email address properties can be used to prefill the users identy in the submit form.</description>
+		</property>
+		<property key="usernameattr" type="attribute" entityProperty="entity" required="false">
+			<caption>Username attribute</caption>
+			<category>Data source</category>
+			<description>This property can be used as username of the user.
+			</description>
+			<attributeTypes>
+	            <attributeType name="String"/>
+			</attributeTypes>			
+		</property>
+		<property key="emailattr" type="attribute" entityProperty="entity" required="false">
+			<caption>Email address attribute</caption>
+			<category>Data source</category>
+			<description>This property can be used as email address of the user.
+			</description>
+			<attributeTypes>
+	            <attributeType name="String"/>
+			</attributeTypes>			
+		</property>
+		<property key="allowFile" type="boolean" defaultValue="true">
+			<caption>Allow file upload</caption>
+			<category>Data source</category>
+			<description>Allow the user to include a file with their feedback.</description>		
+		</property>
+		<property key="allowSshot" type="boolean" defaultValue="false">
+			<caption>Allow screenshot upload</caption>
+			<category>Data source</category>
+			<description>Allow the user to make a screenshot to add to their feedback.</description>		
+		</property>
+		<property key="sprintrserver" type="string" defaultValue="https://sprintr.home.mendix.com/" required="true">
+			<caption>Feedback server location</caption>
+			<category>Configuration</category>
+			<description>The location of the feedback server.</description>
+		</property>
+		<property key="sprintrapp" type="string" defaultValue="" required="true">
+			<caption>Project identifier</caption>
+			<category>Configuration</category>
+			<description>The Project identifier is a hash which uniquely identifies your project. You can find this hash under 'project settings' in your project at home.mendix.com.</description>
+		</property>  
+	</properties>
+</widget>
