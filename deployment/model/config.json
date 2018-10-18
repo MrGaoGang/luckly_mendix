@@ -9,6 +9,8 @@
     "ApplicationRootUrl": "http://localhost:8080/",
     "ScheduledEventExecution": "None"
   },
-  "Constants": {},
+  "Constants": {
+    "ExcelImporter.EnableExternalEntities": "False"
+  },
   "AdminPassword": "MrGao"
 }

@@ -1,0 +1,168 @@
+/* ==========================================================================
+   Tab Container
+
+   Default Mendix Tab Container Widget. Tab containers are used to show information categorized into multiple tab pages.
+   This can be very useful if the amount of information that has to be displayed is larger than the amount of space on the screen
+========================================================================== */
+.mx-tabcontainer {
+	/* Styles here */
+	.mx-tabcontainer-tabs {
+		/* Styles here */
+		> li > a {
+			/* Styles here */
+			&:hover,
+			&:focus {
+				color: #000;
+			}
+		}
+
+		> li.active > a,
+		> li.active > a:hover,
+		> li.active > a:focus  {
+
+		}
+	}
+	.mx-tabcontainer-content {
+		/* Styles here */
+	}
+}
+
+
+// ==========================================================================
+// Tab Container Pills
+//
+// Default Mendix Tab Container Widget rendered as Pills
+//==========================================================================
+.tab-pills.mx-tabcontainer {
+	.mx-tabcontainer-tabs {
+		color: #FFF;
+		> li > a {
+			/* Styles here */
+			&:hover,
+			&:focus {
+
+			}
+		}
+
+		> li.active > a,
+		> li.active > a:hover,
+		> li.active > a:focus  {
+
+
+		}
+	}
+}
+
+
+//==========================================================================
+// Tab Container Lined
+//
+// Default Mendix Tab Container Widget rendered with tabs rendered without background
+//==========================================================================
+.tab-lined.mx-tabcontainer {
+	.mx-tabcontainer-tabs {
+		/* Styles here */
+        li {
+
+            > a {
+                &:hover,
+                &:focus {
+                	color: $brand-primary;
+                }
+
+            }
+
+            &.active > a,
+            &.active > a:hover,
+            &.active > a:focus {
+            	color: $brand-primary;
+            }
+        }
+    }
+}
+
+
+//==========================================================================
+// Tab Container Justified
+//
+// Default Mendix Tab Container Widget rendered as justified
+//==========================================================================
+.tab-justified.mx-tabcontainer {
+	.mx-tabcontainer-tabs {
+		/* Styles here */
+		> li {
+
+			@media (max-width: 768px) {
+
+			}
+			> a {
+
+			}
+
+		}
+		> li.active > a {
+
+			@media (max-width: 768px) {
+
+			}
+		}
+	}
+	&.tab-pills .mx-tabcontainer-tabs > li > a {
+
+	}
+}
+
+
+//==========================================================================
+// Tab Container Bordered
+//
+// Default Mendix Tab Container Widget rendered with borders
+//==========================================================================
+.tab-bordered.mx-tabcontainer {
+		/* Styles here */
+	.mx-tabcontainer-tabs {
+
+	}
+
+	.mx-tabcontainer-content {
+		background-color: rgba(45, 45, 45, 0.36);
+	}
+}
+
+
+/* ==========================================================================
+   Tab Container Mobile
+
+   Default Mendix Tab Container Widget rendered for mobile use
+========================================================================== */
+.tab-mobile.mx-tabcontainer {
+    .mx-tabcontainer-tabs {
+        border-color: transparent;
+        background-color: rgba(0, 0, 0, 0.38);
+
+        li {
+
+            a {
+                color: #FFF;
+                &:hover,
+                &:focus {
+                    color: $brand-primary !important;
+                }
+            }
+
+            &.active a {
+                color: $brand-primary;
+                &:after,
+                &:before {
+                    
+                }
+                &:after {
+                    
+                }
+                &:before {
+                    
+                }
+            }
+        }
+    }
+}

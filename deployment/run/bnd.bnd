@@ -1,4 +1,4 @@
-Private-Package: system, administration.proxies, administration.proxies.microflows, demo.proxies, demo.proxies.microflows, system, system.actions, system.proxies, system.proxies.microflows, widgets.proxies
+Private-Package: system, administration.proxies, administration.proxies.microflows, demo.proxies, demo.proxies.microflows, excelimporter.actions, excelimporter.proxies, excelimporter.proxies.constants, excelimporter.proxies.microflows, excelimporter.reader, excelimporter.reader.readers, excelimporter.reader.readers.replication, mxmodelreflection, mxmodelreflection.actions, mxmodelreflection.metamodelBuilder, mxmodelreflection.proxies, mxmodelreflection.proxies.microflows, system, system.actions, system.proxies, system.proxies.microflows, widgets.proxies
 Import-Package: *;resolution:=optional
 Service-Component: *
 Include-Resource: ../../userlib/;recursive:=true;filter:=!*.jar

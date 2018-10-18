@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Page Header
+========================================================================== */
+.pageheader {
+	border-bottom: none;
+}
+.pageheader-title {
+	color: $color-text-white;
+	font-size: 1.4em;
+	font-weight: 100;
+	text-transform: none;
+}
+.page-dashboard-actions .pageheader-title {
+	color: $color-text-white;
+	font-size: 3em;
+ 	font-weight: 100;
+}
+.page-dashboard-actions .pageheader-subtitle {
+	color: $color-text-white;
+	font-size: 1.3em;
+	font-weight: 100;
+}
+.pageheader.page-fullwidth {
+	border-style:none;
+}
+.pageheader.section {
+	background-color: rgba(36, 47, 65, 0.82);
+	border-bottom: 1px solid rgba(221, 221, 221, 0.15);
+	padding: 25px 25px;
+}
+.pageheader-subtitle {
+	color: rgba(221, 221, 221, 1);
+	font-size: 1.5em;
+	font-weight: 100;
+}

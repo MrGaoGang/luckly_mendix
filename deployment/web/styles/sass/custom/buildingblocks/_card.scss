@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Card
+========================================================================== */
+.card {
+	background-color: rgba(148, 192, 234, 0.39);
+	color: $color-text-white;
+	border: 1px solid rgba(148, 148, 148, 0.74);
+	font-weight: 100;
+	padding: 20px;
+	border-radius: 0px;
+	background: linear-gradient(to bottom, rgba(218, 218, 218, 0.38) 10%, rgba(255, 255, 255, 0.11) 62%, rgba(255, 255, 255, 0.34) 117%);
+	&.background-info {
+		background-color: rgba(148, 192, 234, 0.39)!important;
+		color: #fff;
+		border: 1px solid rgba(148, 148, 148, 0.74);
+		font-weight: 100;
+		padding: 20px;
+		border-radius: 0px;
+		background-color: none;
+		background:linear-gradient(to bottom, rgba(218, 218, 218, 0.38) 10%, rgba(255, 255, 255, 0.11) 62%, rgba(255, 255, 255, 0.34) 117%);
+	}
+}
+.card-header-action {
+	/* Title + button + border below title and button */
+	.card-title {
+		/* Styles here */
+	}
+	.btn {
+		/* Styles here */
+	}
+}
+.card-details {
+	/* Styles here */
+}
+.card-title {
+	text-align: left;
+	font-weight: 100;
+	color: #FFF;
+}
+.card-subtitle {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.68);
+	margin-bottom: 10px;
+	font-weight: 100;
+}
+.card-annotation {
+	/* Styles here */
+}
+.card-icon {
+	background-color: transparent !important;
+	.glyphicon {
+		font-size: 60px;
+	  	position: relative;
+	  	top: 30%;
+	  	transform: translateY(-40%);
+	  	color: rgba(255,255,255,.8);
+	}
+}
+.card-image {
+	/* Styles here */
+}
+.card-user-image {
+	/* Styles here */
+}
+.card-link {
+	/* Styles here */
+}

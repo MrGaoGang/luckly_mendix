@@ -2,6 +2,7 @@
 
 deploy:
      [copy] Copying 45 files to C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment
+     [copy] Copying 22 files to C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\model\lib\userlib
 
 BUILD SUCCESSFUL
 Total time: 0 seconds

@@ -1,0 +1,76 @@
+/* ==========================================================================
+   Modals
+
+   Default Mendix Modals. Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults
+========================================================================== */
+.modal-dialog {
+	.modal-content {
+		background-color: rgba(0, 0, 0, 0.8);
+		.modal-header {
+			border-bottom-color: #424242;
+			h4 {
+				color: $color-text-white;
+			}
+			.close {
+				color: $color-text-white;
+			}
+		}
+		.modal-body {
+			/* Styles here */
+		}
+		.modal-footer {
+			/* Styles here */
+		}
+	}
+}
+
+.mx-tooltip {
+	.dijitTooltipContainer {
+		background-color: rgba(0, 0, 0, 0.8);
+	}
+}
+
+
+/* Default Mendix Window Modal */
+.mx-window {
+	// If popup direct child is a dataview it gets the class mx-window-view
+	&.mx-window-view .mx-window-body {
+
+		// Dataview in popup
+		> .mx-dataview > .mx-dataview-content,
+		> .mx-placeholder > .mx-dataview > .mx-dataview-content {
+		/* Styles here */
+		}
+		> .mx-dataview > .mx-dataview-controls,
+		> .mx-placeholder > .mx-dataview > .mx-dataview-controls {
+		/* Styles here */
+		}
+	}
+}
+
+
+/* Default Mendix Login Modal */
+.mx-login {
+	/* Styles here */
+	.modal-body {
+		/* Styles here */
+	}
+	.modal-content {
+		/* Styles here */
+		input {
+			&:focus {
+				/* Styles here */
+			}
+		}
+	}
+	.modal-header,
+	.modal-footer {
+		/* Styles here */
+	}
+	button {
+		/* Styles here */
+	}
+	h4 {
+		/* Styles here */
+	}
+}

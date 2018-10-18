@@ -1,0 +1,22 @@
+/* ==========================================================================
+	Master Detail Listview
+========================================================================== */
+.masterdetail-listview {
+	/* Styles here */
+	.mx-listview {
+		/* Styles here */
+		.mx-listview-content {
+			/* Styles here */
+		}
+		.mx-listview-item {
+			/* Styles here */
+			&.selected {
+				background-color:rgba(122, 122, 122, 0.35) !important;
+				&:hover,
+				&:active {
+					background-color:rgba(122, 122, 122, 0.35) !important;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+/* ==========================================================================
+   Dashboard Card
+========================================================================== */
+.dashboardcard {
+	padding: 20px;
+	margin: 0 0 40px 0;
+	border: 1px solid rgba(221, 221, 221, 0.57);
+	background: linear-gradient(to bottom, rgba(218, 218, 218, 0.38) 10%, rgba(255, 255, 255, 0.11) 62%, rgba(255, 255, 255, 0.34) 117%);
+	border-radius: 3px;
+}
+.dashboardcard-title {
+	/* Styles here */
+}
+.dashboardcard-subtitle {
+	/* Styles here */
+}
+.dashboardcard-link {
+	/* Styles here */
+}
+
+@media only screen and (max-width: 960px) {
+	.dashboardcard {
+
+	}
+}

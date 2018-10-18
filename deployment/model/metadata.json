@@ -27,7 +27,14 @@
     }
   },
   "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
-  "Constants": [],
+  "Constants": [
+    {
+      "Name": "ExcelImporter.EnableExternalEntities",
+      "Type": "Boolean",
+      "Description": "Enables the parsing of external entities from the DTD. This is turned off by default.",
+      "DefaultValue": "False"
+    }
+  ],
   "ScheduledEvents": [],
   "Configuration": {
     "SourceDatabaseType": "HSQLDB",
@@ -47,7 +54,7 @@
     },
     {
       "Name": "/ws/",
-      "DefaultEnabled": false,
+      "DefaultEnabled": true,
       "MatchExactly": false
     },
     {
@@ -72,7 +79,7 @@
     },
     {
       "Name": "/p/",
-      "DefaultEnabled": false,
+      "DefaultEnabled": true,
       "MatchExactly": false
     }
   ]
