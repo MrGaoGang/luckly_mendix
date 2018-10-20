@@ -10,7 +10,8 @@
     "ScheduledEventExecution": "None"
   },
   "Constants": {
-    "ExcelImporter.EnableExternalEntities": "False"
+    "ExcelImporter.EnableExternalEntities": "False",
+    "ProcessQueue.FinishedQueuedActionsCleanupInDays": "-1"
   },
   "AdminPassword": "MrGao"
 }

@@ -19,6 +19,10 @@ public class UserActionsRegistrar
     registrator.registerUserAction(mxmodelreflection.actions.SyncObjects.class);
     registrator.registerUserAction(mxmodelreflection.actions.TestThePattern.class);
     registrator.registerUserAction(mxmodelreflection.actions.ValidateTokensInMessage.class);
+    registrator.registerUserAction(processqueue.actions.AppendNewActionToQueue.class);
+    registrator.registerUserAction(processqueue.actions.InitializeQueue.class);
+    registrator.registerUserAction(processqueue.actions.ShutdownAllQueues.class);
+    registrator.registerUserAction(processqueue.actions.ShutdownQueue.class);
     registrator.registerUserAction(system.actions.VerifyPassword.class);
   }
 }

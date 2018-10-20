@@ -33,9 +33,24 @@
       "Type": "Boolean",
       "Description": "Enables the parsing of external entities from the DTD. This is turned off by default.",
       "DefaultValue": "False"
+    },
+    {
+      "Name": "ProcessQueue.FinishedQueuedActionsCleanupInDays",
+      "Type": "Integer",
+      "Description": "Negative value = disabled.\r\n0 = clear all finished actions\r\n1 or more = clear all finished actions that completed [1 or more] days ago.",
+      "DefaultValue": "-1"
     }
   ],
-  "ScheduledEvents": [],
+  "ScheduledEvents": [
+    {
+      "Name": "ProcessQueue.SE_CleanupFinishedQueuedActions",
+      "Description": ""
+    },
+    {
+      "Name": "ProcessQueue.SE_ReinitializeQueues",
+      "Description": "When you run into a situation where one or more queues appear to hang for long periods of time, reinitializing the queue(s) can be a workaround to get them to start executing actions again.\r\n\r\nBy default this scheduled event runs once an hour."
+    }
+  ],
   "Configuration": {
     "SourceDatabaseType": "HSQLDB",
     "SourceDatabaseName": "default",
