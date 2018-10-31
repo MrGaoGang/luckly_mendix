@@ -24,5 +24,6 @@ public class UserActionsRegistrar
     registrator.registerUserAction(processqueue.actions.ShutdownAllQueues.class);
     registrator.registerUserAction(processqueue.actions.ShutdownQueue.class);
     registrator.registerUserAction(system.actions.VerifyPassword.class);
+    registrator.registerUserAction(xlsreport.actions.GenerateExcelDoc.class);
   }
 }
