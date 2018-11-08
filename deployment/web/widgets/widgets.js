@@ -1,1 +1,1 @@
-﻿define(["ImageViewer/widget/ImageViewer", "ImageViewer/widget/GridImageViewer", "JSExecutor/widget/JSExecutor", "PieChart/widget/PieChart", "SprintrFeedbackWidget/SprintrFeedback"], {});
+﻿define(["ExportToExcel/widget/ExportToExcel", "ImageViewer/widget/ImageViewer", "ImageViewer/widget/GridImageViewer", "JSExecutor/widget/JSExecutor", "PieChart/widget/PieChart", "SprintrFeedbackWidget/SprintrFeedback"], {});
