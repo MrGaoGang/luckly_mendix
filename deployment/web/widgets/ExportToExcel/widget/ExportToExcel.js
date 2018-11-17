@@ -133,18 +133,20 @@ define([
            var ws = XLSX.utils.json_to_sheet(data.data);
             XLSX.utils.book_append_sheet(this.workBook, ws, data.excelSheetName);
 
-                mx.ui.hideProgress(this.showProcess);
             
         },
 
         writeFile:function(){
             /* 生成xlsx文件 */
             XLSX.writeFile(this.workBook, this.fileName+".xlsx");
+            mx.ui.hideProgress(this.showProcess);
+
         },
         // mxui.widget._WidgetBase.enable is called when the widget should enable editing. Implement to enable editing if widget is input widget.
         enable: function () {
             logger.debug(this.id + ".enable");
         },
+        
 
         // mxui.widget._WidgetBase.enable is called when the widget should disable editing. Implement to disable editing if widget is input widget.
         disable: function () {

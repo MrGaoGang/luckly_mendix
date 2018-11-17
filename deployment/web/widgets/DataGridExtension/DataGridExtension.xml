@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="DataGridExtension.widget.DataGridExtension" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ widget.xsd">
+    <name>Data Grid Extension (with context)</name>
+    <description>Extends to Grid with some great options like: store changed column width, hide column and reordering columns. Should be placed inside a row right underneath a grid. </description>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3gUGCRYzpfLoHQAAAF1JREFUWMPtlrENACAIBF/jSOw/gTthrwmxwFB4Xxu5IFyUfk+T5JUAvboDAIxtHqL4i3M8AQDlAJgw1wNz66aFd+IBAI41vBvCmVTZzi1wPHDpgeIZQEQA8B8gyVnK4xQ2A7reWgAAAABJRU5ErkJggg==
+    </icon>
+    <properties>
+        <property key="hasFlexHeader" type="boolean" required="true" defaultValue="false">
+            <caption>Flex Header</caption>
+            <category>Columns</category>
+            <description>When true, columns can Moved, store sort order and hidden. Can not be used in combination with responsive Columns.</description>
+        </property>
+        <property key="responsiveHeaders" type="boolean" required="true" defaultValue="false">
+            <caption>Responsive Columns</caption>
+            <category>Columns</category>
+            <description>When true, the bootstrap responsive classes can be uses to show hide columns. Can not be used in combination with the hide an move headers</description>
+        </property>
+        <property key="gridSettingsEntity" type="entity" required="false">
+            <caption>Setting Entity</caption>
+            <category>Settings</category>
+            <description>User entity relates to grid settings</description>
+        </property>
+        <property key="gridName" type="string" required="true">
+            <caption>Grid name</caption>
+            <category>Settings</category>
+            <description>Name as used in Mendix.</description>
+        </property>
+        <property key="gridIdAttr" type="attribute" entityProperty="gridSettingsEntity" required="false">
+            <caption>Grid ID Attribute</caption>
+            <category>Settings</category>
+            <description>The attribute that is used to store ID, when empty html5 local storage is used.</description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+        <property key="settingsAttr" type="attribute" entityProperty="gridSettingsEntity" required="false">
+            <caption>Setting Attribute</caption>
+            <category>Settings</category>
+            <description>The attribute that is used to store the settings, when empty html5 local storage is used (String unlimited length)</description>
+            <attributeTypes>
+                <attributeType name="String" />
+            </attributeTypes>
+        </property>
+        <property key="userEntity" type="entity" isPath="yes" required="false" pathType="reference" entityProperty="gridSettingsEntity">
+            <caption>User Entity</caption>
+            <category>Settings</category>
+            <description>The relation from the settings to user</description>
+        </property>
+        <property key="hideUnusedPaging" type="boolean" required="true" defaultValue="false">
+            <caption>Hide Unused Paging</caption>
+            <category>Paging</category>
+            <description>Hide Paging Buttons when there is only one page</description>
+        </property>
+        <property key="firstLastMinPages" type="integer" defaultValue="4">
+            <caption>No Page First Last</caption>
+            <category>Paging</category>
+            <description>The minimum amount of pages the are needed to show first last buttons.</description>
+        </property>
+        <property key="hideUnusableButtons" type="boolean" required="true" defaultValue="false">
+            <caption>Hide Unusable Buttons</caption>
+            <category>Toolbar</category>
+            <description>Buttons that depent on selections do no need to be shown when no selection is made. (like edit, delete, Mf with params etc.)</description>
+        </property>
+        <property key="showAsButton" type="enumeration" required="true" defaultValue="Disabled">
+            <caption>Render as</caption>
+            <category>Empty Table</category>
+            <description>Show as a plain text, button or link.</description>
+            <enumerationValues>
+                <enumerationValue key="Disabled">Disabled</enumerationValue>
+                <enumerationValue key="Button">Button</enumerationValue>
+                <enumerationValue key="Link">Link</enumerationValue>
+                <enumerationValue key="Text">Plain Text</enumerationValue>
+            </enumerationValues>
+        </property>
+        <property key="onclickmf" type="microflow" required="false">
+            <caption>On click Microflow</caption>
+            <category>Empty Table</category>
+            <description>The microflow to execute on click of button or link.</description>
+            <returnType type="Void" />
+        </property>
+        <property key="caption" type="translatableString" required="false">
+            <caption>Caption</caption>
+            <category>Empty Table</category>
+            <description>The text to display if the grid is empty.</description>
+            <translations>
+                <translation lang="en_US">There are no items available.</translation>
+                <translation lang="nl_NL">Er zijn geen regels beschikbaar.</translation>
+            </translations>
+        </property>
+        <property key="buttonIcon" type="image" required="false">
+            <caption>Image</caption>
+            <category>Empty Table</category>
+            <description>Optional, Image that is shown in front of the label of the button or link</description>
+        </property>
+        <property key="hideEmptyTable" type="boolean" required="true" defaultValue="false">
+            <caption>Hide Empty Table Header</caption>
+            <category>Empty Table</category>
+            <description>Hide the table headers when empty</description>
+        </property>
+        <property key="dataGridEntity" allowNonPersistableEntities="true" type="entity" required="false">
+            <caption>Grid Entity</caption>
+            <category>Row</category>
+            <description>The entity of the same type as the data grid rows</description>
+        </property>
+        <property key="rowClassAttr" allowNonPersistableEntities="true" type="attribute" entityProperty="dataGridEntity" required="false">
+            <caption>Row Class Attribute</caption>
+            <category>Row</category>
+            <description>The attribute that is used to set the CSS Classes (when no attributes the function is disabled)</description>
+            <attributeTypes>
+                <attributeType name="String" />
+                <attributeType name="Enum" />
+                <attributeType name="Boolean" />
+            </attributeTypes>
+        </property>
+        <property key="rowClassMapping" type="object" isList="true" required="false">
+            <caption>Class Mapping</caption>
+            <category>Row</category>
+            <description>When no mapping is made the direct values will be made class names(removing special characters)</description>
+            <properties>
+                <property key="key" type="string" required="true">
+                    <caption>Key</caption>
+                    <category>Mapping</category>
+                    <description>Key of enumeration, boolean (true, false) or string</description>
+                </property>
+                <property key="value" type="string" required="true">
+                    <caption>CSS Class</caption>
+                    <category>Mapping</category>
+                    <description>Class to be added at the row if the key matching</description>
+                </property>
+            </properties>
+        </property>
+
+        <property key="inlineButtons" type="object" isList="true" required="false">
+            <caption>Inline Button</caption>
+            <category>Inline Button</category>
+            <description>Create buttons inline</description>
+            <properties>
+                <property key="column" type="integer" required="true" defaultValue="0">
+                    <caption>Column</caption>
+                    <category>Appearance</category>
+                    <description>The Column Index where the button should be shown (0 is first column)</description>
+                </property>
+                <property key="caption" type="translatableString" required="false">
+                    <caption>Caption</caption>
+                    <category>Appearance</category>
+                    <description>Caption of the button (can be empty)</description>
+                </property>
+                <property key="valueCaption" type="boolean" defaultValue="false">
+                    <caption>Cell Value Caption</caption>
+                    <category>Appearance</category>
+                    <description>When set the value of the cell will be used as caption of the button/link, when cell is empty button is hidden</description>
+                </property>
+                <property key="icon" type="image" required="false">
+                    <caption>Image</caption>
+                    <category>Appearance</category>
+                    <description>The Image shown in the button in front of the caption</description>
+                </property>
+                <property key="buttonStyle" type="enumeration" required="true" defaultValue="default">
+                    <caption>Button Style</caption>
+                    <category>Appearance</category>
+                    <description>The Boodstrap renderd style, or as link</description>
+                    <enumerationValues>
+                        <enumerationValue key="default">Default</enumerationValue>
+                        <enumerationValue key="primary">Primary</enumerationValue>
+                        <enumerationValue key="success">Success</enumerationValue>
+                        <enumerationValue key="info">Info</enumerationValue>
+                        <enumerationValue key="warning">Warning</enumerationValue>
+                        <enumerationValue key="danger">Danger</enumerationValue>
+                        <enumerationValue key="link">Link</enumerationValue>
+                    </enumerationValues>
+                </property>
+                <property key="onClickMicroflow" type="microflow" required="true" entityProperty="../dataGridEntity">
+                    <caption>On Click</caption>
+                    <category>Behavior</category>
+                    <description>This microflow will be invoked when the user the button.</description>
+                    <returnType type="Void" />
+                </property>
+                <property key="showProgress" type="boolean" defaultValue="false">
+                    <caption>Show progress</caption>
+                    <category>Behavior</category>
+                    <description/>
+                </property>
+                <property key="progressMessage" type="translatableString" required="false">
+                    <caption>Progress message</caption>
+                    <category>Behavior</category>
+                    <description/>
+                </property>
+                <property key="confirm" type="boolean" defaultValue="false">
+                    <caption>Ask Confirmation</caption>
+                    <category>Confirmation</category>
+                    <description/>
+                </property>
+                <property key="conQuestion" type="translatableString" required="false">
+                    <caption>Question</caption>
+                    <category>Confirmation</category>
+                    <description/>
+                    <translations>
+                        <translation lang="en_US">Are you sure?</translation>
+                        <translation lang="nl_NL">Weet u het zeker?</translation>
+                    </translations>
+                </property>
+                <property key="conProceed" type="translatableString" required="false">
+                    <caption>Proseed button caption</caption>
+                    <category>Confirmation</category>
+                    <description/>
+                    <translations>
+                        <translation lang="en_US">Proceed</translation>
+                        <translation lang="nl_NL">Doorgaan</translation>
+                    </translations>
+                </property>
+                <property key="conCancel" type="translatableString" required="false">
+                    <caption>Cancel button caption</caption>
+                    <category>Confirmation</category>
+                    <description/>
+                    <translations>
+                        <translation lang="en_US">Cancel</translation>
+                        <translation lang="nl_NL">Annuleren</translation>
+                    </translations>
+                </property>
+                <property key="cssClass" type="string" required="false">
+                    <caption>css Class</caption>
+                    <category>Common</category>
+                    <description>Css Class of the button.</description>
+                </property>
+                <property key="ccsStyles" type="string" required="false">
+                    <caption>Style</caption>
+                    <category>Common</category>
+                    <description>Html style attribute</description>
+                </property>
+            </properties>
+        </property>
+    </properties>
+</widget>

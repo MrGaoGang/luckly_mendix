@@ -1,0 +1,33 @@
+<div dojoAttachPoint="gridExtension">
+    <div dojoAttachPoint="contextMenu" class="contextMenu dropdown clearfix gridExtension">
+        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu" style="display:block;position:static;margin-bottom:5px;">
+            <li>
+                <a data-dojo-attach-event="onclick:_hideColumn" tabindex="-1" href="#">
+                    <i class="glyphicon glyphicon-eye-close"></i>
+                    &nbsp;Hide
+                </a>
+            </li>
+            <li>
+                <a data-dojo-attach-event="onclick:_enableMove" tabindex="-1" href="#">
+                    <i class="glyphicon glyphicon-resize-horizontal"></i>
+                    &nbsp;Move
+                </a>
+            </li>
+            <li role="presentation" dojoAttachPoint="columnListItem" class="dropdown-submenu" data-dojo-attach-event="onclick:onSubMenuEnter,onmouseenter:onSubMenuEnter,onmouseleave:closeSubMenus">
+                <a tabindex="1" href="#">
+                    <i class="glyphicon glyphicon-th-list"></i>
+                    &nbsp;Columns
+                </a>
+                <ul dojoAttachPoint="columnMenu" class="dropdown-menu" role="menu"></ul>
+            </li>
+            <li role="presentation" class="divider"></li>
+            <li>
+                <a data-dojo-attach-event="onclick:_reset" tabindex="-1" href="#">
+                    <i class="glyphicon glyphicon-repeat"></i>
+                    &nbsp;Reset
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div dojoAttachPoint="emptyTableHolder"></div>
+</div>
