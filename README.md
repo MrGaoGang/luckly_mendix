@@ -16,7 +16,7 @@
     6. 一键导出多个Entity到Excel的Sheet(不使用模板);
     7. Mendix使用队列异步处理大量数据;
     8. DataGrid的扩展：DataGridExtension;
-    9. 级联操作的实现。
+    9. 级联选择的实现。
 
 
 
