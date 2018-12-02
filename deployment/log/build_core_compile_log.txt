@@ -1,15 +1,13 @@
 ﻿Buildfile: C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\build_core.xml
 
 compile:
-    [javac] Compiling 107 source files to C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\run\bin
-    [javac] 注: 某些输入文件使用或覆盖了已过时的 API。
-    [javac] 注: 有关详细信息, 请使用 -Xlint:deprecation 重新编译。
+    [javac] Compiling 3 source files to C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\run\bin
 
 build:
       [bnd] # addAll 'deployment/run/bnd.bnd' with ,
-      [bnd] # project (project.jar) 447 
+      [bnd] # project (project.jar) 454 
 
 BUILD SUCCESSFUL
-Total time: 4 seconds
+Total time: 2 seconds
 
 

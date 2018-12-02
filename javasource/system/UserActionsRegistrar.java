@@ -103,6 +103,11 @@ public class UserActionsRegistrar
     registrator.registerUserAction(communitycommons.actions.TimeMeasureStart.class);
     registrator.registerUserAction(communitycommons.actions.XSSSanitize.class);
     registrator.registerUserAction(communitycommons.actions.YearsBetween.class);
+    registrator.registerUserAction(demo.actions.AddDataDemo.class);
+    registrator.registerUserAction(demo.actions.DeleteDataDemo.class);
+    registrator.registerUserAction(demo.actions.ExecuteMFDemo.class);
+    registrator.registerUserAction(demo.actions.ModifyDataDemo.class);
+    registrator.registerUserAction(demo.actions.QueryAllDataDemo.class);
     registrator.registerUserAction(excelimporter.actions.GetHeaderInformationFromExcelFile.class);
     registrator.registerUserAction(excelimporter.actions.RefreshClass.class);
     registrator.registerUserAction(excelimporter.actions.StartImportByTemplate.class);
