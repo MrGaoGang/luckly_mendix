@@ -20,11 +20,10 @@
 // Default Mendix Navigation List Widget with hover
 // ==========================================================================
 .navigationlist-hover.mx-navigationlist {
-	/* Styles here */
 	.mx-navigationlist-item {
 		&:hover,
 		&:active {
-
+			
 		}
 	}
 }
@@ -37,7 +36,7 @@
 // ==========================================================================
 .navigationlist-lined.mx-navigationlist {
 	.mx-navigationlist-item {
-		/* Styles here */
+
 		&:first-child {
 
 		}

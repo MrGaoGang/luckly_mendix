@@ -4,15 +4,16 @@
    Default Mendix Modals. Modals are streamlined, but flexible, dialog prompts with the minimum required functionality and smart defaults
 ========================================================================== */
 .modal-dialog {
+	/* Styles here */
 	.modal-content {
-		background-color: rgba(0, 0, 0, 0.8);
+		/* Styles here */
 		.modal-header {
-			border-bottom-color: #424242;
+			/* Styles here */
 			h4 {
-				color: $color-text-white;
+				/* Styles here */
 			}
 			.close {
-				color: $color-text-white;
+				/* Styles here */
 			}
 		}
 		.modal-body {
@@ -24,12 +25,6 @@
 	}
 }
 
-.mx-tooltip {
-	.dijitTooltipContainer {
-		background-color: rgba(0, 0, 0, 0.8);
-	}
-}
-
 
 /* Default Mendix Window Modal */
 .mx-window {
@@ -37,13 +32,13 @@
 	&.mx-window-view .mx-window-body {
 
 		// Dataview in popup
-		> .mx-dataview > .mx-dataview-content,
+		> .mx-dataview > .mx-dataview-content, 
 		> .mx-placeholder > .mx-dataview > .mx-dataview-content {
-		/* Styles here */
+
 		}
-		> .mx-dataview > .mx-dataview-controls,
+		> .mx-dataview > .mx-dataview-controls, 
 		> .mx-placeholder > .mx-dataview > .mx-dataview-controls {
-		/* Styles here */
+
 		}
 	}
 }
@@ -58,8 +53,9 @@
 	.modal-content {
 		/* Styles here */
 		input {
+
 			&:focus {
-				/* Styles here */
+
 			}
 		}
 	}

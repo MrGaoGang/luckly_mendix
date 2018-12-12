@@ -5,27 +5,23 @@
 ========================================================================== */
 .btn,
 .mx-button {
-    border-radius: 45px;
-    padding: 7px 15px;
-    font-weight: 500;
-    text-transform: capitalize;
+	/* Styles here */
     &:hover,
     &:focus,
     &:active {
-      /* Styles here */
+    	/* Styles here */
     }
 }
 
 // Mendix button link
 .mx-link {
-  /* Styles here */
+	/* Styles here */
 }
 
 // Images in buttons
 .btn,
 .mx-button,
 .mx-link {
-  		/* Styles here */
     img {
 
     }
@@ -33,37 +29,28 @@
 
 // Buttons Alternate Style
 .btn-default {
-  /* Styles here */
+	/* Styles here */
 }
 .btn-primary {
-    &.btn-bordered {
-      color: #fff;
-        border: 1px solid #fff;
-        &:hover {
-
-        }
-    }
-    &:hover {
-
-    }
+	/* Styles here */
 }
 .btn-inverse {
-  /* Styles here */
+	/* Styles here */
 }
 .btn-success {
-  /* Styles here */
+	/* Styles here */
 }
 .btn-info {
-  /* Styles here */
+	/* Styles here */
 }
 .btn-warning {
-  /* Styles here */
+	/* Styles here */
 }
 .btn-danger {
-  /* Styles here */
+	/* Styles here */
 }
 .btn-white {
-
+	
 }
 
 // Buttons appear disabled

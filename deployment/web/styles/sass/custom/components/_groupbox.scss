@@ -4,74 +4,73 @@
    Default Mendix Groupboxes
 ========================================================================== */
 .mx-groupbox {
-
+	/* Styles here */
 	> .mx-groupbox-header {
-
+		/* Styles here */
 		.mx-groupbox-collapse-icon {
-			/* Styles here */
+
 		}
 	}
 	> .mx-groupbox-body {
- 			background-color: rgba(255, 255, 255, 0.19);  	}
+		/* Styles here */
+  	}
   	.mx-groupbox-header + .mx-groupbox-body {
-
+  		/* Styles here */
 	}
 	&.collapsed > .mx-groupbox-header {
+		/* Styles here */
 	}
 }
 
-/* ==========================================================================
-	Groupbox Callouts
-
-	Default Mendix Groupboxes rendered as (Bootstrap) callouts
-========================================================================== */
-.mx-groupbox {
+// ==========================================================================
+// Groupbox Callouts
+//
+// Default Mendix Groupboxes rendered as (Bootstrap) callouts
+// ==========================================================================
+.mx-groupbox {	
 	&.groupbox-callout {
-		> .mx-groupbox-header,
+		> .mx-groupbox-header, 
 		> .mx-groupbox-body {
-						/* Styles here */
+
 	  	}
 	  	.mx-groupbox-header + .mx-groupbox-body {
-						/* Styles here */
+
 	  	}
 	}
 	&.groupbox-callout-info {
-		> .mx-groupbox-header,
+		> .mx-groupbox-header, 
 		> .mx-groupbox-body {
-						/* Styles here */
-		}
-		> .mx-groupbox-header {
-					/* Styles here */
-		}
-	}
-	&.groupbox-callout-success {
-		> .mx-groupbox-header,
-		> .mx-groupbox-body {
-					/* Styles here */
 
 		}
 		> .mx-groupbox-header {
-					/* Styles here */
+
+		}
+	}
+	&.groupbox-callout-success {
+		> .mx-groupbox-header, 
+		> .mx-groupbox-body {
+
+		}
+		> .mx-groupbox-header {
 
 		}
 	}
 	&.groupbox-callout-warning {
-		> .mx-groupbox-header,
+		> .mx-groupbox-header, 
 		> .mx-groupbox-body {
-					/* Styles here */
-
+			
 		}
 		> .mx-groupbox-header {
-					/* Styles here */
+			
 		}
 	}
 	&.groupbox-callout-danger {
-		> .mx-groupbox-header,
+		> .mx-groupbox-header, 
 		> .mx-groupbox-body {
-					/* Styles here */
+
 		}
 		> .mx-groupbox-header {
-					/* Styles here */
+			
 		}
 	}
 }

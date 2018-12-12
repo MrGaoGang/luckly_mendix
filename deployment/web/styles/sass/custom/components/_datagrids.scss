@@ -4,61 +4,58 @@
    Default Mendix Datagrid Widget. The datagrid shows a list of objects in a grid
 ========================================================================== */
 .mx-datagrid {
-	font-weight: 100;
+	/* Styles here */
 	.mx-datagrid-head-table {
+		/* Styles here */
+		// Table header
 		th {
-			border-top-width: 1px;
-			border-top-style: solid;
-			font-weight: 100;
+
 		}
+
 		.mx-datagrid-head-wrapper {
 			/* Styles here */
 			.mx-datagrid-head-caption {
-				/* Styles here */
+
 			}
 		}
 	}
 	.mx-datagrid-body-table {
-		/* Table body */
+		/* Styles here */
+		// Table body
 		.mx-datagrid-body tr {
 			/* Styles here */
 			td {
 				/* Styles here */
 				&:focus {
-				}
-				/* Text without spaces */
-				.mx-datagrid-data-wrapper {
 
 				}
-			}
-			//Added own selector to complement Bootstrap's grids.
-			&:nth-child(odd) {
-				background-color: transparent;
 			}
 			&:hover td {
-
+			
 			}
 			&.selected td,
 			&.selected:hover td {
 
 			}
 		}
-
-		/* Table footer */
+		
+		// Table footer
 		.mx-datagrid-foot {
+
 			> tr > th {
 
 			}
+
 			> tr > td {
 
 			}
 		}
-		& *:focus {
 
+		& *:focus {
+			
 		}
 	}
 }
-
 
 // ==========================================================================
 //   Datagrid Striped
@@ -67,24 +64,22 @@
 // ==========================================================================
 .datagrid-striped.mx-datagrid {
 	.mx-datagrid-head-table {
-		th {
+		th {  
 
 		}
 		.mx-datagrid-head-wrapper {
-
+			
 		}
 	}
 	.mx-datagrid-body-table {
-		/* Body */
 		.mx-datagrid-body tr {
 			td {
-
+				
 			}
 			&:nth-child(odd) td {
+				
 			}
 		}
-	}
-	> tbody > tr:nth-of-type(odd) {
 	}
 }
 
@@ -96,8 +91,7 @@
 // ==========================================================================
 .datagrid-bordered.mx-datagrid {
 	.mx-datagrid-head-table {
-			/* Styles here */
-		th {
+		th { 
 
 		}
 		.mx-datagrid-head-wrapper {
@@ -105,20 +99,18 @@
 		}
 	}
 	.mx-datagrid-body-table {
-			/* Styles here */
 		.mx-datagrid-body tr {
 			td {
-
+				
 			}
 		}
 	}
 	.mx-datagrid-foot {
-			/* Styles here */
 		> tr > th {
 
 		}
 		> tr > td {
-
+			
 		}
 	}
 }
@@ -129,13 +121,14 @@
 //
 //   Default Mendix Datagrid Widget with hover
 // ==========================================================================
-.datagrid-hover.mx-datagrid {
-			/* Styles here */
+.datagrid-hover.mx-datagrid { 
 	.mx-datagrid-body-table {
 		.mx-datagrid-body tr {
 			&:hover td {
+				
 			}
 			&.selected:hover td {
+				
 			}
 		}
 	}
@@ -148,16 +141,15 @@
 // Default Mendix Datagrid Widget with large rows
 // ==========================================================================
 .datagrid-large.mx-datagrid {
-			/* Styles here */
 	.mx-datagrid-head-table {
 		.mx-datagrid-head-wrapper {
-
+			
 		}
 	}
 	.mx-datagrid-body-table {
 		.mx-datagrid-body tr {
 			td {
-
+				
 			}
 		}
 	}
@@ -170,14 +162,13 @@
 // Default Mendix Datagrid Widget with transparent background for row and cells
 // ==========================================================================
 .datagrid-transparent.mx-datagrid {
-		/* Styles here */
 	.mx-datagrid-body-table {
 		.mx-datagrid-body tr {
 			&:nth-of-type(odd) {
-
+			
 			}
 			td {
-
+			
 			}
 		}
 	}
@@ -190,18 +181,17 @@
 // Default Mendix Datagrid Widget with adjusted search field. Only 1 search field is allowed
 // ==========================================================================
 .datagrid-fullsearch.mx-datagrid {
-		/* Styles here */
 	.mx-grid-search-button {
-
+		
 	}
 	.mx-grid-reset-button {
-
+		
 	}
 	.mx-grid-search-item {
-
+		
 	}
 	.mx-grid-search-label {
-
+		
 	}
 	.mx-grid-searchbar .mx-grid-search-input {
 		.form-control {

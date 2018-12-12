@@ -1,15 +1,6 @@
-/*
-* Mendix Documentation
-* Special styles for presenting mobile components
-*/
-
-
-/*
-* Listview
-*
-* Default Mendix Listview 
-*/
-
+/* ==========================================================================
+   Listview for phone and tablet
+========================================================================== */
 .profile-phone,
 .profile-tablet {
 	.mx-listview {
@@ -22,7 +13,7 @@
 			/* Search Field */
 			.mx-listview-search-input {
 				input {
-					background-color: $form-input-bg;
+
 				}
 			}
 		}

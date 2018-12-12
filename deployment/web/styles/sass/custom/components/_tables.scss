@@ -4,31 +4,50 @@
    Default Mendix Table Widget. Tables can be used to lend structure to a page. They contain a number of rows (tr) and columns, the intersection of which is called a cell (td). Each cell can contain widgets
 ========================================================================== */
 table.mx-table {
-	background-color:transparent;
+	/* Styles here */
 	> tbody {
-		/* Table row */
+
 		> tr {
-
-			/* Table header */
+			/* Styles here */
 			> th {
-
-				> label {
-					color: rgba(224, 224, 224, 0.64);
-					padding-top: 7px;
-					padding-bottom: 6px;
-					color: #fff;
-					padding-left: 7px;
+				/* Styles here */
+				> label { 
+					/* Styles here */
 				}
 			}
-
-			/* Table cells */
+			
 			> td {
-				 padding: 6px 0px;
+				/* Styles here */
 				> div > label,
-				.mx-referenceselector-input-wrapper label {
-					color: #FFF;
-					padding-left: 7px;
-				}
+				.mx-referenceselector-input-wrapper label { 
+				
+				}		
+			}
+		}
+	}
+}
+
+
+// Default Mendix Table Widget inside TemplateGrid
+.mx-templategrid table.mx-table {
+	> tbody {
+		> tr {
+			> th,
+			> td {
+				
+			}
+		}
+	}
+}
+
+
+// Default Mendix Table Widget inside Listview
+.mx-list table.mx-table {
+	> tbody {
+		> tr {
+			> th,
+			> td {
+				
 			}
 		}
 	}
@@ -37,7 +56,7 @@ table.mx-table {
 
 // ==========================================================================
 // Tables Lined
-//
+//	
 // Default Mendix Table Widget with borders top and bottom
 // ==========================================================================
 table.table-lined.mx-table {
@@ -47,7 +66,7 @@ table.table-lined.mx-table {
 
 			> th,
 			> td {
-
+				
 			}
 		}
 	}
@@ -56,7 +75,7 @@ table.table-lined.mx-table {
 
 // ==========================================================================
 // Tables Bordered
-//
+//	
 // Default Mendix Table Widget with borders
 // ==========================================================================
 table.table-bordered.mx-table {
@@ -66,7 +85,7 @@ table.table-bordered.mx-table {
 
 			> th ,
 			> td {
-
+				
 			}
 		}
 	}
@@ -75,7 +94,7 @@ table.table-bordered.mx-table {
 
 // ==========================================================================
 // Tables Compact
-//
+//	
 // Default Mendix Table Widget with less spacing in table cells
 // ==========================================================================
 table.table-compact.mx-table {
@@ -85,7 +104,7 @@ table.table-compact.mx-table {
 
 			> th,
 			> td {
-
+				
 			}
 		}
 	}
@@ -94,7 +113,7 @@ table.table-compact.mx-table {
 
 // ==========================================================================
 //   Tables Sideless
-//
+//	
 // Default Mendix Table Widget inside TemplateGrid
 // ==========================================================================
 table.table-sideless.mx-table {
@@ -104,11 +123,11 @@ table.table-sideless.mx-table {
 
 			> td,
 			> th {
-
+				
 			}
 			> th:first-child,
 			> td:first-child {
-
+				
 			}
 		}
 	}
@@ -117,7 +136,7 @@ table.table-sideless.mx-table {
 
 // ==========================================================================
 // Tables Spaceless
-//
+//	
 // Default Mendix Table Widget without padding
 // ==========================================================================
 table.table-spaceless.mx-table {
@@ -127,7 +146,7 @@ table.table-spaceless.mx-table {
 
 			> th,
 			> td {
-
+				
 			}
 		}
 	}
@@ -136,8 +155,8 @@ table.table-spaceless.mx-table {
 
 // ==========================================================================
 // Tables Vertical
-//
-// Default Mendix Table Widget vertical aligned
+//	
+// Default Mendix Table Widget vertical aligned 
 // ==========================================================================
 table.table-vertical.mx-table {
 	> tbody {
@@ -147,7 +166,7 @@ table.table-vertical.mx-table {
 
 			// Table header
 			> th {
-
+				
 				> label {  }
 				> div > label { }
 			}
@@ -158,7 +177,7 @@ table.table-vertical.mx-table {
 
 // ==========================================================================
 // Tables Vertical Middle
-//
+//	
 // Default Mendix Table Widget vertical aligned middle
 // ==========================================================================
 table.table-align-vertical-middle.mx-table {
@@ -171,7 +190,7 @@ table.table-align-vertical-middle.mx-table {
 			// Table data
 			> th,
 			> td {
-
+				
 			}
 		}
 	}
@@ -180,7 +199,7 @@ table.table-align-vertical-middle.mx-table {
 
 // ==========================================================================
 // Tables Compact
-//
+//	
 // Default Mendix Table Widget without padding and margin
 // ==========================================================================
 table.table-label-compact.mx-table {
@@ -193,13 +212,12 @@ table.table-label-compact.mx-table {
 			// Table data
 			> th,
 			> td {
-				> label {
-
+				> label { 
+					
 				}
 				> div > label,
-				.mx-referenceselector-input-wrapper label {
-				  color: #fff;
-				  padding-left: 7px;
+				.mx-referenceselector-input-wrapper label { 
+					
 				}
 			}
 		}
@@ -228,7 +246,7 @@ table.table-row-s.mx-table {
 				// height: $height-row-s;
 			}
 		}
-	}
+	}				
 }
 
 
@@ -246,7 +264,7 @@ table.table-row-m.mx-table {
 				// height: $height-row-m;
 			}
 		}
-	}
+	}	
 }
 
 //  Large rows
@@ -263,5 +281,5 @@ table.table-row-l.mx-table {
 				// height: $height-row-l;
 			}
 		}
-	}
+	}	
 }

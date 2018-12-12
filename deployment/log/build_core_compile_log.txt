@@ -1,7 +1,7 @@
 ﻿Buildfile: C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\build_core.xml
 
 compile:
-    [javac] Compiling 3 source files to C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\run\bin
+    [javac] Compiling 2 source files to C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\run\bin
 
 build:
       [bnd] # addAll 'deployment/run/bnd.bnd' with ,

@@ -1,34 +1,28 @@
-/*
-* Mendix Documentation
-* Special styles for presenting mobile components
-*/
+/* ==========================================================================
+   Header
 
-
-/*
-* Header
-*
-* Default Mendix Header for Mobile
-*/
-
-body[dir="ltr"] .mx-header {
-	background-color: #FFCB00;
+   Default Mendix Header for Mobile 
+========================================================================== */
+body .mx-header {
 
 	.mx-header-center {
 
 	}
-	.mx-header-left {
+	.mx-header-left {	
+		.mx-link {
+
+		}
+	}
+	.mx-header-right {	
 
 	}
-	.mx-header-right {
-
-	}
-
-	// Title
 	.mx-title {
 
 	}
-
 	.btn-image.glyphicon {
 
+ 	}
+ 	.mx-sidebartoggle {
+ 		
  	}
 }
