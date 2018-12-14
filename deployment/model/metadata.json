@@ -11,7 +11,8 @@
       "ManageableRoles": [
         "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
         "53f5d6fa-6da9-4a71-b011-454ec052cce8",
-        "571c29c6-060e-4765-9d36-3fa053b5fd66"
+        "571c29c6-060e-4765-9d36-3fa053b5fd66",
+        "865d66b8-54de-490a-bf24-bd6cee826d26"
       ]
     },
     "53f5d6fa-6da9-4a71-b011-454ec052cce8": {
@@ -22,8 +23,12 @@
       "ManageableRoles": [
         "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
         "53f5d6fa-6da9-4a71-b011-454ec052cce8",
-        "571c29c6-060e-4765-9d36-3fa053b5fd66"
+        "571c29c6-060e-4765-9d36-3fa053b5fd66",
+        "865d66b8-54de-490a-bf24-bd6cee826d26"
       ]
+    },
+    "865d66b8-54de-490a-bf24-bd6cee826d26": {
+      "Name": "DemoAdmin"
     }
   },
   "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",

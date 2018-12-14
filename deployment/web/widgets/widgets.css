@@ -1,4 +1,35 @@
-﻿/*
+﻿/* based on: https://raw.githubusercontent.com/mendix/atlas-framework/master/_variables.scss */
+.widget-star-rating-font {
+  font-size: 30px; }
+
+.widget-star-rating-empty {
+  color: #ccc; }
+
+.widget-star-rating-full-widget {
+  color: #ffa611; }
+
+.widget-star-rating-full-default {
+  color: #DDDDDD; }
+
+.widget-star-rating-full-primary {
+  color: #0595DB; }
+
+.widget-star-rating-full-success {
+  color: #76CA02; }
+
+.widget-star-rating-full-info {
+  color: #48B0F7; }
+
+.widget-star-rating-full-warning {
+  color: #f99b1d; }
+
+.widget-star-rating-full-danger {
+  color: #ed1c24; }
+
+.widget-star-rating-full-inverse {
+  color: #252C36; }
+
+/*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
