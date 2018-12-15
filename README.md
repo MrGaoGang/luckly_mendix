@@ -1,3 +1,8 @@
+Mendix教程网站（个人）：
+http://www.gaogangsever.cn:8080/index.html
+账号:Tester2
+密码：Tester2
+
 # Mendix
 - Widgets:主要使用mendix开发一些组件，包括 饼状图，输入框等
 - Project:主要介绍mendix如何使用
