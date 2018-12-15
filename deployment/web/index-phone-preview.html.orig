@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8" />
         <title>Mendix - Phone preview</title>
-        <link href="css/phone-preview.css?{{cachebust}}" rel="stylesheet">
+        <link href="css/phone-preview.css?636804703318031438" rel="stylesheet">
     </head>
     <body>
         <div class="content">
