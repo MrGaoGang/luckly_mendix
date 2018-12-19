@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="ExportToExcel.widget.ExportToExcel" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>ExportToExcel</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+        <property key="buttonName" type="string" required="true" defaultValue="">
+            <caption>Button Name</caption>
+            <category>Config</category>
+            <description>按钮名称</description>
+        </property>
+        <property key="fileName" type="string" required="false" defaultValue="ExcelFile">
+            <caption>Excel File Name</caption>
+            <category>Config</category>
+            <description>Excel的文件名</description>
+        </property>
+
+
+          <property key="entityName" type="entity" required="false" defaultValue="" allowNonPersistableEntities="true">
+            <caption>Entity</caption>
+            <category>Config</category>
+            <description>请选择Widgets.ParamTransfer实体(如果没有请创建对应实体，并创建ParamValue属性)</description>
+        </property>
+
+
+        <property key="dataListMF" type="microflow"   required="true" >
+            <caption>Data List</caption>
+            <category>Config</category>
+            <description>多个JSON数据</description>
+            <returnType type="Object" entityProperty="entityName" isList="true"></returnType>
+        </property>
+
+     
+    </properties>
+</widget>
+

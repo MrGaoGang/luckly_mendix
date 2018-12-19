@@ -1,12 +1,26 @@
 ﻿Running "generate:profile" (generate) task
-C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\widgets.config.json [ 'ImageViewer.widget.ImageViewer',
+C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\widgets.config.json [ 'DataGridExtension.widget.DataGridExtension',
+  'DataGridExtension.widget.DataGridExtensionNoContext',
+  'DataGridExtension.widget.DataGridSelectionStep',
+  'ExportToExcel.widget.ExportToExcel',
+  'HTMLSnippet.widget.HTMLSnippet',
+  'HTMLSnippet.widget.HTMLSnippetContext',
+  'ImageViewer.widget.ImageViewer',
   'ImageViewer.widget.GridImageViewer',
+  'JSExecutor.widget.JSExecutor',
   'PieChart.widget.PieChart',
   'SprintrFeedbackWidget.SprintrFeedback' ]
 
 Running "generate:javascript" (generate) task
-C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\widgets.config.json [ 'ImageViewer.widget.ImageViewer',
+C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\widgets.config.json [ 'DataGridExtension.widget.DataGridExtension',
+  'DataGridExtension.widget.DataGridExtensionNoContext',
+  'DataGridExtension.widget.DataGridSelectionStep',
+  'ExportToExcel.widget.ExportToExcel',
+  'HTMLSnippet.widget.HTMLSnippet',
+  'HTMLSnippet.widget.HTMLSnippetContext',
+  'ImageViewer.widget.ImageViewer',
   'ImageViewer.widget.GridImageViewer',
+  'JSExecutor.widget.JSExecutor',
   'PieChart.widget.PieChart',
   'SprintrFeedbackWidget.SprintrFeedback' ]
 
@@ -19,7 +33,7 @@ Running "copy:main" (copy) task
 Copied 1 file
 
 Running "copy:nls" (copy) task
-
+Copied 30 files
 
 Done, without errors.
 

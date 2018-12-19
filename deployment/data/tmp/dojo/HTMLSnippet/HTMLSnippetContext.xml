@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="HTMLSnippet.widget.HTMLSnippetContext" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>HTMLSnippet with Context</name>
+    <description>The HTMLSnippet widget can be used to insert a custom piece of HTML or JavaScript in the client</description>
+
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ bWFnZVJlYWR5ccllPAAAAm9JREFUeNqEU01IVFEU/t6bGcfGJq2RYkhKSKdFIGQxRRAR0q6kZuuq hWZY0SZa1EKhRQsTpEVZrVpUVgxGFETgLgorEdPsZ1FizJhJ1Py8N+/d+97p3DcK80Lr8i733HvO 953vnnOfRkRYaVi2QEADQqcmfQE0tEur3GurEUghPHAq1eo7T6fH/SSKYKWJrjd0eZLILuYoa/DB INGmu0TnJthm33JcEP8ZUhJOjgHHk8COGPDd8Pv1f4FjtRyg64jWAAcbgGNNQFujPybY9/AHrUYQ yX7F2GwGyS37UB8BKpMf6Jsh05TlK+xpXlNZZ0iXMNLYhKPdw7iZ7kLLRiDAaV7NAZ2pG+jZfg17 8/PoFU+g9T5YIEWQMyQcFx5YsmE7BCFdnL4w4lN1NtGP/p7PmPoAjE/Fywpcruahligevf6F9t21 CId0JYQ/QvJeB158zONwax2GXy5iZuAEJqaBREIRcI0sKb1M4aAGS7ge+PrzBWjc6SuPs2iIhZCI h7F5QxVqqnTcGnUwcBvovrhUxKIlUVIEIQ0d+2MI6hrUmepxwXLguqpGa5UglDhBoeQg3z6NeF0I 5+/PQS+YxM/Whclz8Ok8bCYzSq4HKHKww0TvZg18yhis0IF6Y6btMBnBtWzov00bJQYrRzkzOLNc 2isFhKvPMljMS0/BukgAQ53NEGyTRdDaLr2nIzvX49tPCzYfWqzAYnalRNlqFd7krnB3hFNu89b6 MEbvfEEwx8xKUrQ6AJvrUC00iDAHSV6lDuGSB3IYzDzc6rLa5X9Q23bmLZX4RZF3J3baylbyHEBd jYHenhV4Ff1r/BFgACiOjHWT8QsmAAAAAElFTkSuQmCC</icon>
+
+    <properties>
+        <!-- content type -->
+        <property key="contenttype" type="enumeration" defaultValue="html">
+            <caption>Content Type</caption>
+            <category>Behavior</category>
+            <description>Defines whether this widget provides a piece of HTML or a piece of JavaScript.
+            </description>
+            <enumerationValues>
+                <enumerationValue key="html">HTML</enumerationValue>
+                <enumerationValue key="js">JavaScript</enumerationValue>
+                <enumerationValue key="jsjQuery">JavaScript with jQuery</enumerationValue>
+            </enumerationValues>
+        </property>
+
+        <!-- html/js string -->
+        <property key="contents" type="translatableString" multiline="true" required="false">
+            <caption>Contents</caption>
+            <category>Behavior</category>
+            <description>The HTML or Javascript to embed.</description>
+        </property>
+
+        <!-- html/js file path -->
+        <property key="contentsPath" type="string" required="false">
+            <caption>External File</caption>
+            <category>Behavior</category>
+            <description>The path to the HTML or Javascript you want to add. The root folder is theme folder. Will override the Contents if used.</description>
+        </property>
+
+        <!-- The onclick microflow -->
+        <property key="onclickmf" type="microflow" required="false">
+            <caption> On click microflow </caption>
+            <category>Behavior</category>
+            <description>The microflow to execute on click</description>
+            <returnType type="Void"/>
+        </property>
+
+        <!-- description of what the html/js should do -->
+        <property key="documentation" type="string" multiline="true" required="false">
+            <caption>Documentation</caption>
+            <category>Common</category>
+            <description>Documentation of this widget. Should explain its purpose.</description>
+        </property>
+
+        <!-- Refresh when the context changes -->
+        <property key="refreshOnContextChange" type="boolean" defaultValue="false">
+            <caption>Refresh on context change</caption>
+            <category>Behavior</category>
+            <description>Refresh when the context changes</description>
+        </property>
+
+        <!-- Refresh when the context updates -->
+        <property key="refreshOnContextUpdate" type="boolean" defaultValue="false">
+            <caption>Refresh on context update</caption>
+            <category>Behavior</category>
+            <description>Refresh when the context updates (works only when context change is true)</description>
+        </property>
+
+        <!-- Enclose HTML with DIV -->
+        <property key="encloseHTMLWithDiv" type="boolean" defaultValue="true">
+            <caption>Enclose HTML with DIV</caption>
+            <category>Behavior</category>
+            <description>When adding HTML, the widget will wrap it with a DIV. If this is set to false, it will just replace the content of the widget. (For compatibility purposes this is set true on default)</description>
+        </property>
+    </properties>
+</widget>

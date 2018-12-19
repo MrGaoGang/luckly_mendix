@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="DataGridExtension.widget.DataGridSelectionStep" needsEntityContext="true" xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mendix.com/widget/1.0/ widget.xsd">
+    <name>Data Grid Selection Step</name>
+    <description>Data Grid Selection Creates a Previous or Next Selection button. Usefull when having a listner Data View on a Grid</description>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3gUGCSkbyJlq2wAAAFBJREFUWMNjYBjpgJGBgeH/QDqAaaBDYNQBLGjpAR/4Twt1o1Ew6oABd8BoSYgoB4K+4Fe5jocm6kYT4agDRsuB0fbAaCIcdcBoOTDgITAKAHvoEDe96CDmAAAAAElFTkSuQmCC
+    </icon>
+    <properties>
+        <property key="buttonPrevNext" type="enumeration" required="true" defaultValue="Next">
+            <caption>Direction</caption>
+            <category>Behaviour</category>
+            <description>The direction of the selection of the grid item</description>
+            <enumerationValues>
+                <enumerationValue key="Previous">Previous</enumerationValue>
+                <enumerationValue key="Next">Next</enumerationValue>
+            </enumerationValues>
+        </property>
+        <property key="onclickmf" type="microflow" required="false">
+            <caption>On click Microflow</caption>
+            <category>Behaviour</category>
+            <description>The microflow to execute on click of button, move selection on returing true</description>
+            <returnType type="Boolean" />
+        </property>
+        <property key="caption" type="translatableString" required="false">
+            <caption>Caption</caption>
+            <category>Button</category>
+            <description>Caption on the button</description>
+        </property>
+        <property key="iconUrl" type="image" required="false">
+            <caption>Image</caption>
+            <category>Button</category>
+            <description>Image shown in button</description>
+        </property>
+        <property key="displayAs" type="enumeration" required="true" defaultValue="button">
+            <caption>Display As</caption>
+            <category>Button</category>
+            <description>Render button as</description>
+            <enumerationValues>
+                <enumerationValue key="button">Button</enumerationValue>
+                <enumerationValue key="link">Link</enumerationValue>
+            </enumerationValues>
+        </property>
+        <property key="disableFirstLastStep" type="boolean" defaultValue="true">
+            <caption>Disable First Last Step</caption>
+            <category>Button</category>
+            <description>When first or last low is selected the button is disabled</description>
+        </property>
+        <property key="buttonStyle" type="enumeration" required="true" defaultValue="default">
+            <caption>Button Style</caption>
+            <category>Button</category>
+            <description>Bootstrap Style of button (no for links)</description>
+            <enumerationValues>
+                <enumerationValue key="default">Default</enumerationValue>
+                <enumerationValue key="primary">Primary</enumerationValue>
+                <enumerationValue key="info">Info</enumerationValue>
+                <enumerationValue key="success">Success</enumerationValue>
+                <enumerationValue key="warning">Warning</enumerationValue>
+                <enumerationValue key="danger">Danger</enumerationValue>
+                <enumerationValue key="inverse">Inverse</enumerationValue>
+            </enumerationValues>
+        </property>
+    </properties>
+</widget>

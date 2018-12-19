@@ -2014,8 +2014,24 @@
 					 name:"big"
 				},
 				{
+					 location:"../DataGridExtension",
+					 name:"DataGridExtension"
+				},
+				{
+					 location:"../ExportToExcel",
+					 name:"ExportToExcel"
+				},
+				{
+					 location:"../HTMLSnippet",
+					 name:"HTMLSnippet"
+				},
+				{
 					 location:"../ImageViewer",
 					 name:"ImageViewer"
+				},
+				{
+					 location:"../JSExecutor",
+					 name:"JSExecutor"
 				},
 				{
 					 location:"../PieChart",

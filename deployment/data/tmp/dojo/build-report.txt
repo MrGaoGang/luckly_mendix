@@ -1,4 +1,4 @@
-Build started: Fri Oct 12 2018 20:00:58 GMT+0800 (中国标准时间)
+Build started: Sat Dec 15 2018 12:35:27 GMT+0800 (中国标准时间)
 Build application version: 1.12.2 (edd21d6)
 Messages:
 info(100) Assumed module uses legacy loader API.
@@ -120,6 +120,7 @@ info(100) Assumed module uses legacy loader API.
 	module: dojox/xmpp/util
 	module: dojox/xmpp/xmppSession
 	module: dojox/xmpp/widget/ChatSession
+	module: ExportToExcel/lib/jszip
 	module: ImageViewer/lib/echarts.js.map
 	module: ImageViewer/lib/row-grid
 	module: PieChart/lib/echarts.js.map
@@ -146,6 +147,21 @@ warn(205) Module not tagged as pure AMD yet it contains AMD API applications.
 	module: mendix/lib/MxMetaObject
 	module: mendix/lib/ObjectValidation
 	module: big/big
+	module: DataGridExtension/widget/DataGridExtension
+	module: DataGridExtension/widget/DataGridExtensionNoContext
+	module: DataGridExtension/widget/DataGridSelectionStep
+	module: DataGridExtension/widget/EmptyTable
+	module: DataGridExtension/widget/FlexColumns
+	module: DataGridExtension/widget/InlineButtons
+	module: DataGridExtension/widget/PagingButtons
+	module: DataGridExtension/widget/RowClasses
+	module: DataGridExtension/widget/ToolbarButtons
+	module: ExportToExcel/lib/jquery-1.11.2
+	module: ExportToExcel/lib/xlsx
+	module: ExportToExcel/widget/ExportToExcel
+	module: HTMLSnippet/lib/jquery
+	module: HTMLSnippet/widget/HTMLSnippet
+	module: HTMLSnippet/widget/HTMLSnippetContext
 	module: ImageViewer/lib/echarts
 	module: ImageViewer/lib/ev-emitter
 	module: ImageViewer/lib/get-size
@@ -158,6 +174,7 @@ warn(205) Module not tagged as pure AMD yet it contains AMD API applications.
 	module: ImageViewer/lib/utils
 	module: ImageViewer/widget/GridImageViewer
 	module: ImageViewer/widget/ImageViewer
+	module: JSExecutor/widget/JSExecutor
 	module: PieChart/lib/echarts
 	module: PieChart/lib/jquery-1.11.2
 	module: PieChart/widget/PieChart
@@ -167,7 +184,11 @@ warn(209) Missing or empty package.json.
 	filename: C:/Program Files/Mendix/7.16.0/modeler/tools/grunt/mxui/package.json
 	filename: C:/Program Files/Mendix/7.16.0/modeler/tools/grunt/mendix/package.json
 	filename: C:/Program Files/Mendix/7.16.0/modeler/tools/grunt/big/package.json
+	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/DataGridExtension/package.json
+	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/ExportToExcel/package.json
+	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/HTMLSnippet/package.json
 	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/ImageViewer/package.json
+	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/JSExecutor/package.json
 	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/PieChart/package.json
 	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/SprintrFeedbackWidget/package.json
 	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/data/tmp/widgets/package.json
@@ -316,10 +337,38 @@ mxui/mxui:
 
 widgets/widgets:
 	widgets/widgets
-	ImageViewer/widget/ImageViewer
+	DataGridExtension/widget/DataGridExtension
+	DataGridExtension/widget/PagingButtons
+	DataGridExtension/widget/EmptyTable
+	DataGridExtension/widget/ToolbarButtons
+	dojo/NodeList-traverse
+	DataGridExtension/widget/RowClasses
+	DataGridExtension/widget/InlineButtons
+	DataGridExtension/widget/FlexColumns
+	dojo/dnd/Moveable
+	dojo/dnd/common
+	dojo/dnd/Mover
+	dojo/dnd/autoscroll
+	DataGridExtension/widget/ui/DataGridExtension.html
+	DataGridExtension/widget/DataGridExtensionNoContext
+	DataGridExtension/widget/DataGridSelectionStep
+	ExportToExcel/widget/ExportToExcel
 	dojo/html
 	dojo/parser
 	dojo/_base/url
+	ExportToExcel/lib/jquery-1.11.2
+	ExportToExcel/lib/jszip
+	ExportToExcel/lib/xlsx
+	ExportToExcel/widget/template/ExportToExcel.html
+	HTMLSnippet/widget/HTMLSnippet
+	dijit/layout/LinkPane
+	dijit/layout/ContentPane
+	dijit/layout/_ContentPaneResizeMixin
+	dijit/layout/utils
+	dijit/nls/loading
+	HTMLSnippet/lib/jquery
+	HTMLSnippet/widget/HTMLSnippetContext
+	ImageViewer/widget/ImageViewer
 	ImageViewer/lib/echarts
 	ImageViewer/lib/jquery-1.11.2
 	ImageViewer/widget/template/ImageViewer.html
@@ -333,6 +382,8 @@ widgets/widgets:
 	ImageViewer/lib/matches-selector
 	ImageViewer/lib/item
 	ImageViewer/widget/template/GridImageViewer.html
+	JSExecutor/widget/JSExecutor
+	JSExecutor/widget/template/JSExecutor.html
 	PieChart/widget/PieChart
 	PieChart/lib/echarts
 	PieChart/lib/jquery-1.11.2
@@ -404,5 +455,5 @@ dojo/dojo:
 
 Process finished normally
 	errors: 0
-	warnings: 102
-	build time: 3.598 seconds
+	warnings: 122
+	build time: 5.445 seconds
