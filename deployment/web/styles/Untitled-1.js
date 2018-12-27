@@ -12,3 +12,5 @@ require(["dojo/aspect"], function(aspect){
         })
     });
   });
+
+  

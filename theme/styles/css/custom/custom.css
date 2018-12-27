@@ -1,4 +1,53 @@
-.mx-name-actionButton1_demo_login_out a{
+.mx-name-actionButton1_demo_login_out a {
     font-size: 14px;
     color: red;
+}
+
+/* w文章 */
+
+.gao-input-csdn input,
+.gao-input-csdn-large textarea {
+
+    display: block;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    box-sizing: border-box;
+    padding: 0 16px;
+    border: none;
+    background-color: #efefef;
+    color: #4f4f4f;
+}
+
+.gao-input-csdn-large textarea {
+    min-height: 80px;
+    height: auto
+}
+
+.gao-input-csdn-focus:focus{
+background-color: #efefef;
+}
+
+.delever-blog{
+    border: 1px solid #C92027;
+    color: #C92027;
+    background-color: transparent;
+}
+.delever-blog:hover{
+    background: #C92027;
+    color: white;
+    border: 1px solid #C92027;
+}
+
+
+.delever-blog-cancel{
+    border: 1px solid #6c757d;
+    background-color: transparent;
+
+    color: #6c757d
+}
+
+.delever-blog-cancel:hover{
+    background-color: #6c757d;
+    color: white;
 }
