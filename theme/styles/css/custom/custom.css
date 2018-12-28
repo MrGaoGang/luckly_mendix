@@ -1,53 +1,228 @@
 .mx-name-actionButton1_demo_login_out a {
-    font-size: 14px;
-    color: red;
+  font-size: 14px;
+  color: red;
 }
 
 /* w文章 */
 
 .gao-input-csdn input,
 .gao-input-csdn-large textarea {
-
-    display: block;
-    width: 100%;
-    height: 40px;
-    line-height: 40px;
-    box-sizing: border-box;
-    padding: 0 16px;
-    border: none;
-    background-color: #efefef;
-    color: #4f4f4f;
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  box-sizing: border-box;
+  padding: 0 16px;
+  border: none;
+  background-color: #efefef;
+  color: #4f4f4f;
 }
 
 .gao-input-csdn-large textarea {
-    min-height: 80px;
-    height: auto
+  min-height: 80px;
+  height: auto;
 }
 
-.gao-input-csdn-focus:focus{
-background-color: #efefef;
+.gao-input-csdn-focus:focus {
+  background-color: #efefef;
 }
 
-.delever-blog{
-    border: 1px solid #C92027;
-    color: #C92027;
-    background-color: transparent;
+.delever-blog {
+  border: 1px solid #c92027;
+  color: #c92027;
+  background-color: transparent;
 }
-.delever-blog:hover{
-    background: #C92027;
+
+.delever-blog:hover {
+  background: #c92027;
+  color: white;
+  border: 1px solid #c92027;
+}
+
+.delever-blog-cancel {
+  border: 1px solid #6c757d;
+  background-color: transparent;
+
+  color: #6c757d;
+}
+
+.delever-blog-cancel:hover {
+  background-color: #6c757d;
+  color: white;
+}
+
+/* 首页广告 */
+
+.widget-carousel-item img {
+  line-height: 1;
+  min-width: 100%;
+  max-width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
+
+/* 首页左侧的分类 */
+@media (min-width: 993px) {
+  .home-left-article-category ul .mx-listview-item,
+  .home-left-article-category ul .mx-listview-item:nth-child(2n + 1),
+  .home-left-article-category ul .mx-listview-item:first-child,
+  .home-left-article-category ul .mx-listview-item:last-child {
+    border-width: 0px 0 0 0;
+    background-color: white;
+    color: #707070;
+    border-width: 1px;
+    font-size: 16px;
+
+    text-align: center;
+    border-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .home-left-article-category ul .mx-listview-item:hover {
+    background-color: rgba(244, 68, 68, 0.9);
     color: white;
-    border: 1px solid #C92027;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
 }
 
+@media (max-width: 992px) {
+  .home-left-article-category {
+    display: none;
+  }
 
-.delever-blog-cancel{
-    border: 1px solid #6c757d;
+  .mrgao-home-ar-recommend,
+  .mrgao-home-article-recomend-tip {
+    display: none;
+  }
+}
+
+.mrgao-home-ar-recommend {
+  display: block;
+}
+
+/* 首页右侧文章推荐 */
+.mrgao-home-article-recomend-tip {
+  display: flex;
+  align-items: center;
+}
+
+/* PC端显示右侧推荐 */
+@media (min-width: 993px) {
+  .mrgao-home-article-recomend-tip .mx-name-line {
+    display: block;
+    float: left;
+    width: 3px;
+    height: 15px;
+    background: #cf2730;
+    overflow: hidden;
+    margin: 0 5px 0 0;
+  }
+
+  .mrgao-home-article-recomend-tip .mx-name-title {
+    display: block;
+    float: left;
+    font-size: 16px;
+    color: #2c3033;
     background-color: transparent;
+    border-width: 0px;
+  }
 
-    color: #6c757d
+  .mrgao-home-article-recomend-tip .mx-name-title:focus {
+    outline: 0px;
+    outline-offset: 0px;
+  }
 }
 
-.delever-blog-cancel:hover{
-    background-color: #6c757d;
-    color: white;
+/* 首页文章 */
+
+.my-home-list-article-view ul .mx-listview-item,
+.my-home-list-article-view ul .mx-listview-item:nth-child(2n + 1),
+.my-home-list-article-view ul .mx-listview-item:first-child,
+.my-home-list-article-view ul .mx-listview-item:last-child {
+  border-width: 0 0 0 0;
+  background-color: white;
+  color: #707070;
+  border-radius: 5px;
+  border-color: rgb(163, 162, 162);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  font-family: PingFang SC, Hiragino Sans GB, Arial, Microsoft YaHei, Verdana,
+    Roboto, Noto, Helvetica Neue, sans-serif !important;
+}
+
+.main-article-item .main-article-item-title {
+  max-width: 98%;
+  color: #3d3d3d;
+  display: block;
+  line-height: 24px;
+  height: 24px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 20px;
+}
+
+.main-article-item .main-article-item-desc {
+  margin-bottom: 4px;
+  white-space: wrap;
+  color: #8a8a8a;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.main-article-item .main-article-item-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.main-article-item-bottom .mx-name-itemleft,
+.main-article-item-bottom .mx-name-itemright {
+  display: flex;
+  font-size: 13px;
+  color: #3d3d3d;
+  align-items: center;
+}
+
+.main-article-item-bottom .mx-name-itemright {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-home-container .mx-name-left {
+  flex: 1;
+}
+.main-home-container .mx-name-center {
+  flex: 4;
+}
+.main-home-container .mx-name-right {
+  flex: 1.5;
+}
+
+@media (max-width: 992px) {
+  .home-left-article-category {
+    display: none;
+  }
+
+  .mrgao-home-ar-recommend,
+  .mrgao-home-article-recomend-tip {
+    display: none;
+  }
+
+  .main-home-container .mx-name-left {
+    flex: 0;
+  }
+  .main-home-container .mx-name-right {
+    flex: 0;
+  }
+  .main-home-container .mx-name-center {
+    flex: 1;
+  }
+  .main-article-item .main-article-item-title {
+    white-space: normal;
+  }
 }
