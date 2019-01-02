@@ -116,7 +116,7 @@
     float: left;
     width: 3px;
     height: 15px;
-    background: #cf2730;
+    background: #f14b3d;
     overflow: hidden;
     margin: 0 5px 0 0;
   }
@@ -150,6 +150,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   margin-bottom: 10px;
+  padding: 15px;
   font-family: PingFang SC, Hiragino Sans GB, Arial, Microsoft YaHei, Verdana,
     Roboto, Noto, Helvetica Neue, sans-serif !important;
 }
@@ -164,6 +165,12 @@
   overflow: hidden;
   white-space: nowrap;
   font-size: 20px;
+}
+
+.main-article-item .main-article-item-title a:hover,
+.main-article-item .main-article-item-title a:visited {
+  color: #f14b3d;
+  text-decoration: none;
 }
 
 .main-article-item .main-article-item-desc {
@@ -201,6 +208,25 @@
 }
 .main-home-container .mx-name-right {
   flex: 1.5;
+}
+
+/* 右侧推荐内容 */
+.homr-article-recommendul .mx-listview-item,
+.homr-article-recommendul .mx-listview-item:nth-child(2n + 1),
+.homr-article-recommendul .mx-listview-item:first-child,
+.homr-article-recommendul .mx-listview-item:last-child {
+  border-width: 0 0 0 0;
+  background-color: white;
+  border-radius: 0px;
+  border-color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding: 5px;
+  font-family: PingFang SC, Hiragino Sans GB, Arial, Microsoft YaHei, Verdana,
+    Roboto, Noto, Helvetica Neue, sans-serif !important;
+}
+.mx-listview .mx-listview-item{
+  padding: 5px;
 }
 
 @media (max-width: 992px) {

@@ -1,11 +1,11 @@
 ﻿Buildfile: C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\build_core.xml
 
 compile:
-    [javac] Compiling 3 source files to C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\run\bin
+    [javac] Compiling 1 source file to C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\run\bin
 
 build:
       [bnd] # addAll 'deployment/run/bnd.bnd' with ,
-      [bnd] # project (project.jar) 480 
+      [bnd] # project (project.jar) 484 
 
 BUILD SUCCESSFUL
 Total time: 3 seconds

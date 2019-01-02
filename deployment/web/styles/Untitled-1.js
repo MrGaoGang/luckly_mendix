@@ -13,4 +13,7 @@ require(["dojo/aspect"], function(aspect){
     });
   });
 
-  
+  $(selector).focus(function (e) { 
+      e.preventDefault();
+      
+  });
