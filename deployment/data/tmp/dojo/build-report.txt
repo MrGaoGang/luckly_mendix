@@ -1,4 +1,4 @@
-Build started: Sat Dec 15 2018 12:35:27 GMT+0800 (中国标准时间)
+Build started: Wed Jan 02 2019 20:09:44 GMT+0800 (中国标准时间)
 Build application version: 1.12.2 (edd21d6)
 Messages:
 info(100) Assumed module uses legacy loader API.
@@ -124,6 +124,364 @@ info(100) Assumed module uses legacy loader API.
 	module: ImageViewer/lib/echarts.js.map
 	module: ImageViewer/lib/row-grid
 	module: PieChart/lib/echarts.js.map
+	module: CKEditorForMendix/widget/lib/build-config
+	module: CKEditorForMendix/widget/lib/ckeditor
+	module: CKEditorForMendix/widget/lib/ckeditor_viewer
+	module: CKEditorForMendix/widget/lib/config
+	module: CKEditorForMendix/widget/lib/styles
+	module: CKEditorForMendix/widget/lib/adapters/jquery
+	module: CKEditorForMendix/widget/lib/lang/af
+	module: CKEditorForMendix/widget/lib/lang/ar
+	module: CKEditorForMendix/widget/lib/lang/bg
+	module: CKEditorForMendix/widget/lib/lang/bn
+	module: CKEditorForMendix/widget/lib/lang/bs
+	module: CKEditorForMendix/widget/lib/lang/ca
+	module: CKEditorForMendix/widget/lib/lang/cs
+	module: CKEditorForMendix/widget/lib/lang/cy
+	module: CKEditorForMendix/widget/lib/lang/da
+	module: CKEditorForMendix/widget/lib/lang/de
+	module: CKEditorForMendix/widget/lib/lang/el
+	module: CKEditorForMendix/widget/lib/lang/en-au
+	module: CKEditorForMendix/widget/lib/lang/en-ca
+	module: CKEditorForMendix/widget/lib/lang/en-gb
+	module: CKEditorForMendix/widget/lib/lang/en
+	module: CKEditorForMendix/widget/lib/lang/eo
+	module: CKEditorForMendix/widget/lib/lang/es
+	module: CKEditorForMendix/widget/lib/lang/et
+	module: CKEditorForMendix/widget/lib/lang/eu
+	module: CKEditorForMendix/widget/lib/lang/fa
+	module: CKEditorForMendix/widget/lib/lang/fi
+	module: CKEditorForMendix/widget/lib/lang/fo
+	module: CKEditorForMendix/widget/lib/lang/fr-ca
+	module: CKEditorForMendix/widget/lib/lang/fr
+	module: CKEditorForMendix/widget/lib/lang/gl
+	module: CKEditorForMendix/widget/lib/lang/gu
+	module: CKEditorForMendix/widget/lib/lang/he
+	module: CKEditorForMendix/widget/lib/lang/hi
+	module: CKEditorForMendix/widget/lib/lang/hr
+	module: CKEditorForMendix/widget/lib/lang/hu
+	module: CKEditorForMendix/widget/lib/lang/id
+	module: CKEditorForMendix/widget/lib/lang/is
+	module: CKEditorForMendix/widget/lib/lang/it
+	module: CKEditorForMendix/widget/lib/lang/ja
+	module: CKEditorForMendix/widget/lib/lang/ka
+	module: CKEditorForMendix/widget/lib/lang/km
+	module: CKEditorForMendix/widget/lib/lang/ko
+	module: CKEditorForMendix/widget/lib/lang/ku
+	module: CKEditorForMendix/widget/lib/lang/lt
+	module: CKEditorForMendix/widget/lib/lang/lv
+	module: CKEditorForMendix/widget/lib/lang/mk
+	module: CKEditorForMendix/widget/lib/lang/mn
+	module: CKEditorForMendix/widget/lib/lang/ms
+	module: CKEditorForMendix/widget/lib/lang/nb
+	module: CKEditorForMendix/widget/lib/lang/nl
+	module: CKEditorForMendix/widget/lib/lang/no
+	module: CKEditorForMendix/widget/lib/lang/pl
+	module: CKEditorForMendix/widget/lib/lang/pt-br
+	module: CKEditorForMendix/widget/lib/lang/pt
+	module: CKEditorForMendix/widget/lib/lang/ro
+	module: CKEditorForMendix/widget/lib/lang/ru
+	module: CKEditorForMendix/widget/lib/lang/si
+	module: CKEditorForMendix/widget/lib/lang/sk
+	module: CKEditorForMendix/widget/lib/lang/sl
+	module: CKEditorForMendix/widget/lib/lang/sq
+	module: CKEditorForMendix/widget/lib/lang/sr-latn
+	module: CKEditorForMendix/widget/lib/lang/sr
+	module: CKEditorForMendix/widget/lib/lang/sv
+	module: CKEditorForMendix/widget/lib/lang/th
+	module: CKEditorForMendix/widget/lib/lang/tr
+	module: CKEditorForMendix/widget/lib/lang/tt
+	module: CKEditorForMendix/widget/lib/lang/ug
+	module: CKEditorForMendix/widget/lib/lang/uk
+	module: CKEditorForMendix/widget/lib/lang/vi
+	module: CKEditorForMendix/widget/lib/lang/zh-cn
+	module: CKEditorForMendix/widget/lib/lang/zh
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/a11yhelp
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/af
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/ar
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/az
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/bg
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/ca
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/cs
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/cy
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/da
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/de-ch
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/de
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/el
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/en-au
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/en-gb
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/en
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/eo
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/es-mx
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/es
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/et
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/eu
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/fa
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/fi
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/fo
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/fr-ca
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/fr
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/gl
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/gu
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/he
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/hi
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/hr
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/hu
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/id
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/it
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/ja
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/km
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/ko
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/ku
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/lt
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/lv
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/mk
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/mn
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/nb
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/nl
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/no
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/oc
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/pl
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/pt-br
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/pt
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/ro
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/ru
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/si
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/sk
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/sl
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/sq
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/sr-latn
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/sr
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/sv
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/th
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/tr
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/tt
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/ug
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/uk
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/vi
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/zh-cn
+	module: CKEditorForMendix/widget/lib/plugins/a11yhelp/dialogs/lang/zh
+	module: CKEditorForMendix/widget/lib/plugins/about/dialogs/about
+	module: CKEditorForMendix/widget/lib/plugins/autocorrect/dialogs/options
+	module: CKEditorForMendix/widget/lib/plugins/clipboard/dialogs/paste
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/plugin
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/dialogs/codesnippet
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/ar
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/az
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/bg
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/ca
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/cs
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/da
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/de-ch
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/de
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/el
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/en-au
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/en-gb
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/en
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/eo
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/es-mx
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/es
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/et
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/eu
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/fa
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/fi
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/fr-ca
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/fr
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/gl
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/he
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/hr
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/hu
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/id
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/it
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/ja
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/km
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/ko
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/ku
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/lt
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/lv
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/nb
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/nl
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/no
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/oc
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/pl
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/pt-br
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/pt
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/ro
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/ru
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/sk
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/sl
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/sq
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/sv
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/th
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/tr
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/tt
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/ug
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/uk
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/vi
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/zh-cn
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lang/zh
+	module: CKEditorForMendix/widget/lib/plugins/codesnippet/lib/highlight/highlight.pack
+	module: CKEditorForMendix/widget/lib/plugins/colordialog/dialogs/colordialog
+	module: CKEditorForMendix/widget/lib/plugins/dialog/dialogDefinition
+	module: CKEditorForMendix/widget/lib/plugins/div/dialogs/div
+	module: CKEditorForMendix/widget/lib/plugins/find/dialogs/find
+	module: CKEditorForMendix/widget/lib/plugins/flash/dialogs/flash
+	module: CKEditorForMendix/widget/lib/plugins/forms/dialogs/button
+	module: CKEditorForMendix/widget/lib/plugins/forms/dialogs/checkbox
+	module: CKEditorForMendix/widget/lib/plugins/forms/dialogs/form
+	module: CKEditorForMendix/widget/lib/plugins/forms/dialogs/hiddenfield
+	module: CKEditorForMendix/widget/lib/plugins/forms/dialogs/radio
+	module: CKEditorForMendix/widget/lib/plugins/forms/dialogs/select
+	module: CKEditorForMendix/widget/lib/plugins/forms/dialogs/textarea
+	module: CKEditorForMendix/widget/lib/plugins/forms/dialogs/textfield
+	module: CKEditorForMendix/widget/lib/plugins/iframe/dialogs/iframe
+	module: CKEditorForMendix/widget/lib/plugins/image/dialogs/image
+	module: CKEditorForMendix/widget/lib/plugins/link/dialogs/anchor
+	module: CKEditorForMendix/widget/lib/plugins/link/dialogs/link
+	module: CKEditorForMendix/widget/lib/plugins/liststyle/dialogs/liststyle
+	module: CKEditorForMendix/widget/lib/plugins/mendixlink/plugin
+	module: CKEditorForMendix/widget/lib/plugins/mendixlink/dialogs/mendixlink
+	module: CKEditorForMendix/widget/lib/plugins/notificationaggregator/plugin
+	module: CKEditorForMendix/widget/lib/plugins/oembed/plugin
+	module: CKEditorForMendix/widget/lib/plugins/oembed/lang/de
+	module: CKEditorForMendix/widget/lib/plugins/oembed/lang/en
+	module: CKEditorForMendix/widget/lib/plugins/oembed/lang/fr
+	module: CKEditorForMendix/widget/lib/plugins/oembed/lang/nl
+	module: CKEditorForMendix/widget/lib/plugins/oembed/lang/ru
+	module: CKEditorForMendix/widget/lib/plugins/oembed/libs/jquery.oembed
+	module: CKEditorForMendix/widget/lib/plugins/oembed/libs/jquery.oembed.min
+	module: CKEditorForMendix/widget/lib/plugins/pastebase64/plugin
+	module: CKEditorForMendix/widget/lib/plugins/pastefromword/filter/default
+	module: CKEditorForMendix/widget/lib/plugins/scayt/dialogs/options
+	module: CKEditorForMendix/widget/lib/plugins/simple-image-browser/plugin
+	module: CKEditorForMendix/widget/lib/plugins/smiley/dialogs/smiley
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/specialchar
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/af
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/ar
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/az
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/bg
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/ca
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/cs
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/cy
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/da
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/de-ch
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/de
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/el
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/en-au
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/en-ca
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/en-gb
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/en
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/eo
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/es-mx
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/es
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/et
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/eu
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/fa
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/fi
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/fr-ca
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/fr
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/gl
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/he
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/hr
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/hu
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/id
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/it
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/ja
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/km
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/ko
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/ku
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/lt
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/lv
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/nb
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/nl
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/no
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/oc
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/pl
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/pt-br
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/pt
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/ro
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/ru
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/si
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/sk
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/sl
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/sq
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/sv
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/th
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/tr
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/tt
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/ug
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/uk
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/vi
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/zh-cn
+	module: CKEditorForMendix/widget/lib/plugins/specialchar/dialogs/lang/zh
+	module: CKEditorForMendix/widget/lib/plugins/table/dialogs/table
+	module: CKEditorForMendix/widget/lib/plugins/tabletools/dialogs/tableCell
+	module: CKEditorForMendix/widget/lib/plugins/templates/dialogs/templates
+	module: CKEditorForMendix/widget/lib/plugins/templates/templates/default
+	module: CKEditorForMendix/widget/lib/plugins/uploadimage/plugin
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/plugin
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/dev/filereaderplugin
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/az
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/bg
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/ca
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/cs
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/da
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/de-ch
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/de
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/el
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/en-au
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/en
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/eo
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/es-mx
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/es
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/et
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/eu
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/fa
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/fr
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/gl
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/hr
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/hu
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/id
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/it
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/ja
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/km
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/ko
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/ku
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/nb
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/nl
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/no
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/oc
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/pl
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/pt-br
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/pt
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/ro
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/ru
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/sk
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/sq
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/sv
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/tr
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/ug
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/uk
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/zh-cn
+	module: CKEditorForMendix/widget/lib/plugins/uploadwidget/lang/zh
+	module: CKEditorForMendix/widget/lib/plugins/videodetector/dialogs/videoDialog
+	module: CKEditorForMendix/widget/lib/plugins/wordcount/plugin
+	module: CKEditorForMendix/widget/lib/plugins/wordcount/lang/de
+	module: CKEditorForMendix/widget/lib/plugins/wordcount/lang/en
+	module: CKEditorForMendix/widget/lib/plugins/wsc/dialogs/wsc
+	module: CKEditorForMendix/widget/lib/plugins/wsc/dialogs/wsc_ie
+	module: CKEditorForMendix/widget/lib/samples/js/sample
+	module: CKEditorForMendix/widget/lib/samples/js/sf
+	module: CKEditorForMendix/widget/lib/samples/old/sample
+	module: CKEditorForMendix/widget/lib/samples/old/assets/uilanguages/languages
+	module: CKEditorForMendix/widget/lib/samples/old/dialog/assets/my_dialog
+	module: CKEditorForMendix/widget/lib/samples/old/htmlwriter/assets/outputforflash/swfobject
+	module: CKEditorForMendix/widget/lib/samples/toolbarconfigurator/js/abstracttoolbarmodifier
+	module: CKEditorForMendix/widget/lib/samples/toolbarconfigurator/js/fulltoolbareditor
+	module: CKEditorForMendix/widget/lib/samples/toolbarconfigurator/js/toolbarmodifier
+	module: CKEditorForMendix/widget/lib/samples/toolbarconfigurator/js/toolbartextmodifier
+	module: CKEditorForMendix/widget/lib/samples/toolbarconfigurator/lib/codemirror/javascript
+	module: CKEditorForMendix/widget/lib/samples/toolbarconfigurator/lib/codemirror/show-hint
 	module: SprintrFeedbackWidget/SprintrFeedback.webmodeler
 info(107) Package Version:
 	package: dojox; version: 1.12.2
@@ -178,6 +536,15 @@ warn(205) Module not tagged as pure AMD yet it contains AMD API applications.
 	module: PieChart/lib/echarts
 	module: PieChart/lib/jquery-1.11.2
 	module: PieChart/widget/PieChart
+	module: CKEditorForMendix/lib/jquery-1.11.2
+	module: CKEditorForMendix/widget/CKEditorForMendix
+	module: CKEditorForMendix/widget/CKEditorViewerForMendix
+	module: CKEditorForMendix/widget/lib/dotdot.jquery
+	module: CKEditorForMendix/widget/lib/highlight.pack
+	module: CKEditorForMendix/widget/lib/jquery
+	module: CKEditorForMendix/widget/lib/jquery.min
+	module: CKEditorForMendix/widget/lib/jquery.oembed
+	module: CKEditorForMendix/widget/lib/samples/toolbarconfigurator/lib/codemirror/codemirror
 	module: SprintrFeedbackWidget/SprintrFeedback
 	module: widgets/widgets
 warn(209) Missing or empty package.json.
@@ -190,6 +557,7 @@ warn(209) Missing or empty package.json.
 	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/ImageViewer/package.json
 	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/JSExecutor/package.json
 	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/PieChart/package.json
+	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/CKEditorForMendix/package.json
 	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/web/widgets/SprintrFeedbackWidget/package.json
 	filename: C:/Users/mr.gao/Documents/Mendix/Project/mendix/deployment/data/tmp/widgets/package.json
 warn(216) dojo/has plugin resource could not be resolved during build-time.
@@ -388,6 +756,16 @@ widgets/widgets:
 	PieChart/lib/echarts
 	PieChart/lib/jquery-1.11.2
 	PieChart/widget/template/PieChart.html
+	CKEditorForMendix/widget/CKEditorForMendix
+	CKEditorForMendix/widget/lib/jquery.min
+	CKEditorForMendix/widget/lib/ckeditor
+	CKEditorForMendix/widget/templates/CKEditorForMendix.html
+	CKEditorForMendix/widget/lib/jquery.oembed
+	CKEditorForMendix/widget/CKEditorViewerForMendix
+	CKEditorForMendix/widget/lib/ckeditor_viewer
+	CKEditorForMendix/widget/templates/CKEditorViewerForMendix.html
+	CKEditorForMendix/widget/lib/highlight.pack
+	CKEditorForMendix/widget/lib/dotdot.jquery
 	SprintrFeedbackWidget/SprintrFeedback
 	dojo/io/script
 	dojo/request/script
@@ -455,5 +833,5 @@ dojo/dojo:
 
 Process finished normally
 	errors: 0
-	warnings: 122
-	build time: 5.445 seconds
+	warnings: 132
+	build time: 4.652 seconds

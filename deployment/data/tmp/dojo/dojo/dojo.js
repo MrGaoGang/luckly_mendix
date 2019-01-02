@@ -2038,6 +2038,10 @@
 					 name:"PieChart"
 				},
 				{
+					 location:"../CKEditorForMendix",
+					 name:"CKEditorForMendix"
+				},
+				{
 					 location:"../SprintrFeedbackWidget",
 					 name:"SprintrFeedbackWidget"
 				},

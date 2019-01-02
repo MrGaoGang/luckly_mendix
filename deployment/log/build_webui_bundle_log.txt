@@ -9,6 +9,8 @@ C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\widgets.config.json [
   'ImageViewer.widget.GridImageViewer',
   'JSExecutor.widget.JSExecutor',
   'PieChart.widget.PieChart',
+  'CKEditorForMendix.widget.CKEditorForMendix',
+  'CKEditorForMendix.widget.CKEditorViewerForMendix',
   'SprintrFeedbackWidget.SprintrFeedback' ]
 
 Running "generate:javascript" (generate) task
@@ -22,6 +24,8 @@ C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\widgets.config.json [
   'ImageViewer.widget.GridImageViewer',
   'JSExecutor.widget.JSExecutor',
   'PieChart.widget.PieChart',
+  'CKEditorForMendix.widget.CKEditorForMendix',
+  'CKEditorForMendix.widget.CKEditorViewerForMendix',
   'SprintrFeedbackWidget.SprintrFeedback' ]
 
 Running "dojo:dist" (dojo) task

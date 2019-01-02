@@ -9,5 +9,7 @@ define([
 "ImageViewer/widget/GridImageViewer",
 "JSExecutor/widget/JSExecutor",
 "PieChart/widget/PieChart",
+"CKEditorForMendix/widget/CKEditorForMendix",
+"CKEditorForMendix/widget/CKEditorViewerForMendix",
 "SprintrFeedbackWidget/SprintrFeedback"
 ], function() {});

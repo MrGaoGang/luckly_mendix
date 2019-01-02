@@ -1,8 +1,9 @@
 [rtlauncher:container$] INFO Evictions for component 'project-userlib':
 Evicted C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\model\lib\userlib\commons-logging-1.1.jar by C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\model\lib\userlib\commons-logging-1.2.jar.
 Evicted C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\model\lib\userlib\commons-io-2.3.jar by C:\Users\mr.gao\Documents\Mendix\Project\mendix\deployment\model\lib\userlib\commons-io-2.6.jar.
-[rtlauncher:container$] INFO Container start took 3036. Ready to accept admin requests.
-鍗佷簩鏈?30, 2018 2:28:19 涓嬪崍 java.util.prefs.WindowsPreferences <init>
+[rtlauncher:container$] INFO Container start took 2958. Ready to accept admin requests.
+涓€鏈?02, 2019 10:02:46 涓嬪崍 java.util.prefs.WindowsPreferences <init>
 璀﹀憡: Could not open/create prefs root node Software\JavaSoft\Prefs at root 0x80000002. Windows RegCreateKeyEx(...) returned error code 5.
+
 
 

@@ -32,6 +32,8 @@ dependencies = {
         [ "ImageViewer", "C:\\Users\\mr.gao\\Documents\\Mendix\\Project\\mendix\\deployment\\web\\widgets\\ImageViewer" ],
         [ "JSExecutor", "C:\\Users\\mr.gao\\Documents\\Mendix\\Project\\mendix\\deployment\\web\\widgets\\JSExecutor" ],
         [ "PieChart", "C:\\Users\\mr.gao\\Documents\\Mendix\\Project\\mendix\\deployment\\web\\widgets\\PieChart" ],
+        [ "CKEditorForMendix", "C:\\Users\\mr.gao\\Documents\\Mendix\\Project\\mendix\\deployment\\web\\widgets\\CKEditorForMendix" ],
+        [ "CKEditorForMendix", "C:\\Users\\mr.gao\\Documents\\Mendix\\Project\\mendix\\deployment\\web\\widgets\\CKEditorForMendix" ],
         [ "SprintrFeedbackWidget", "C:\\Users\\mr.gao\\Documents\\Mendix\\Project\\mendix\\deployment\\web\\widgets\\SprintrFeedbackWidget" ], [ "widgets", "C:\\Users\\mr.gao\\Documents\\Mendix\\Project\\mendix\\deployment\\data\\tmp\\widgets" ]
 
     ]
