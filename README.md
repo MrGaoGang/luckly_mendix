@@ -20,10 +20,10 @@ http://www.gaogangsever.cn:8080/index.html
 
 #### （2）Phone端
 
-
+<div align='center'>
  <img src="https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone.png" alt="手机端首页"  width="300" height="600">
  <img src="https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone_detail.png" alt="手机端文章详情"  width="300" height="600">
-  
+  </div>
 
 ### 2、博主一些mendix学习demo
     1. REST Service如何使用;
