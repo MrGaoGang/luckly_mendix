@@ -22,8 +22,6 @@ http://www.gaogangsever.cn:8080/index.html
 
 
  <img src="https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone.png" alt="手机端首页"  width="300" height="600">
-   
-    
  <img src="https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone_detail.png" alt="手机端文章详情"  width="300" height="600">
   
 
