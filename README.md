@@ -11,9 +11,18 @@ http://www.gaogangsever.cn:8080/index.html
 
     此工程主要向大家介绍mendix中部分功能如何实现，其次使用Mendix的功能开发出一个博客应用。
     
-### 一、博客应用
+### 1、博客应用
     将一些学习心得放在此工程下，不仅仅只有mendix哦！
-### 二、功能列表
+ 
+#### （1）PC端
+![PC端图片](https://github.com/MrGaoGang/luckly_mendix/blob/master/images/main.png)
+
+#### （2）Phone端
+
+![PC端图片](https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone.png)
+![PC端图片](https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone_article.png)
+
+### 2、博主一些mendix学习demo
     1. REST Service如何使用;
     2. 如何发布REST Service
     3. DataGrid获取数据使用微流，实现自定义Search;
