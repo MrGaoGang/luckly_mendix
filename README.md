@@ -3,16 +3,17 @@ http://www.gaogangsever.cn:8080/index.html
 账号:Tester2
 密码：Tester2
 
-# Mendix
 - Widgets:主要使用mendix开发一些组件，包括 饼状图，输入框等
 - Project:主要介绍mendix如何使用
 
 
 ## 一、此项目做什么
 
-    此工程主要向大家介绍mendix中部分功能如何实现，如果部分功能存在问题可联系我。
-
-### 功能列表
+    此工程主要向大家介绍mendix中部分功能如何实现，其次使用Mendix的功能开发出一个博客应用。
+    
+### 一、博客应用
+    将一些学习心得放在此工程下，不仅仅只有mendix哦！
+### 二、功能列表
     1. REST Service如何使用;
     2. 如何发布REST Service
     3. DataGrid获取数据使用微流，实现自定义Search;
