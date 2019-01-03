@@ -3,12 +3,7 @@ http://www.gaogangsever.cn:8080/index.html
 账号:Tester2
 密码：Tester2
 
-<p align="center">
-    <img src="https://img-blog.csdn.net/20180904102458446?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xvdmVjaHJpczAw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="Sample"  width="250" height="140">
-    <p align="center">
-        <em>图片示例2</em>
-    </p>
-</p>
+
 --------------------- 
 作者：lovechris00 
 来源：CSDN 
@@ -31,8 +26,18 @@ http://www.gaogangsever.cn:8080/index.html
 
 #### （2）Phone端
 
-![手机端首页](https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone.png)
-![手机端文章详情](https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone_detail.png)
+<p align="center">
+    <img src="https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone.png" alt="手机端首页"  width="300" height="600">
+    <p align="center">
+        <em>手机端首页</em>
+    </p>
+    
+    <img src="https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone_detail.png" alt="手机端文章详情"  width="300" height="600">
+    <p align="center">
+        <em>手机端文章详情</em>
+    </p>
+</p>
+
 
 ### 2、博主一些mendix学习demo
     1. REST Service如何使用;
