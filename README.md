@@ -4,12 +4,6 @@ http://www.gaogangsever.cn:8080/index.html
 密码：Tester2
 
 
---------------------- 
-作者：lovechris00 
-来源：CSDN 
-原文：https://blog.csdn.net/lovechris00/article/details/82379382 
-版权声明：本文为博主原创文章，转载请附上博文链接！
-
 - Widgets:主要使用mendix开发一些组件，包括 饼状图，输入框等
 - Project:主要介绍mendix如何使用
 
@@ -26,18 +20,12 @@ http://www.gaogangsever.cn:8080/index.html
 
 #### （2）Phone端
 
-<p align="center">
-    <img src="https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone.png" alt="手机端首页"  width="300" height="600">
-    <p align="center">
-        <em>手机端首页</em>
-    </p>
-    
-    <img src="https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone_detail.png" alt="手机端文章详情"  width="300" height="600">
-    <p align="center">
-        <em>手机端文章详情</em>
-    </p>
-</p>
 
+ <img src="https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone.png" alt="手机端首页"  width="300" height="600">
+   
+    
+ <img src="https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone_detail.png" alt="手机端文章详情"  width="300" height="600">
+  
 
 ### 2、博主一些mendix学习demo
     1. REST Service如何使用;
