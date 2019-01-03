@@ -2,7 +2,7 @@ Mendix教程网站（个人）：
 http://www.gaogangsever.cn:8080/index.html
 账号:Tester2
 密码：Tester2
-
+<img src="https://img-blog.csdn.net/20180402172123625?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0dyYWNlXzA2NDI=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"width="50%" height="50%">
 - Widgets:主要使用mendix开发一些组件，包括 饼状图，输入框等
 - Project:主要介绍mendix如何使用
 
@@ -19,8 +19,8 @@ http://www.gaogangsever.cn:8080/index.html
 
 #### （2）Phone端
 
-![PC端图片](https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone.png)
-![PC端图片](https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone_article.png)
+![手机端首页](https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone.png)
+![手机端文章详情](https://github.com/MrGaoGang/luckly_mendix/blob/master/images/phone_detail.png)
 
 ### 2、博主一些mendix学习demo
     1. REST Service如何使用;
