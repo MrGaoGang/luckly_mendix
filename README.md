@@ -2,7 +2,19 @@ Mendix教程网站（个人）：
 http://www.gaogangsever.cn:8080/index.html
 账号:Tester2
 密码：Tester2
-<img src="https://img-blog.csdn.net/20180402172123625?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0dyYWNlXzA2NDI=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70"width="50%" height="50%">
+
+<p align="center">
+    <img src="https://img-blog.csdn.net/20180904102458446?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2xvdmVjaHJpczAw/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="Sample"  width="250" height="140">
+    <p align="center">
+        <em>图片示例2</em>
+    </p>
+</p>
+--------------------- 
+作者：lovechris00 
+来源：CSDN 
+原文：https://blog.csdn.net/lovechris00/article/details/82379382 
+版权声明：本文为博主原创文章，转载请附上博文链接！
+
 - Widgets:主要使用mendix开发一些组件，包括 饼状图，输入框等
 - Project:主要介绍mendix如何使用
 
