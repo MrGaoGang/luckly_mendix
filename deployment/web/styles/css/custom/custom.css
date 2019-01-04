@@ -200,6 +200,17 @@
   justify-content: flex-end;
 }
 
+.main-article-item-bottom .mx-name-itemright .praise a {
+  font-size: 14px;
+  color: #3399ea;
+}
+
+.main-article-item-bottom .mx-name-itemright .praise_normal a {
+  font-size: 12px;
+  font-family: PingFang SC, Hiragino Sans GB, Arial, Microsoft YaHei, Verdana,
+    Roboto, Noto, Helvetica Neue, sans-serif !important;
+  color: #555758;
+}
 .main-home-container .mx-name-left {
   flex: 1;
 }
@@ -225,8 +236,38 @@
   font-family: PingFang SC, Hiragino Sans GB, Arial, Microsoft YaHei, Verdana,
     Roboto, Noto, Helvetica Neue, sans-serif !important;
 }
-.mx-listview .mx-listview-item{
+.mx-listview .mx-listview-item {
   padding: 5px;
+}
+
+/* 没有分割线 */
+.margao-listView-no-divider .mx-listview-item,
+.margao-listView-no-divider .mx-listview-item:nth-child(2n + 1),
+.margao-listView-no-divider .mx-listview-item:first-child,
+.margao-listView-no-divider .mx-listview-item:last-child {
+  border-width: 0 0 0 0;
+  background-color: transparent;
+  border-radius: 0px;
+  border-color: transparent;
+
+  padding: 0px;
+  font-family: PingFang SC, Hiragino Sans GB, Arial, Microsoft YaHei, Verdana,
+    Roboto, Noto, Helvetica Neue, sans-serif !important;
+}
+
+/* 评论的ListView样式 */
+.margao-listView-comment .mx-listview-item,
+.margao-listView-comment .mx-listview-item:nth-child(2n + 1),
+.margao-listView-comment .mx-listview-item:first-child {
+  border-bottom-color: #999898;
+  border-bottom-width: 1px;
+  border-style: dashed;
+  padding: 10px;
+}
+
+.margao-listView-comment .mx-listview-item:last-child {
+  border-bottom-color: transparent;
+  border-bottom-width: 0px;
 }
 
 @media (max-width: 992px) {
@@ -250,5 +291,16 @@
   }
   .main-article-item .main-article-item-title {
     white-space: normal;
+  }
+
+  .mrgao-atricle-comment-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mrgao-atricle-comment-item .comment-detail{
+    margin-left: 0px;
+    margin-top: 10px;
   }
 }
