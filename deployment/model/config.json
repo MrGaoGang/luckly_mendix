@@ -10,6 +10,7 @@
     "ScheduledEventExecution": "None"
   },
   "Constants": {
+    "Articles.MXRUNTIME_UploadedFilesPath": "\\mydir",
     "CommunityCommons.MergeMultiplePdfs_MaxAtOnce": "10",
     "ExcelImporter.EnableExternalEntities": "False",
     "ProcessQueue.FinishedQueuedActionsCleanupInDays": "-1"

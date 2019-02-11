@@ -1,4 +1,4 @@
-Build started: Thu Jan 03 2019 22:17:17 GMT+0800 (中国标准时间)
+Build started: Mon Jan 14 2019 22:50:21 GMT+0800 (中国标准时间)
 Build application version: 1.12.2 (edd21d6)
 Messages:
 info(100) Assumed module uses legacy loader API.
@@ -834,4 +834,4 @@ dojo/dojo:
 Process finished normally
 	errors: 0
 	warnings: 132
-	build time: 4.768 seconds
+	build time: 4.84 seconds

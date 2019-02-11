@@ -1,351 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d7896aa-236b-48a3-a3d5-fe3eb9be8354" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0a33baab-c739-4bab-86f1-ba64f6fd7c5c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mendix-cache/base_data" beforeDir="false" afterPath="$PROJECT_DIR$/.mendix-cache/base_data" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.mendix-cache/base_rev_git" beforeDir="false" afterPath="$PROJECT_DIR$/.mendix-cache/base_rev_git" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/build_core.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/build_core.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/database/20180906_235133_database_commands.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/20180906_235133_database_commands.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/database/20180907_000106_database_commands.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/20180907_000106_database_commands.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/database/20180907_082547_database_commands.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/20180907_082547_database_commands.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/database/20180908_115433_database_commands.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/20180908_115433_database_commands.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/database/20180928_222637_database_commands.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/20180928_222637_database_commands.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/database/20181012_195754_database_commands.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/20181012_195754_database_commands.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/database/20181018_224401_database_commands.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/20181018_224401_database_commands.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/database/20181018_231648_database_commands.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/20181018_231648_database_commands.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/database/20181020_164831_database_commands.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/20181020_164831_database_commands.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/database/20181031_224412_database_commands.sql" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/20181031_224412_database_commands.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.mpr" beforeDir="false" afterPath="$PROJECT_DIR$/App.mpr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/data/database/hsqldb/default/default.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/hsqldb/default/default.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/data/database/hsqldb/default/default.script" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/database/hsqldb/default/default.script" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/GridImageViewer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/GridImageViewer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/ImageViewer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/ImageViewer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/lib/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/lib/echarts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/lib/jquery-1.11.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/lib/jquery-1.11.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/widget/GridImageViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/widget/GridImageViewer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/widget/ImageViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/widget/ImageViewer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/widget/template/GridImageViewer.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/widget/template/GridImageViewer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/widget/template/ImageViewer.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/ImageViewer/widget/template/ImageViewer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/PieChart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/PieChart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/lib/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/lib/echarts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/lib/jquery-1.11.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/lib/jquery-1.11.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/widget/PieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/widget/PieChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/widget/template/PieChart.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/widget/template/PieChart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/widget/ui/PieChart.css" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/PieChart/widget/ui/PieChart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/SprintrFeedbackWidget/SprintrFeedback.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/SprintrFeedbackWidget/SprintrFeedback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/SprintrFeedbackWidget/SprintrFeedback.webmodeler.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/SprintrFeedbackWidget/SprintrFeedback.webmodeler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/SprintrFeedbackWidget/SprintrFeedback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/SprintrFeedbackWidget/SprintrFeedback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/widgets/widgets.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/widgets/widgets.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/widgets.profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/widgets.profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/data/tmp/dojo/build-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/data/tmp/dojo/build-report.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/log/build_core_clean_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/log/build_core_clean_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/log/build_core_compile_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/log/build_core_compile_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/log/build_core_deploy_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/log/build_core_deploy_log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/log/build_webui_bundle_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/log/build_webui_bundle_log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/log/m2ee_log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/log/m2ee_log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/model/bundles/project.jar" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/model/bundles/project.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/model/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/model/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/model/i18n/translations.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/model/i18n/translations.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/model/i18n/translations_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/model/i18n/translations_en_US.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/model/metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/model/metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/run/bndbuild.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/run/bndbuild.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/bootswatch.less" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/bootswatch.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/config.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/model/model.mdp" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/model/model.mdp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/run/bin/system/UserActionsRegistrar.class" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/run/bin/system/UserActionsRegistrar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/run/bnd.bnd" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/run/bnd.bnd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/components.json" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/components.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/index-phone-preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index-phone-preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/index-phone-preview.html.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index-phone-preview.html.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/index-phone-preview.html.orig" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index-phone-preview.html.orig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/web/index-rtl.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index-rtl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/index-rtl.html.orig" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index-rtl.html.orig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/index-rtl.html.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index-rtl.html.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/index-tablet-preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index-tablet-preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/index-tablet-preview.html.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index-tablet-preview.html.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/index-tablet-preview.html.orig" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index-tablet-preview.html.orig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/index.html.orig" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index.html.orig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/index.html.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/index.html.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/web/login-with-sso.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/login-with-sso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/login-with-sso.html.orig" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/login-with-sso.html.orig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/login-with-sso.html.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/login-with-sso.html.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/deployment/web/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/login.html.orig" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/login.html.orig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/css/lib/lib.css" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/css/lib/lib.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/custom/_custom-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/custom/_custom-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/custom/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/custom/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/_animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/_animation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/mixins/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/mixins/_animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/mixins/_groupbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/mixins/_groupbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/mixins/_layout-spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/mixins/_layout-spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/mixins/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/base/mixins/_spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_alignment-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_alignment-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_breadcrumb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_controlgroup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_controlgroup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_formblock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_formblock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_heroheader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_heroheader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_master-detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_master-detail.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_pageblocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_pageblocks.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_pageheader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_pageheader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_timeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_timeline.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_userprofile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_userprofile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_wizard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/buildingblocks/_wizard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_datagrids.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_datagrids.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_dataview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_dataview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_dijit-widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_dijit-widgets.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_glyphicons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_glyphicons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_groupbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_groupbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_helpers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_inputs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_layoutgrid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_layoutgrid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_listview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_listview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_modals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_navigationbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_navigationbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_navigationlist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_navigationlist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_navigationtree.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_navigationtree.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_simplemenubar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_simplemenubar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_tabcontainer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_tabcontainer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_templategrids.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_templategrids.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/components/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_progress-bar-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_progress-bar-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_progress-circle-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_progress-circle-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_range-slider-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_range-slider-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_slider-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_slider-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_star-rating-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_star-rating-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_switchwidget.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/customwidgets/_switchwidget.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/layouts/_layout-atlas-phone.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/layouts/_layout-atlas-phone.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/layouts/_layout-atlas-responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/layouts/_layout-atlas-responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/layouts/_layout-atlas-tablet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/layouts/_layout-atlas-tablet.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/layouts/_layout-atlas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/layouts/_layout-atlas.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/styles/sass/lib/lib.scss" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/sass/lib/lib.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/ui/theme-flatly/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/ui/theme-flatly/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/variables.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/GridImageViewer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/GridImageViewer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/ImageViewer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/ImageViewer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/lib/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/lib/echarts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/lib/jquery-1.11.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/lib/jquery-1.11.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/widget/GridImageViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/widget/GridImageViewer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/widget/ImageViewer.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/widget/ImageViewer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/widget/template/GridImageViewer.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/widget/template/GridImageViewer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/widget/template/ImageViewer.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/ImageViewer/widget/template/ImageViewer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/PieChart/PieChart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/PieChart/PieChart.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/PieChart/lib/echarts.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/PieChart/lib/echarts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/PieChart/lib/jquery-1.11.2.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/PieChart/lib/jquery-1.11.2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/PieChart/widget/PieChart.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/PieChart/widget/PieChart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/PieChart/widget/template/PieChart.html" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/PieChart/widget/template/PieChart.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/PieChart/widget/ui/PieChart.css" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/PieChart/widget/ui/PieChart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/SprintrFeedbackWidget/SprintrFeedback.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/SprintrFeedbackWidget/SprintrFeedback.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/SprintrFeedbackWidget/SprintrFeedback.webmodeler.js" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/SprintrFeedbackWidget/SprintrFeedback.webmodeler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/SprintrFeedbackWidget/SprintrFeedback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/SprintrFeedbackWidget/SprintrFeedback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/web/widgets/widgets.css" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/widgets/widgets.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/actions/GetHeaderInformationFromExcelFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/actions/GetHeaderInformationFromExcelFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/actions/RefreshClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/actions/RefreshClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/actions/StartImportByTemplate.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/actions/StartImportByTemplate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/ExcelImporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/ExcelImporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/DocProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/DocProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelColumn.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelExtension.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelExtension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelHeadable.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelHeadable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelRowProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelRowProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSReaderDataFirstPassListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSReaderDataFirstPassListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSReaderDataSecondPassListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSReaderDataSecondPassListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSReaderHeaderFirstPassListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSReaderHeaderFirstPassListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSReaderHeaderSecondPassListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSReaderHeaderSecondPassListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSXDataReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSXDataReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSXHeaderReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSXHeaderReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSXReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ExcelXLSXReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ReadOnlySharedStringsTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/ReadOnlySharedStringsTable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/replication/ExcelReplicationSettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/replication/ExcelReplicationSettings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/replication/ExcelValueParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/excelimporter/reader/readers/replication/ExcelValueParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/mxmodelreflection/TokenReplacer.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/mxmodelreflection/TokenReplacer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/mxmodelreflection/actions/ReplaceToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/mxmodelreflection/actions/ReplaceToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/mxmodelreflection/actions/SyncObjects.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/mxmodelreflection/actions/SyncObjects.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/mxmodelreflection/actions/TestThePattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/mxmodelreflection/actions/TestThePattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/mxmodelreflection/actions/ValidateTokensInMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/mxmodelreflection/actions/ValidateTokensInMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/mxmodelreflection/metamodelBuilder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/mxmodelreflection/metamodelBuilder/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/mxmodelreflection/metamodelBuilder/MetaObjectBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/mxmodelreflection/metamodelBuilder/MetaObjectBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/mxmodelreflection/metamodelBuilder/MicroflowBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/mxmodelreflection/metamodelBuilder/MicroflowBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/processqueue/actions/AppendNewActionToQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/processqueue/actions/AppendNewActionToQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/processqueue/actions/InitializeQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/processqueue/actions/InitializeQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/processqueue/actions/ShutdownAllQueues.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/processqueue/actions/ShutdownAllQueues.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/processqueue/actions/ShutdownQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/processqueue/actions/ShutdownQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/processqueue/queuehandler/QueueAction.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/processqueue/queuehandler/QueueAction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/system/actions/VerifyPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/system/actions/VerifyPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/xlsreport/actions/GenerateExcelDoc.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/xlsreport/actions/GenerateExcelDoc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/xlsreport/report/data/AttributeData.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/xlsreport/report/data/AttributeData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/xlsreport/report/data/ColumnPreset.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/xlsreport/report/data/ColumnPreset.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/xlsreport/report/data/ObjectData.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/xlsreport/report/data/ObjectData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/xlsreport/report/data/ReferenceData.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/xlsreport/report/data/ReferenceData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/xlsreport/report/export/Export.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/xlsreport/report/export/Export.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javasource/xlsreport/report/export/ExportExcel.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/xlsreport/report/export/ExportExcel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/desandro-matches-selector/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/desandro-matches-selector/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/desandro-matches-selector/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/desandro-matches-selector/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/desandro-matches-selector/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/desandro-matches-selector/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/desandro-matches-selector/matches-selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/desandro-matches-selector/matches-selector.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/desandro-matches-selector/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/desandro-matches-selector/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/desandro-matches-selector/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/desandro-matches-selector/tests.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/desandro-matches-selector/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/desandro-matches-selector/tests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ev-emitter/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ev-emitter/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ev-emitter/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ev-emitter/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ev-emitter/ev-emitter.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ev-emitter/ev-emitter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ev-emitter/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ev-emitter/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ev-emitter/sandbox/1.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ev-emitter/sandbox/1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/ev-emitter/test/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ev-emitter/test/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/.jshintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/filter-find-elements.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/filter-find-elements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/get-parent.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/get-parent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/html-init.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/html-init.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/make-array.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/make-array.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/remove-from.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/test/unit/remove-from.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fizzy-ui-utils/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-size/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-size/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-size/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-size/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-size/get-size.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-size/get-size.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-size/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-size/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-size/sandbox.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-size/sandbox.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-size/test/iframe.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-size/test/iframe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-size/test/iframe3.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-size/test/iframe3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-size/test/iframe4.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-size/test/iframe4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-size/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-size/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-size/test/tests.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-size/test/tests.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/get-size/test/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/get-size/test/tests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/masonry-layout/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/masonry-layout/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/masonry-layout/dist/masonry.pkgd.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/masonry-layout/dist/masonry.pkgd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/masonry-layout/dist/masonry.pkgd.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/masonry-layout/dist/masonry.pkgd.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/masonry-layout/masonry.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/masonry-layout/masonry.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/masonry-layout/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/masonry-layout/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/.jshintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/.npmignore" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/.npmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/docs/item.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/docs/item.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/docs/notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/docs/notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/docs/outlayer.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/docs/outlayer.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/outlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/outlayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/browserify/browserify.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/browserify/browserify.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/browserify/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/browserify/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/cells-by-row.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/cells-by-row.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/cells-by-row.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/cells-by-row.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/examples.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/examples.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/fit-rows.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/fit-rows.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/item-methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/item-methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/padding-percent.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/padding-percent.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/requirejs/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/requirejs/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/requirejs/requirejs.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/requirejs/requirejs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/stagger.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/stagger.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/sandbox/toggler.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/sandbox/toggler.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/.jshintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/tests.css" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/tests.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/add-items.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/add-items.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/basics.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/basics.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/container-size.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/container-size.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/create.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/create.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/declarative.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/declarative.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/defaults.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/defaults.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/destroy.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/destroy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/filter-find.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/filter-find.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/get-measurements.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/get-measurements.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/hide-reveal.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/hide-reveal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/item-on-transition-end.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/item-on-transition-end.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/jquery-plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/jquery-plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/offset.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/offset.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/options.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/origin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/origin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/percent-position.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/percent-position.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/prepend.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/prepend.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/remove.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/remove.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/stamp.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/stamp.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/outlayer/test/unit/transition-duration.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/outlayer/test/unit/transition-duration.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/theme/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/theme/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/config.rb" beforeDir="false" afterPath="$PROJECT_DIR$/theme/config.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/index-rtl.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/index-rtl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/login-with-sso.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/login-with-sso.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/theme/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/theme/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/css/lib/lib.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/css/lib/lib.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/custom/_custom-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/custom/_custom-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/custom/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/custom/custom.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/base/_animation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/base/_animation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/base/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/base/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/base/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/base/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/base/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/base/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/base/mixins/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/base/mixins/_animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/base/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/base/mixins/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/base/mixins/_groupbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/base/mixins/_groupbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/base/mixins/_layout-spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/base/mixins/_layout-spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/base/mixins/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/base/mixins/_spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_alignment-block.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_alignment-block.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_breadcrumb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_card.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_controlgroup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_controlgroup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_formblock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_formblock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_heroheader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_heroheader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_list.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_list.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_master-detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_master-detail.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_pageblocks.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_pageblocks.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_pageheader.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_pageheader.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_timeline.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_timeline.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_userprofile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_userprofile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_wizard.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/buildingblocks/_wizard.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_alerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_alerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_backgrounds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_backgrounds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_buttons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_datagrids.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_datagrids.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_dataview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_dataview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_dijit-widgets.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_dijit-widgets.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_glyphicons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_glyphicons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_groupbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_groupbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_helpers.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_images.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_inputs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_inputs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_labels.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_layoutgrid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_layoutgrid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_listview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_listview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_modals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_navigationbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_navigationbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_navigationlist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_navigationlist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_navigationtree.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_navigationtree.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_progress.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_simplemenubar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_simplemenubar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_tabcontainer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_tabcontainer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_templategrids.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_templategrids.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/components/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/components/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_progress-bar-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_progress-bar-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_progress-circle-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_progress-circle-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_range-slider-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_range-slider-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_slider-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_slider-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_star-rating-theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_star-rating-theme.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_switchwidget.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/customwidgets/_switchwidget.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/layouts/_layout-atlas-phone.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/layouts/_layout-atlas-phone.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/layouts/_layout-atlas-responsive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/layouts/_layout-atlas-responsive.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/layouts/_layout-atlas-tablet.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/layouts/_layout-atlas-tablet.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/layouts/_layout-atlas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/layouts/_layout-atlas.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theme/styles/sass/lib/lib.scss" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/sass/lib/lib.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/login.html.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/login.html.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/metamodel.json" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/metamodel.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_Edit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_Edit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_Edit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_Edit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_New.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_New.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_New.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_New.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_Overview.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_Overview.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_Overview.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/Account_Overview.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ActiveSessions.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ActiveSessions.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ActiveSessions.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ActiveSessions.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ChangeMyPasswordForm.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ChangeMyPasswordForm.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ChangeMyPasswordForm.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ChangeMyPasswordForm.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ChangePasswordForm.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ChangePasswordForm.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ChangePasswordForm.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ChangePasswordForm.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/MyAccount.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/MyAccount.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/MyAccount.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/MyAccount.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/RuntimeInstances.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/RuntimeInstances.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/RuntimeInstances.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/RuntimeInstances.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ScheduledEvents.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ScheduledEvents.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ScheduledEvents.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/ScheduledEvents.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/UserRole_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/UserRole_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/UserRole_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Administration/UserRole_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/AddComment.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/AddComment.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/ArticelCategory_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/ArticelCategory_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/ArticelCategory_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/ArticelCategory_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Article_Details.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Article_Details.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Article_Details.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Article_Details.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Article_Manage.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Article_Manage.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Article_Manage.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Article_Manage.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/CommentManage.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/CommentManage.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Comment_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Comment_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Home.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Home.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Home.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Articles/Home.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_Default.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_Default.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_Default.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_Default.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_Default_MrGao.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_Default_MrGao.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_Default_MrGao.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_Default_MrGao.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_TopBar.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_TopBar.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_TopBar.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Atlas_TopBar.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Phone_Default.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Phone_Default.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Phone_Default.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Phone_Default.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Phone_Sidebar.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Phone_Sidebar.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Phone_Sidebar.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Phone_Sidebar.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Tablet_Default.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Tablet_Default.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Tablet_Default.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Atlas_UI_Resources/Tablet_Default.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/Home.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/Home.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/Home.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/Home.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/SearchItem_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/SearchItem_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/SearchItem_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/SearchItem_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/Selector1_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/Selector1_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/Selector1_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/Selector1_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/ShowGankList.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/ShowGankList.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/ShowGankList.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/ShowGankList.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/ShowImage.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/ShowImage.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/ShowImage.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/Demo/ShowImage.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Column_Hover.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Column_Hover.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Column_Hover.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Column_Hover.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Column_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Column_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Column_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Column_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Credits.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Credits.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Credits.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Credits.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ExcelImportOverview.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ExcelImportOverview.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ExcelImportOverview.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ExcelImportOverview.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ExcelImporterDesktop.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ExcelImporterDesktop.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ExcelImporterDesktop.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ExcelImporterDesktop.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ImportXML_Upload.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ImportXML_Upload.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ImportXML_Upload.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ImportXML_Upload.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Import_Overview.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Import_Overview.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Import_Overview.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Import_Overview.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/LogMessages_View.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/LogMessages_View.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/LogMessages_View.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/LogMessages_View.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ReferenceHandling_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ReferenceHandling_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ReferenceHandling_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/ReferenceHandling_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/TemplateDocument_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/TemplateDocument_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/TemplateDocument_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/TemplateDocument_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_Edit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_Edit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_Edit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_Edit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_New.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_New.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_New.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_New.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_New_FromDocument.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_New_FromDocument.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_New_FromDocument.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Template_New_FromDocument.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Templates_Overview.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Templates_Overview.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Templates_Overview.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/Templates_Overview.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/TopBar.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/TopBar.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/TopBar.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/TopBar.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/VerificationForm.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/VerificationForm.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/VerificationForm.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ExcelImporter/VerificationForm.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/DbSizeEstimate_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/DbSizeEstimate_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/DbSizeEstimate_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/DbSizeEstimate_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/EnumValue_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/EnumValue_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/EnumValue_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/EnumValue_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MemberEnum_View.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MemberEnum_View.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MemberEnum_View.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MemberEnum_View.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Member_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Member_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Member_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Member_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Member_View.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Member_View.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Member_View.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Member_View.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Microflow_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Microflow_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Microflow_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Microflow_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Microflow_View.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Microflow_View.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Microflow_View.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Microflow_View.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectReference_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectReference_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectReference_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectReference_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectReference_View.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectReference_View.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectReference_View.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectReference_View.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectType_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectType_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectType_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjectType_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObject_Details.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObject_Details.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObject_Details.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObject_Details.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjects_Overview.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjects_Overview.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjects_Overview.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/MxObjects_Overview.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/SizeEstimate_Overview.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/SizeEstimate_Overview.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/SizeEstimate_Overview.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/SizeEstimate_Overview.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TestPattern_Edit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TestPattern_Edit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TestPattern_Edit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TestPattern_Edit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TokenOverview.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TokenOverview.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TokenOverview.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TokenOverview.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Token_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Token_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Token_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/Token_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TopBar.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TopBar.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TopBar.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/TopBar.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/ValueType_View.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/ValueType_View.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/ValueType_View.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/MxModelReflection/ValueType_View.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ExecutionLogging_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ExecutionLogging_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ExecutionLogging_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ExecutionLogging_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ExecutionLogging_View.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ExecutionLogging_View.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ExecutionLogging_View.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ExecutionLogging_View.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/Full_Responsive.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/Full_Responsive.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/Full_Responsive.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/Full_Responsive.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ModalPopupLayout.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ModalPopupLayout.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ModalPopupLayout.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/ModalPopupLayout.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/Process_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/Process_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/Process_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/Process_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/QueueOverview.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/QueueOverview.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/QueueOverview.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/QueueOverview.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/SharedQueueConfiguration_Edit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/SharedQueueConfiguration_Edit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/SharedQueueConfiguration_Edit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/ProcessQueue/SharedQueueConfiguration_Edit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/CellStyle_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/CellStyle_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/CellStyle_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/CellStyle_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/ColumnSettings_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/ColumnSettings_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/ColumnSettings_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/ColumnSettings_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Excel_Document_Overview.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Excel_Document_Overview.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Excel_Document_Overview.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Excel_Document_Overview.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/ExcistFile_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/ExcistFile_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/ExcistFile_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/ExcistFile_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Microflow_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Microflow_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Microflow_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Microflow_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxColumn_CSVNewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxColumn_CSVNewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxColumn_CSVNewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxColumn_CSVNewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxColumn_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxColumn_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxColumn_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxColumn_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxConstraint_Edit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxConstraint_Edit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxConstraint_Edit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxConstraint_Edit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxConstraint_New.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxConstraint_New.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxConstraint_New.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxConstraint_New.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectMember_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectMember_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectMember_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectMember_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectReference_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectReference_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectReference_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectReference_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectType_Select.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectType_Select.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectType_Select.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxObjectType_Select.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxReferenceHandling_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxReferenceHandling_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxReferenceHandling_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxReferenceHandling_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxRowSettings_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxRowSettings_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxRowSettings_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxRowSettings_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxSheet_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxSheet_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxSheet_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxSheet_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxSorting_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxSorting_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxSorting_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxSorting_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxStatic_NewEdit.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxStatic_NewEdit.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxStatic_NewEdit.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/MxStatic_NewEdit.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_Edit_CSV.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_Edit_CSV.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_Edit_CSV.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_Edit_CSV.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_Edit_Excel.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_Edit_Excel.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_Edit_Excel.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_Edit_Excel.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_New.page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_New.page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_New.page.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/Template_New.page.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/TopBar.layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/TopBar.layout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/TopBar.layout.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/pages/en_US/XLSReport/TopBar.layout.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/styles/css/custom/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/css/custom/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deployment/web/styles/css/custom/custom.css.gz" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/web/styles/css/custom/custom.css.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javasource/system/UserActionsRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/javasource/system/UserActionsRegistrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mendix.iml" beforeDir="false" afterPath="$PROJECT_DIR$/mendix.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/releases/xxx.mda" beforeDir="false" afterPath="$PROJECT_DIR$/releases/xxx.mda" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theme/styles/css/custom/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/theme/styles/css/custom/custom.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/deployment/run/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -354,34 +230,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1508372043">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="java" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="JAVA" value="2" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javasource/excelimporter/actions/StartImportByTemplate.java">
+        <entry file="file://$PROJECT_DIR$/javasource/articles/service/ArticleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-183">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="126">
+              <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -390,29 +245,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javasource/xlsreport/actions/GenerateExcelDoc.java">
+        <entry file="file://$PROJECT_DIR$/javasource/base/actions/InitApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="81" column="46" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="46" />
+            <state relative-caret-position="198">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="33" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/javasource/demo/actions/GetCookies.java" />
+        <option value="$PROJECT_DIR$/javasource/articles/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/javasource/base/actions/InitApp.java" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-410" />
+    <option name="y" value="450" />
+    <option name="width" value="2520" />
+    <option name="height" value="1440" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -429,45 +306,40 @@
               <item name="mendix" type="b2602c69:ProjectViewProjectNode" />
               <item name="mendix" type="462c0819:PsiDirectoryNode" />
               <item name="javasource" type="462c0819:PsiDirectoryNode" />
-              <item name="excelimporter" type="462c0819:PsiDirectoryNode" />
+              <item name="articles" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mendix" type="b2602c69:ProjectViewProjectNode" />
               <item name="mendix" type="462c0819:PsiDirectoryNode" />
               <item name="javasource" type="462c0819:PsiDirectoryNode" />
-              <item name="excelimporter" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mendix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mendix" type="462c0819:PsiDirectoryNode" />
+              <item name="javasource" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
               <item name="actions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mendix" type="b2602c69:ProjectViewProjectNode" />
               <item name="mendix" type="462c0819:PsiDirectoryNode" />
               <item name="javasource" type="462c0819:PsiDirectoryNode" />
-              <item name="excelimporter" type="462c0819:PsiDirectoryNode" />
-              <item name="reader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mendix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mendix" type="462c0819:PsiDirectoryNode" />
-              <item name="javasource" type="462c0819:PsiDirectoryNode" />
-              <item name="xlsreport" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mendix" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mendix" type="462c0819:PsiDirectoryNode" />
-              <item name="javasource" type="462c0819:PsiDirectoryNode" />
-              <item name="xlsreport" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549893036095" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -486,59 +358,79 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8d7896aa-236b-48a3-a3d5-fe3eb9be8354" name="Default Changelist" comment="" />
-      <created>1541000774170</created>
+      <changelist id="0a33baab-c739-4bab-86f1-ba64f6fd7c5c" name="Default Changelist" comment="" />
+      <created>1549891735142</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541000774170</updated>
+      <updated>1549891735142</updated>
+      <workItem from="1549891744964" duration="1824000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1824000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
     <layout>
+      <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24291497" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/javasource/excelimporter/actions/StartImportByTemplate.java">
+    <entry file="file://$PROJECT_DIR$/javasource/demo/actions/GetCookies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-183">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="460">
+          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javasource/xlsreport/actions/GenerateExcelDoc.java">
+    <entry file="file://$PROJECT_DIR$/javasource/articles/service/ArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="81" column="46" selection-start-line="81" selection-start-column="40" selection-end-line="81" selection-end-column="46" />
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javasource/base/actions/InitApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="33" />
         </state>
       </provider>
     </entry>

@@ -13,6 +13,7 @@ public class UserActionsRegistrar
   {
     registrator.bundleComponentLoaded();
     registrator.registerUserAction(articles.actions.ParseHTMLToText.class);
+    registrator.registerUserAction(base.actions.InitApp.class);
     registrator.registerUserAction(communitycommons.actions.Base64Decode.class);
     registrator.registerUserAction(communitycommons.actions.Base64DecodeToFile.class);
     registrator.registerUserAction(communitycommons.actions.Base64Encode.class);
@@ -107,6 +108,7 @@ public class UserActionsRegistrar
     registrator.registerUserAction(demo.actions.AddDataDemo.class);
     registrator.registerUserAction(demo.actions.DeleteDataDemo.class);
     registrator.registerUserAction(demo.actions.ExecuteMFDemo.class);
+    registrator.registerUserAction(demo.actions.GetCookies.class);
     registrator.registerUserAction(demo.actions.ModifyDataDemo.class);
     registrator.registerUserAction(demo.actions.QueryAllDataDemo.class);
     registrator.registerUserAction(excelimporter.actions.GetHeaderInformationFromExcelFile.class);

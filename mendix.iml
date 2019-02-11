@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
-    <libelement value="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/biz.aQute.bnd.bndlib.jar" />
-    <libelement value="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.json.jar" />
-    <libelement value="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.logging-api.jar" />
-    <libelement value="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.m2ee-api.jar" />
-    <libelement value="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.public-api.jar" />
-    <libelement value="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/javax.servlet-api.servlet.jar" />
+    <libelement value="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/biz.aQute.bnd.bndlib.jar!/" />
+    <libelement value="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.json.jar!/" />
+    <libelement value="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.logging-api.jar!/" />
+    <libelement value="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.m2ee-api.jar!/" />
+    <libelement value="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.public-api.jar!/" />
+    <libelement value="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/javax.servlet-api.servlet.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/axiom-api-1.2.12.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/com.google.guava-14.0.1.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/com.springsource.org.apache.commons.lang-2.5.0.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/commons-codec-1.10.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/commons-collections4-4.1.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/commons-io-2.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/commons-io-2.6.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/commons-lang-2.5.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/commons-lang3-3.7.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/commons-logging-1.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/commons-logging-1.2.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/commons-math3-3.1.1.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/commons.lang3-3.1.0.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/dom4j-1.6.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/fontbox-2.0.11.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/guava-19.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/guice-2.0.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/javax.xml.stream-1.0.1.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/joda-time-2.9.6.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/opencsv-2.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/openid4java-1.0.0.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/org.apache.commons.io-2.3.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/org.apache.httpcomponents.httpclient-osgi.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/org.apache.httpcomponents.httpcore-osgi.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/org.apache.servicemix.bundles.xalan-2.7.1.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/org.apache.servicemix.bundles.xmlbeans-2.5.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/owasp-java-html-sanitizer-20180219.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/userlib/pdfbox-2.0.11.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/poi-3.16.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/poi-ooxml-3.16.jar!/" />
     <libelement value="jar://$MODULE_DIR$/userlib/poi-ooxml-schemas-3.16.jar!/" />
@@ -44,7 +58,7 @@
     <orderEntry type="module-library">
       <library name="biz.aQute.bnd.bndlib.jar">
         <CLASSES>
-          <root url="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/biz.aQute.bnd.bndlib.jar" />
+          <root url="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/biz.aQute.bnd.bndlib.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -53,7 +67,7 @@
     <orderEntry type="module-library">
       <library name="com.mendix.json.jar">
         <CLASSES>
-          <root url="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.json.jar" />
+          <root url="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.json.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -62,7 +76,7 @@
     <orderEntry type="module-library">
       <library name="com.mendix.logging-api.jar">
         <CLASSES>
-          <root url="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.logging-api.jar" />
+          <root url="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.logging-api.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -71,7 +85,7 @@
     <orderEntry type="module-library">
       <library name="com.mendix.m2ee-api.jar">
         <CLASSES>
-          <root url="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.m2ee-api.jar" />
+          <root url="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.m2ee-api.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -80,7 +94,7 @@
     <orderEntry type="module-library">
       <library name="com.mendix.public-api.jar">
         <CLASSES>
-          <root url="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.public-api.jar" />
+          <root url="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/com.mendix.public-api.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -89,7 +103,16 @@
     <orderEntry type="module-library">
       <library name="javax.servlet-api.servlet.jar">
         <CLASSES>
-          <root url="file://C:/Program Files/Mendix/7.16.0/runtime/bundles/javax.servlet-api.servlet.jar" />
+          <root url="jar://C:/Program Files/Mendix/7.16.0/runtime/bundles/javax.servlet-api.servlet.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="axiom-api-1.2.12.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/axiom-api-1.2.12.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -141,6 +164,51 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="commons-io-2.6.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/commons-io-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-lang-2.5.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/commons-lang-2.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-lang3-3.7.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/commons-lang3-3.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging-1.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/commons-logging-1.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging-1.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/commons-logging-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="commons-math3-3.1.1.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/userlib/commons-math3-3.1.1.jar!/" />
@@ -162,6 +230,33 @@
       <library name="dom4j-1.6.1.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/userlib/dom4j-1.6.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="fontbox-2.0.11.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/fontbox-2.0.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="guava-19.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/guava-19.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="guice-2.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/guice-2.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -195,9 +290,36 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="openid4java-1.0.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/openid4java-1.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="org.apache.commons.io-2.3.0.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/userlib/org.apache.commons.io-2.3.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.httpcomponents.httpclient-osgi.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/org.apache.httpcomponents.httpclient-osgi.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="org.apache.httpcomponents.httpcore-osgi.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/org.apache.httpcomponents.httpcore-osgi.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -216,6 +338,24 @@
       <library name="org.apache.servicemix.bundles.xmlbeans-2.5.0.jar">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/userlib/org.apache.servicemix.bundles.xmlbeans-2.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="owasp-java-html-sanitizer-20180219.1.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/owasp-java-html-sanitizer-20180219.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="pdfbox-2.0.11.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/userlib/pdfbox-2.0.11.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
